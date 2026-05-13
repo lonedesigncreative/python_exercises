@@ -60,48 +60,48 @@ Each project also includes:
 ## 📄 Repository Structure
 
 Python/
-│
-├── 01_foundations/
-│   └── Ficha1/
-│       └── exXX_exercise_name/
-│             ├── enunciado.md
-│             ├── solucao.py
-│             └── glossario.md
-│
-├── 02_basic_intermediate_decision/
-│   └── Ficha2/
-│       └── exXX_exercise_name/
-│             ├── enunciado.md
-│             ├── solucao.py
-│             └── glossario.md
-│
-├── 03_intermediate_loops/
-│   └── Ficha3/
-│       └── exXX_exercise_name/
-│             ├── enunciado.md
-│             ├── solucao.py
-│             └── glossario.md
-│
-├── 04_intermediate_advanced_lists_dicts/
-│   └── Ficha4/
-│       └── exXX_exercise_name/
-│             ├── enunciado.md
-│             ├── solucao.py
-│             └── glossario.md
-│
-├── 05_advanced_functions_modules_exceptions/
-│   ├── Ficha5_Exceptions/
-│   └── Modules/
-│       └── exXX_exercise_name/
-│             ├── enunciado.md
-│             ├── solucao.py
-│             └── glossario.md
-│
-└── projects/
-└── project_name/
-├── enunciado.md
-├── solucao.py
-└── glossario.md
+- │
+- ├── 01_foundations/
+- │   └── Ficha1/
+- │       └── exXX_exercise_name/
+- │             ├── enunciado.md
+- │             ├── solucao.py
+- │             └── glossario.md
+- │
+- ├── 02_basic_intermediate_decision/
+- │   └── Ficha2/
+- │       └── exXX_exercise_name/
+- │             ├── enunciado.md
+- │             ├── solucao.py
+- │             └── glossario.md
+- │
+- ├── 03_intermediate_loops/
+- │   └── Ficha3/
+- │       └── exXX_exercise_name/
+- │             ├── enunciado.md
+- │             ├── solucao.py
+- │             └── glossario.md
+- │
+- ├── 04_intermediate_advanced_lists_dicts/
+- │   └── Ficha4/
+- │       └── exXX_exercise_name/
+- │             ├── enunciado.md
+- │             ├── solucao.py
+- │             └── glossario.md
+- │
+- ├── 05_advanced_functions_modules_exceptions/
+- │   ├── Ficha5_Exceptions/
+- │   └── Modules/
+- │       └── exXX_exercise_name/
+- │             ├── enunciado.md
+- │             ├── solucao.py
+- │             └── glossario.md
+- │
+- └── projects/
+- └── project_name/
+- ├── enunciado.md
+- ├── solucao.py
+- └── glossario.md
 
 
 ---

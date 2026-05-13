@@ -63,15 +63,15 @@ Python/
 - │
 - ├── 01_begginer/
 - │   └── Ficha1/
-- │       └── ex01_valid_variables/
+- │       └── ex01_simple_menu/
 - │             ├── glossary.md
 - │             ├── solution.py
 - │             └── statement.md
-- │       └── ex2_numerical_expressions/
+- │       └── ex02_valid_variables/
 - │             ├── glossary.md
 - │             ├── solution.py
 - │             └── statement.md
-- │       └── ex03_simple_menu/
+- │       └── ex3_numerical_expressions/
 - │             ├── glossary.md
 - │             ├── solution.py
 - │             └── statement.md

@@ -7,7 +7,7 @@ Adds two values.
 - If you add text, Python will join the words instead of doing math.
 
 **Example:**
-total = 5 + 3
+`total = 5 + 3`
 
 
 # 2. Subtraction (`−`)
@@ -19,7 +19,7 @@ Subtracts one value from another.
 - You cannot subtract using commas (European style). Use dots.
 
 **Example:**
-difference = 10 - 4
+`difference = 10 - 4`
 
 
 # 3. Multiplication (`*`)
@@ -30,7 +30,7 @@ Multiplies two values.
 - Multiplying text repeats it.
 
 **Example:**
-product = 6 * 2
+`product = 6 * 2`
 
 
 # 4. Division (`/`)
@@ -43,7 +43,7 @@ Always returns a decimal (float).
 - Be careful with dividing by zero — it causes an error.
 
 **Example:**
-result = 10 / 4   # 2.5
+`result = 10 / 4   # 2.5`
 
 
 # 5. Remainder (`%`)
@@ -57,7 +57,7 @@ Also called modulo.
 Returns the remainder of a division.
 
 **Example:**
-rest = 10 % 3   # remainder is 1
+`rest = 10 % 3`   # remainder is 1
 
 
 # Summary

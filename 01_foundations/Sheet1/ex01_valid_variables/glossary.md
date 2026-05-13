@@ -4,14 +4,14 @@
 `print` is a command that shows something on the screen.
 
 - Always use parentheses → print("Hello")
-- Text must be inside quotes " "
+- Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
 
 **Example:**
-print("Hello!")
+`print("Hello!")`
 
 This will display:
-*Hello!*
+- *Hello!*
 
 # 2 - Integer
 
@@ -22,7 +22,7 @@ An integer is a whole number, without decimals.
 - Do NOT use a comma → Python will think it’s two values.
 
 **Example:**
-age = 25
+`age = 25`
 
 # 3 - Decimal (in Python called float)
 
@@ -33,7 +33,7 @@ A decimal number — a number with a dot (.).
 - 3.5 is correct, 3,5 is wrong.
 
 **Example:**
-price = 3.50
+`price = 3.50`
 
 # 4. Text (in Python called string)
 
@@ -44,7 +44,7 @@ Text inside quotes `" "`.
 - If you put numbers inside quotes, they become text, not numbers.
 
 **Example:**
-name = "LoneDesign"
+`name = "LoneDesign"`
 
 # Summary
 

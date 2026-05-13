@@ -1,4 +1,4 @@
-# 1 - Addition (+)
+# 1 - Addition (`+`)
 
 ## What it does:  
 Adds two values.
@@ -10,7 +10,7 @@ Adds two values.
 total = 5 + 3
 
 
-# 2. Subtraction (−)
+# 2. Subtraction (`−`)
 
 ## What it does:  
 Subtracts one value from another.
@@ -22,7 +22,7 @@ Subtracts one value from another.
 difference = 10 - 4
 
 
-# 3. Multiplication (*)
+# 3. Multiplication (`*`)
 
 ## What it does:  
 Multiplies two values.
@@ -33,7 +33,7 @@ Multiplies two values.
 product = 6 * 2
 
 
-# 4. Division (/)
+# 4. Division (`/`)
 
 ## What it does:  
 Divides one value by another.
@@ -46,7 +46,7 @@ Always returns a decimal (float).
 result = 10 / 4   # 2.5
 
 
-# 5. Remainder (%)
+# 5. Remainder (`%`)
 Also called modulo.
 
 - Only works with numbers.

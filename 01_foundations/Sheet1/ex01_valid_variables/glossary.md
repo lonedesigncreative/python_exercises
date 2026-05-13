@@ -1,7 +1,7 @@
 # 1 - print
 
 ## What it is:  
-print is a command that shows something on the screen.
+`print` is a command that shows something on the screen.
 
 - Always use parentheses → print("Hello")
 - Text must be inside quotes " "
@@ -14,6 +14,7 @@ This will display:
 *Hello!*
 
 # 2 - integer
+
 ## What it is:  
 An integer is a whole number, without decimals.
 
@@ -24,6 +25,7 @@ An integer is a whole number, without decimals.
 age = 25
 
 # 3 - decimal (in Python called float)
+
 ## What it is:  
 A decimal number — a number with a dot (.).
 
@@ -34,6 +36,7 @@ A decimal number — a number with a dot (.).
 price = 3.50
 
 # 4. text (in Python called string)
+
 ## What it is:  
 Text inside quotes " ".
 

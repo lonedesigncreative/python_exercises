@@ -11,7 +11,7 @@
 
 It waits for the user to write something and press Enter.
 
-# 2 - f-string f""
+# 2 - f-string (f"")
 
 ## What it is:
 An f‑string is a special type of text that allows you to insert variables inside the text.

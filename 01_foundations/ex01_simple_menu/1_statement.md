@@ -1,9 +1,9 @@
-Create a program that displays a menu of options.
+- Create a program that displays a menu of options.
 
 - The menu should include the following actions:
-    - Add Student
-    - Update Student
-    - Delete Student
-    - View Student List
-    - Search Student
+    - Add Product
+    - Update Product
+    - Delete Product
+    - View Product List
+    - Search Product
     - Exit

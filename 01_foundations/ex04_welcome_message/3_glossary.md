@@ -41,6 +41,6 @@ Python replaces {age} with the value of the variable.
 
 | **Concept** | **Meaning** | **Example** |
 | :---: | :--- | :---: |
-| input | Asks the user to type something | 5 + 3 | 8 |
-| f-string | Text that can show variables | 10 - 4 | 6 |
-| { } | Shows the variable’s value inside the f‑string | 6 * 2 | 12 |
+| input | Asks the user to type something | `input("Your name: ")` |
+| f-string | Text that can show variables | `f"Hello {name}"` |
+| { } | Shows the variable’s value inside the f‑string | `{age}` |

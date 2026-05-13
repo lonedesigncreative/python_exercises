@@ -1,66 +1,132 @@
-# Python Exercises & Projects
+# 🐍 Python Exercises & Projects
 
-This repository contains a structured collection of Python exercises organized by difficulty level, from beginner to advanced. It also includes practical mini‑projects designed to reinforce learning through real applications.
+This repository contains a complete and structured collection of Python exercises, organized from **beginner to advanced**, along with practical mini‑projects to reinforce learning through real applications.
+
+Each exercise is stored in its own folder and includes:
+
+- enunciado.md   → exercise description
+- solucao.py     → Python solution
+- glossario.md   → glossary of all terms used in the exercise
+
+
+This structure allows for clear, progressive, and professional study.
+
+---
 
 ## 📚 Exercise Levels
 
-### 1. Foundations  
-Variables, operators, and basic input/output.  
-Folder: `01_foundations/`
+### **1. Foundations (Beginner)**  
+Basic concepts: variables, operators, input/output, simple expressions.  
+📁 Folder: `01_foundations/`
 
-### 2. Basic–Intermediate (Decision Structures)  
-Conditional logic using `if`, `elif`, and `else`.  
-Folder: `02_basic_intermediate_decision/`
+### **2. Basic–Intermediate (Decision Structures)**  
+Conditional logic using `if`, `elif`, `else`, logical operators, validations.  
+📁 Folder: `02_basic_intermediate_decision/`
 
-### 3. Intermediate (Loops)  
-Iteration with `for` and `while` loops.  
-Folder: `03_intermediate_loops/`
+### **3. Intermediate (Loops)**  
+Iteration with `for` and `while`, counters, multiplication tables, summations.  
+📁 Folder: `03_intermediate_loops/`
 
-### 4. Intermediate–Advanced (Lists & Dictionaries)  
-Data manipulation with lists, dictionaries, and nested structures.  
-Folder: `04_intermediate_advanced_lists_dicts/`
+### **4. Intermediate–Advanced (Lists & Dictionaries)**  
+Data manipulation with lists, dictionaries, sorting, filtering, helper functions.  
+📁 Folder: `04_intermediate_advanced_lists_dicts/`
 
-### 5. Advanced (Functions, Modules & Exceptions)  
-Function design, modular programming, and error handling.  
-Folder: `05_advanced_functions_modules_exceptions/`
+### **5. Advanced (Functions, Modules & Exceptions)**  
+Function creation, modular programming, imports, error handling.  
+📁 Folder: `05_advanced_functions_modules_exceptions/`
 
 ---
 
 ## 🧪 Projects
 
-Practical mini‑projects to apply the concepts learned:
+Mini‑projects designed to apply the concepts learned:
 
 - Calculator  
 - Number Guessing Game  
-- Menu‑based System  
+- Menu‑Based System  
+- Task List Manager  
 - Additional progressive challenges  
 
-Folder: `projects/`
+📁 Folder: `projects/`
+
+Each project also includes:
+
+- enunciado.md
+- solucao.py
+- glossario.md
 
 ---
 
-## 📄 Structure
+## 📄 Repository Structure
 
-Each section contains:
+Python/
+│
+├── 01_foundations/
+│   └── Ficha1/
+│       └── exXX_exercise_name/
+│             ├── enunciado.md
+│             ├── solucao.py
+│             └── glossario.md
+│
+├── 02_basic_intermediate_decision/
+│   └── Ficha2/
+│       └── exXX_exercise_name/
+│             ├── enunciado.md
+│             ├── solucao.py
+│             └── glossario.md
+│
+├── 03_intermediate_loops/
+│   └── Ficha3/
+│       └── exXX_exercise_name/
+│             ├── enunciado.md
+│             ├── solucao.py
+│             └── glossario.md
+│
+├── 04_intermediate_advanced_lists_dicts/
+│   └── Ficha4/
+│       └── exXX_exercise_name/
+│             ├── enunciado.md
+│             ├── solucao.py
+│             └── glossario.md
+│
+├── 05_advanced_functions_modules_exceptions/
+│   ├── Ficha5_Exceptions/
+│   └── Modules/
+│       └── exXX_exercise_name/
+│             ├── enunciado.md
+│             ├── solucao.py
+│             └── glossario.md
+│
+└── projects/
+└── project_name/
+├── enunciado.md
+├── solucao.py
+└── glossario.md
 
-- `exercises/` — tasks to complete  
-- `solutions/` — reference solutions  
 
 ---
 
 ## 🚀 How to Use
 
-1. Start with the Foundations folder.  
+1. Start with the **Foundations** folder.  
 2. Progress through each level at your own pace.  
-3. Use the solutions only after attempting the exercises.  
-4. Explore the projects to consolidate your knowledge.
+3. Read the `enunciado.md` before attempting the exercise.  
+4. Try solving it yourself before checking `solucao.py`.  
+5. Use `glossario.md` to learn every new term used.  
+6. Explore the projects to consolidate your knowledge.
 
 ---
 
 ## 🎯 Purpose
 
-This repository is designed for learning, practice, and portfolio building.  
-It provides a clear progression from basic concepts to more advanced programming skills.
+This repository was created for:
 
+- 📚 Structured learning  
+- 🧠 Progressive practice  
+- 🧩 Concept consolidation  
+- 💼 Portfolio building  
+- 🔍 Future review and reference  
 
-HAVE FUN!!
+---
+
+## 🎉 HAVE FUN LEARNING PYTHON!

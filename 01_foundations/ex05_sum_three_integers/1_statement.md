@@ -1,0 +1,3 @@
+- Write a program that asks the user to enter **three integer numbers**.
+- Convert each `input` **from text to an integer** using the `int()` function.
+- After reading the three values, the program must calculate and **display the total sum**.

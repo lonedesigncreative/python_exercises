@@ -1,4 +1,4 @@
-# 1 - print
+# 1 - Print
 
 ## What it is:  
 `print` is a command that shows something on the screen.
@@ -13,7 +13,7 @@ print("Hello!")
 This will display:
 *Hello!*
 
-# 2 - integer
+# 2 - Integer
 
 ## What it is:  
 An integer is a whole number, without decimals.
@@ -24,7 +24,7 @@ An integer is a whole number, without decimals.
 **Example:**
 age = 25
 
-# 3 - decimal (in Python called float)
+# 3 - Decimal (in Python called float)
 
 ## What it is:  
 A decimal number — a number with a dot (.).
@@ -35,10 +35,10 @@ A decimal number — a number with a dot (.).
 **Example:**
 price = 3.50
 
-# 4. text (in Python called string)
+# 4. Text (in Python called string)
 
 ## What it is:  
-Text inside quotes " ".
+Text inside quotes `" "`.
 
 - Text must always be inside quotes.
 - If you put numbers inside quotes, they become text, not numbers.

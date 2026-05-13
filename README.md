@@ -61,47 +61,91 @@ Each project also includes:
 
 Python/
 - │
-- ├── 01_foundations/
+- ├── 01_begginer/
 - │   └── Ficha1/
-- │       └── exXX_exercise_name/
-- │             ├── enunciado.md
-- │             ├── solucao.py
-- │             └── glossario.md
+- │       └── ex01_valid_variables/
+- │             ├── glossary.md
+- │             ├── solution.py
+- │             └── statement.md
+- │       └── ex2_numerical_expressions/
+- │             ├── glossary.md
+- │             ├── solution.py
+- │             └── statement.md
+- │       └── ex03_simple_menu/
+- │             ├── glossary.md
+- │             ├── solution.py
+- │             └── statement.md
+- │       └── ex04_three_variables_print/
+- │             ├── glossary.md
+- │             ├── solution.py
+- │             └── statement.md
+- │       └── ex05_basic_arithmetic/
+- │             ├── glossary.md
+- │             ├── solution.py
+- │             └── statement.md
+- │       └── ex06_welcome_message/
+- │             ├── glossary.md
+- │             ├── solution.py
+- │             └── statement.md
+- │       └── ex07_sum_three_integers/
+- │             ├── glossary.md
+- │             ├── solution.py
+- │             └── statement.md
+- │       └── ex08_average_three_floats/
+- │             ├── glossary.md
+- │             ├── solution.py
+- │             └── statement.md
+  │       └── ex09_triangle_area/
+- │             ├── glossary.md
+- │             ├── solution.py
+- │             └── statement.md
+- │       └── ex10_arithmetic_with_input/
+- │             ├── glossary.md
+- │             ├── solution.py
+- │             └── statement.md
+- │       └── ex11_land_price/
+- │             ├── glossary.md
+- │             ├── solution.py
+- │             └── statement.md
+- │       └── ex12_salary_after_taxes/
+- │             ├── glossary.md
+- │             ├── solution.py
+- │             └── statement.md
 - │
 - ├── 02_basic_intermediate_decision/
 - │   └── Ficha2/
 - │       └── exXX_exercise_name/
-- │             ├── enunciado.md
-- │             ├── solucao.py
-- │             └── glossario.md
+- │             ├── glossary.md
+- │             ├── solution.py
+- │             └── statement.md
 - │
 - ├── 03_intermediate_loops/
 - │   └── Ficha3/
 - │       └── exXX_exercise_name/
-- │             ├── enunciado.md
-- │             ├── solucao.py
-- │             └── glossario.md
+- │             ├── glossary.md
+- │             ├── solution.py
+- │             └── statement.md
 - │
 - ├── 04_intermediate_advanced_lists_dicts/
 - │   └── Ficha4/
 - │       └── exXX_exercise_name/
-- │             ├── enunciado.md
-- │             ├── solucao.py
-- │             └── glossario.md
+- │             ├── glossary.md
+- │             ├── solution.py
+- │             └── statement.md
 - │
 - ├── 05_advanced_functions_modules_exceptions/
 - │   ├── Ficha5_Exceptions/
 - │   └── Modules/
 - │       └── exXX_exercise_name/
-- │             ├── enunciado.md
-- │             ├── solucao.py
-- │             └── glossario.md
+- │             ├── glossary.md
+- │             ├── solution.py
+- │             └── statement.md
 - │
 - └── projects/
 - └── project_name/
-- ├── enunciado.md
-- ├── solucao.py
-- └── glossario.md
+- ├── glossary.md
+- ├── solution.py
+- └── statement.md
 
 
 ---

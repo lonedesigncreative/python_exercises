@@ -53,6 +53,7 @@ Also called modulo.
 - If you use text, Python gives an error.
 - Be careful: % does not give the result of the division — only the remainder.
 
+
 ## What it does:  
 Returns the remainder of a division.
 
@@ -69,3 +70,18 @@ Returns the remainder of a division.
 | * | Multiplication | 6 * 2 | 12 |
 | / | Division | 10 / 4 | 2.5 |
 | % | Remainder | 10 % 3 | 1 |
+
+# 6 - Print
+
+## What it is:  
+`print` is a command that shows something on the screen.
+
+- Always use parentheses → print("Hello")
+- Text must be inside quotes `" "`
+- Missing quotes or parentheses causes an error.
+
+**Example:**
+`print("Hello!")`
+
+This will display:
+- *Hello!*

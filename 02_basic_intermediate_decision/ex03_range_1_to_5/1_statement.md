@@ -1,9 +1,5 @@
-- Create a program that displays a menu of options.
-
-- The menu should include the following actions:
-    - Add Product
-    - Update Product
-    - Delete Product
-    - View Product List
-    - Search Product
-    - Exit
+- **Ask** the user to enter a number.
+- **Read** the value from the keyboard.
+- Use a **double‑branch decision structure (if/else)** to check whether the **number is greater than 1 and less than 5**.
+- If **both conditions are true**,** display a message** indicating that the number is within the specified range.
+- **Otherwise**, **display a message** stating that the number is not between 1 and 5.

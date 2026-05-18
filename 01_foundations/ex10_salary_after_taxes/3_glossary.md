@@ -1,0 +1,112 @@
+# 1 - Print
+
+## What it is:  
+`print` is a command that shows something on the screen.
+
+- Always use parentheses → print("Hello")
+- Text must be inside quotes `" "`
+- Missing quotes or parentheses causes an error.
+
+**Example:**
+`print("Python!")`
+
+This will display:
+- *Python!*
+
+# 2 - Input
+
+## What it is:  
+`input` is a command that **asks the user to type something**.
+
+- `input` always returns text, even if the user types a number.
+- If you want a number, you must convert it.
+
+**Example:**
+`name = input("Enter your name: ")`
+
+# 3 - Float
+
+## What it is:
+A `float` is a decimal number in Python -> a number with a **dot** instead of a comma.
+
+- **Floats use a dot, not a comma** -> Python only accepts decimals with a dot.
+- **Floats can lose precision** -> some decimal values are not stored exactly.
+- **`input()` returns text, not float** -> you must convert the input before using it as a decimal.
+- Converting float to int removes decimals
+
+**Example:**
+`price = 3.5`
+
+- It is used when you need decimals, like money, measurements, or averages.
+
+# 4 - Multiplication (`*`)
+
+## What it does:  
+Multiplies two values.
+
+- Multiplying text repeats it.
+
+**Example:**
+`product = 6 * 2`
+
+# 5 - .2f
+
+## What it means:
+`.2f` is a formatting code that tells Python to show a number with exactly **2 decimal places**.
+**The .2 means:** keep 2 decimals
+**The f means:** format as a float (decimal number)
+It is typically used within an f-string.
+
+- **Use only inside f‑strings** -> the `._f` format only works inside `{ }` in an f‑string.
+- **Works only with numbers** -> you can only format integers or floats.
+- **It rounds the value** -> the number is rounded to the number of decimals you choose.
+- **The dot defines decimal places** -> `.1f`, `.2f`, `.3f` decide how many decimals appear.
+- **Always shows fixed decimals** -> even if the number has no decimals, it will display the exact amount you set.
+
+**Example:**
+`price = 3.456`
+`print(f"{price:.2f}")`
+
+# Summary
+
+| **Format** | **Meaning** | **What it does** | **Example** | **Output**
+| :---: | :--- | :---: | :---: | :---: |
+| .0f | 0 decimal places | Rounds and shows no decimals | `f"{3.456:.0f}"` | 3
+| .1f | 1 decimal place | Shows exactly 1 decimal | `f"{3.456:.1f}"` | 3.5
+| .2f | 2 decimal places | Shows exactly 2 decimals (most common) | `f"{3.456:.4f}"` | 3.4560
+| .3f | 3 decimal places | Shows exactly 3 decimals | `f"{3.456:.3f}"` | 3.456
+| .4f | 4 decimal places | Shows exactly 4 decimals | `f"{3.456:.4f}"` | 3.4560
+
+# 6 - f-string (f"")
+
+## What it is:
+An f‑string is a special type of text that allows you to insert variables inside the text.
+
+- Don’t forget the **f** before the quotes.
+- Without the **f**, Python will not replace the variables.
+
+You write it with the letter f before the quotes:
+`f"Hello {name}"`
+
+# 7 - { }
+
+## What it means:
+The `{ }` are used to show the value of a variable inside the text.
+
+- Inside `{ }` you must put a **variable** or an **expression**.
+- If you put text without quotes, it gives an error.
+- If you put quotes inside `{ }`, it becomes text again.
+
+**Example:**
+`age = 25`
+`print(f"You are {age} years old")`
+
+Python replaces {age} with the value of the variable.
+
+# Summary
+
+| **Concept** | **Meaning** | **Example** |
+| :---: | :--- | :---: |
+| input | Asks the user to type something | `input("Your name: ")` |
+| f-string | Text that can show variables | `f"Hello {name}"` |
+| { } | Shows the variable’s value inside the f‑string | `{age}` |

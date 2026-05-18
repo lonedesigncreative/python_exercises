@@ -39,7 +39,7 @@ A `float` is a decimal number in Python -> a number with a **dot** instead of a 
 
 - It is used when you need decimals, like money, measurements, or averages.
 
-# 4. Multiplication (`*`)
+# 4 - Multiplication (`*`)
 
 ## What it does:  
 Multiplies two values.

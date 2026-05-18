@@ -1,0 +1,7 @@
+print("=== MAIN MENU ===")
+print("1 - Add Product")
+print("2 - Update Product")
+print("3 - Delete Product")
+print("4 - View Product List")
+print("5 - Search Product")
+print("6 - Exit")

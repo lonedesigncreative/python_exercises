@@ -39,7 +39,29 @@ A `float` is a decimal number in Python -> a number with a **dot** instead of a 
 
 - It is used when you need decimals, like money, measurements, or averages.
 
-# 4 - f-string (f"")
+# 4. Multiplication (`*`)
+
+## What it does:  
+Multiplies two values.
+
+- Multiplying text repeats it.
+
+**Example:**
+`product = 6 * 2`
+
+# 5 - Division (`/`)
+
+## What it does:  
+Divides one value by another.
+Always returns a decimal (float).
+
+- Division always returns a decimal (float).
+- Be careful with dividing by zero — it causes an error.
+
+**Example:**
+`result = 10 / 4   # 2.5`
+
+# 6 - f-string (f"")
 
 ## What it is:
 An f‑string is a special type of text that allows you to insert variables inside the text.
@@ -50,7 +72,7 @@ An f‑string is a special type of text that allows you to insert variables insi
 You write it with the letter f before the quotes:
 `f"Hello {name}"`
 
-# 5 - { }
+# 7 - { }
 
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.

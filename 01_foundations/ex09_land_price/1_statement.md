@@ -1,0 +1,6 @@
+- Create a program that **asks the user to enter three pieces of information:** 
+  - The length; 
+  - The width;
+  - And the price per square meter of a plot of land.
+- Using these values, the program should calculate the **total cost of the land by multiplying the area *(length × width)* by the price per square meter**.
+- Use the `input()` function to **collect the data and convert** the values to decimal numbers using `float()`.

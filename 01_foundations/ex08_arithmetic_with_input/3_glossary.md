@@ -68,3 +68,76 @@ Python replaces {age} with the value of the variable.
 | input | Asks the user to type something | `input("Your name: ")` |
 | f-string | Text that can show variables | `f"Hello {name}"` |
 | { } | Shows the variable’s value inside the f‑string | `{age}` |
+
+# 6 - Addition (`+`)
+
+## What it does:  
+Adds two values.
+
+- Only works correctly with numbers.
+- If you add text, Python will join the words instead of doing math.
+
+**Example:**
+`total = 5 + 3`
+
+
+# 7 - Subtraction (`−`)
+
+## What it does:  
+Subtracts one value from another.
+
+- You cannot subtract text.
+- You cannot subtract using commas (European style). Use dots.
+
+**Example:**
+`difference = 10 - 4`
+
+
+# 8 - Multiplication (`*`)
+
+## What it does:  
+Multiplies two values.
+
+- Multiplying text repeats it.
+
+**Example:**
+`product = 6 * 2`
+
+
+# 9 - Division (`/`)
+
+## What it does:  
+Divides one value by another.
+Always returns a decimal (float).
+
+- Division always returns a decimal (float).
+- Be careful with dividing by zero — it causes an error.
+
+**Example:**
+`result = 10 / 4   # 2.5`
+
+
+# 10 - Remainder (`%`)
+Also called modulo.
+
+- Only works with numbers.
+- If you use text, Python gives an error.
+- Be careful: % does not give the result of the division — only the remainder.
+
+
+## What it does:  
+Returns the remainder of a division.
+
+**Example:**
+`rest = 10 % 3`   # remainder is 1
+
+
+# Summary
+
+| **Operator** | **Meaning** | **Example** | **Result** |
+| :---: | :--- | :---: | :---: |
+| + | Addition | 5 + 3 | 8 |
+| - | Subtraction | 10 - 4 | 6 |
+| * | Multiplication | 6 * 2 | 12 |
+| / | Division | 10 / 4 | 2.5 |
+| % | Remainder | 10 % 3 | 1 |

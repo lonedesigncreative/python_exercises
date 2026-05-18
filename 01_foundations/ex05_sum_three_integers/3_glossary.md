@@ -37,7 +37,18 @@ An integer is a whole number, without decimals.
 This will display:
 - *Hello!*
 
-# 4 - f-string (f"")
+# 4 - Addition (`+`)
+
+## What it does:  
+Adds two values.
+
+- Only works correctly with numbers.
+- If you add text, Python will join the words instead of doing math.
+
+**Example:**
+`total = 5 + 3`
+
+# 5 - f-string (f"")
 
 ## What it is:
 An f‑string is a special type of text that allows you to insert variables inside the text.
@@ -48,7 +59,7 @@ An f‑string is a special type of text that allows you to insert variables insi
 You write it with the letter f before the quotes:
 `f"Hello {name}"`
 
-# 5 - { }
+# 6 - { }
 
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.

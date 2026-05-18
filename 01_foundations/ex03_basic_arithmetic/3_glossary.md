@@ -10,7 +10,7 @@ Adds two values.
 `total = 5 + 3`
 
 
-# 2. Subtraction (`−`)
+# 2 - Subtraction (`−`)
 
 ## What it does:  
 Subtracts one value from another.
@@ -22,7 +22,7 @@ Subtracts one value from another.
 `difference = 10 - 4`
 
 
-# 3. Multiplication (`*`)
+# 3 - Multiplication (`*`)
 
 ## What it does:  
 Multiplies two values.
@@ -33,7 +33,7 @@ Multiplies two values.
 `product = 6 * 2`
 
 
-# 4. Division (`/`)
+# 4 - Division (`/`)
 
 ## What it does:  
 Divides one value by another.
@@ -46,7 +46,7 @@ Always returns a decimal (float).
 `result = 10 / 4   # 2.5`
 
 
-# 5. Remainder (`%`)
+# 5 - Remainder (`%`)
 Also called modulo.
 
 - Only works with numbers.
@@ -85,3 +85,23 @@ Returns the remainder of a division.
 
 This will display:
 - *Hello!*
+
+# 7 - f-string (f"")
+
+## What it is:
+An f‑string is a special type of text that allows you to insert variables inside the text.
+
+- Don’t forget the **f** before the quotes.
+- Without the **f**, Python will not replace the variables.
+
+You write it with the letter f before the quotes:
+`f"Hello {name}"`
+
+# 8 - { }
+
+## What it means:
+The `{ }` are used to show the value of a variable inside the text.
+
+- Inside `{ }` you must put a **variable** or an **expression**.
+- If you put text without quotes, it gives an error.
+- If you put quotes inside `{ }`, it becomes text again.

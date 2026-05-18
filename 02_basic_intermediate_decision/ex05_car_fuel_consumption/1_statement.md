@@ -1,9 +1,8 @@
-- Create a program that displays a menu of options.
-
-- The menu should include the following actions:
-    - Add Product
-    - Update Product
-    - Delete Product
-    - View Product List
-    - Search Product
-    - Exit
+- **Ask the user to enter the total distance** travelled by the vehicle and the total amount of fuel consumed.
+- **After reading the values**, first check whether the total distance **is less than or equal to 0**.
+  - If this condition is true, display the error message: **“The total distance value was less than or equal to 0.”**
+- If the distance is valid, then check whether the total fuel value **is less than or equal to 0**.
+  - If so, display the message: **“The total fuel value was less than or equal to 0.”**
+- If both values are valid, calculate the average fuel consumption using the formula:
+        ==- (𝑡𝑜𝑡𝑎𝑙_𝑓𝑢𝑒𝑙/𝑑𝑖𝑠𝑡𝑎𝑛𝑐𝑒)×100==
+- Finally, present the calculated fuel consumption to the user.

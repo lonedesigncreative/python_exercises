@@ -4,5 +4,5 @@
 - If the distance is valid, then check whether the total fuel value **is less than or equal to 0**.
   - If so, display the message: **“The total fuel value was less than or equal to 0.”**
 - If both values are valid, calculate the average fuel consumption using the formula:
-        - **(𝑡𝑜𝑡𝑎𝑙_𝑓𝑢𝑒𝑙/𝑑𝑖𝑠𝑡𝑎𝑛𝑐𝑒)×100**
+    - **(𝑡𝑜𝑡𝑎𝑙_𝑓𝑢𝑒𝑙/𝑑𝑖𝑠𝑡𝑎𝑛𝑐𝑒)×100**
 - Finally, present the calculated fuel consumption to the user.

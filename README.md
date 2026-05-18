@@ -60,19 +60,19 @@ Each project also includes:
 ## 📄 Repository Structure:
 
 Python/
-│
-├── 01_begginer/
-│   └── Ficha1/
-│       └── ex01_simple_menu/
-│             ├── 1_statement.md
-│             ├── 2_solution.py
-│             └── 3_glossary.md
-│       └── ex02_three_variables_print/
-│             ├── 1_statement.md
-│             ├── 2_solution.py
-│             └── 3_glossary.md
-│       └── ex03_basic_arithmetic/
-│             ├── 1_statement.md
+- │
+- ├── 01_begginer/
+- │   └── Ficha1/
+- │       └── ex01_simple_menu/
+- │             ├── 1_statement.md
+- │             ├── 2_solution.py
+- │             └── 3_glossary.md
+- │       └── ex02_three_variables_print/
+- │             ├── 1_statement.md
+- │             ├── 2_solution.py
+- │             └── 3_glossary.md
+- │       └── ex03_basic_arithmetic/
+- │             ├── 1_statement.md
 - │             ├── 2_solution.py
 - │             └── 3_glossary.md
 - │       └── ex04_welcome_message/

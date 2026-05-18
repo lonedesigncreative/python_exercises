@@ -1,0 +1,9 @@
+- Build a program that declares:
+- **Two integer** variables using the `input()` function.
+- After reading both values and converting them to integers with `int()`, the program must perform the **following arithmetic operations**:
+  - addition (`+`)
+  - subtraction (`−`)
+  - multiplication (`*`)
+  - division (`/`)
+  - remainder of the division (`%`).
+- Finally, the program should **display the result of each operation on the screen**.

@@ -1,4 +1,4 @@
-# 🐍 Python Exercises & Projects:
+# 🐍 Python Exercises & Projects
 
 This repository contains a complete and structured collection of Python exercises, organized from **beginner to advanced**, along with practical mini‑projects to reinforce learning through real applications.
 
@@ -13,7 +13,7 @@ This structure allows for clear, progressive, and professional study.
 
 ---
 
-## 📚 Exercise Levels:
+## 📚 Exercise Levels
 
 ### **1. Foundations (Beginner)**  
 Basic concepts: variables, operators, input/output, simple expressions.  
@@ -37,7 +37,7 @@ Function creation, modular programming, imports, error handling.
 
 ---
 
-## 🧪 Projects:
+## 🧪 Projects
 
 Mini‑projects designed to apply the concepts learned:
 
@@ -57,7 +57,7 @@ Each project also includes:
 
 ---
 
-## 📄 Repository Structure:
+## 📄 Repository Structure
 
 Python/
 - │
@@ -178,7 +178,7 @@ Python/
 
 ---
 
-## 🚀 How to Use:
+## 🚀 How to Use
 
 1. Start with the **Foundations** folder.  
 2. Progress through each level at your own pace.  
@@ -189,7 +189,7 @@ Python/
 
 ---
 
-## 🎯 Purpose:
+## 🎯 Purpose
 
 This repository was created for:
 

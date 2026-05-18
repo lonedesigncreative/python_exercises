@@ -40,7 +40,7 @@ Divides one value by another.
 Always returns a decimal (float).
 
 - Division always returns a decimal (float).
-- Be careful with dividing by zero — it causes an error.
+- Be careful with dividing by zero - it causes an error.
 
 **Example:**
 `result = 10 / 4   # 2.5`
@@ -51,7 +51,7 @@ Also called modulo.
 
 - Only works with numbers.
 - If you use text, Python gives an error.
-- Be careful: % does not give the result of the division — only the remainder.
+- Be careful: % does not give the result of the division - only the remainder.
 
 
 ## What it does:  
@@ -76,7 +76,7 @@ Returns the remainder of a division.
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-- Always use parentheses → print("Hello")
+- **Always use parentheses** → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
 

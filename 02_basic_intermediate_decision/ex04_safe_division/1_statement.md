@@ -1,9 +1,5 @@
-- Create a program that displays a menu of options.
-
-- The menu should include the following actions:
-    - Add Product
-    - Update Product
-    - Delete Product
-    - View Product List
-    - Search Product
-    - Exit
+- **Ask the user to enter two numbers**.
+- **Read** both values from the keyboard.
+- Use a **double‑branch decision structure (if/else)** to check whether the second number is greater than 0.
+- **If the condition is true**, perform the division of the first number by the second and display the result.
+- **Otherwise**, show an error message stating that “You cannot divide by a value that is less than or equal to 0.”

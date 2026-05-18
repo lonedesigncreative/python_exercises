@@ -3,7 +3,7 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-- Always use parentheses → print("Hello")
+- **Always use parentheses** → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
 

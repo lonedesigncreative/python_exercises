@@ -3,7 +3,7 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-- Always use parentheses → print("Hello")
+- **Always use parentheses** → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
 
@@ -77,14 +77,14 @@ If the condition is **false**, Python **skips it**.
 The **else** block runs **when the if condition is false**.
 It is the “backup” or “alternative” action.
 
-**if** = what happens when the condition is true
-**else** = what happens when the condition is false
+  - **if** = what happens when the condition is true
+  - **else** = what happens when the condition is false
 
-- **Else must come after an if** -> you cannot use `else` alone.
-- **Indentation is required** -> the code inside `else` must be indented.
-- **Else has no condition** -> it runs automatically when the `if` is false.
-- **Avoid unnecessary else** -> use it only when you really need an alternative action.
-- **Be careful with `input()`** -> convert values before comparing in the `if`.
+- **Else must come after an if** → you cannot use `else` alone.
+- **Indentation is required** → the code inside `else` must be indented.
+- **Else has no condition** → it runs automatically when the `if` is false.
+- **Avoid unnecessary else** → use it only when you really need an alternative action.
+- **Be careful with `input()`** → convert values before comparing in the `if`.
 
 **Example:**
 `age = 16`

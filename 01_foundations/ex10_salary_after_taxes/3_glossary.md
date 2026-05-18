@@ -3,7 +3,7 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-- Always use parentheses → print("Hello")
+- **Always use parentheses** → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
 
@@ -27,11 +27,11 @@ This will display:
 # 3 - Float
 
 ## What it is:
-A `float` is a decimal number in Python -> a number with a **dot** instead of a comma.
+A `float` is a decimal number in Python → a number with a **dot** instead of a comma.
 
-- **Floats use a dot, not a comma** -> Python only accepts decimals with a dot.
-- **Floats can lose precision** -> some decimal values are not stored exactly.
-- **`input()` returns text, not float** -> you must convert the input before using it as a decimal.
+- **Floats use a dot, not a comma** → Python only accepts decimals with a dot.
+- **Floats can lose precision** → some decimal values are not stored exactly.
+- **`input()` returns text, not float** → you must convert the input before using it as a decimal.
 - Converting float to int removes decimals
 
 **Example:**
@@ -57,11 +57,11 @@ Multiplies two values.
 **The f means:** format as a float (decimal number)
 It is typically used within an f-string.
 
-- **Use only inside f‑strings** -> the `._f` format only works inside `{ }` in an f‑string.
-- **Works only with numbers** -> you can only format integers or floats.
-- **It rounds the value** -> the number is rounded to the number of decimals you choose.
-- **The dot defines decimal places** -> `.1f`, `.2f`, `.3f` decide how many decimals appear.
-- **Always shows fixed decimals** -> even if the number has no decimals, it will display the exact amount you set.
+- **Use only inside f‑strings** → the `._f` format only works inside `{ }` in an f‑string.
+- **Works only with numbers** → you can only format integers or floats.
+- **It rounds the value** → the number is rounded to the number of decimals you choose.
+- **The dot defines decimal places** → `.1f`, `.2f`, `.3f` decide how many decimals appear.
+- **Always shows fixed decimals** → even if the number has no decimals, it will display the exact amount you set.
 
 **Example:**
 `price = 3.456`

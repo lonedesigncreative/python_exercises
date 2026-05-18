@@ -3,7 +3,7 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-- Always use parentheses → print("Hello")
+- **Always use parentheses** → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
 
@@ -56,7 +56,7 @@ Divides one value by another.
 Always returns a decimal (float).
 
 - Division always returns a decimal (float).
-- Be careful with dividing by zero — it causes an error.
+- Be careful with dividing by zero - it causes an error.
 
 **Example:**
 `result = 10 / 4   # 2.5`

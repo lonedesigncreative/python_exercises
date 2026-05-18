@@ -17,7 +17,7 @@ It takes `"25"` **(text)** and turns it into `25` **(number)**.
 An integer is a whole number, without decimals.
 
 - An integer cannot have decimals.
-- Do NOT use a comma → Python will think it’s two values.
+- **Do NOT use a comma** → Python will think it’s two values.
 
 **Example:**
 `age = 25`
@@ -27,7 +27,7 @@ An integer is a whole number, without decimals.
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-- Always use parentheses → print("Hello")
+- **Always use parentheses** → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
 

@@ -3,7 +3,7 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-- Always use parentheses → print("Hello")
+- **Always use parentheses** → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
 
@@ -30,7 +30,7 @@ This will display:
 An integer is a whole number, without decimals.
 
 - An integer cannot have decimals.
-- Do NOT use a comma → Python will think it’s two values.
+- **Do NOT use a comma** → Python will think it’s two values.
 
 **Example:**
 `age = 25`
@@ -41,9 +41,9 @@ An integer is a whole number, without decimals.
 `>=` means greater than or equal to.
 It checks if a value is bigger or the same as another value.
 
-- **Compare only numbers** -> do not compare text with numbers.
-- **Convert input() first** -> input is text, so convert to `int()` or `float()` before using `>=`.
-- **Be clear about the boundary** -> `>=` includes equality; `>` does not.
+- **Compare only numbers** → do not compare text with numbers.
+- **Convert input() first** → input is text, so convert to `int()` or `float()` before using `>=`.
+- **Be clear about the boundary** → `>=` includes equality; `>` does not.
 
 **Example:**
 `age = 18`
@@ -57,10 +57,10 @@ An **if** statement checks a condition.
 If the condition is **true**, the code inside **runs**.
 If the condition is **false**, Python **skips it**.
 
-- **Indentation is required** -> the code inside the `if` must be indented.
-- **If without else does nothing when false** -> the program continues normally.
-- **Condition must be valid** -> avoid writing text or invalid expressions inside the `if`.
-- **B****e careful with spacing** -> `if age >= 18`: works, but `ifage>=18`: is invalid.
+- **Indentation is required** → the code inside the `if` must be indented.
+- **If without else does nothing when false** → the program continues normally.
+- **Condition must be valid** → avoid writing text or invalid expressions inside the `if`.
+- **B****e careful with spacing** → `if age >= 18`: works, but `ifage>=18`: is invalid.
 
 **Example:**
 `score = 90`
@@ -73,14 +73,14 @@ If the condition is **false**, Python **skips it**.
 The **else** block runs **when the if condition is false**.
 It is the “backup” or “alternative” action.
 
-**if** = what happens when the condition is true
-**else** = what happens when the condition is false
+  - **if** = what happens when the condition is true
+  - **else** = what happens when the condition is false
 
-- **Else must come after an if** -> you cannot use `else` alone.
-- **Indentation is required** -> the code inside `else` must be indented.
-- **Else has no condition** -> it runs automatically when the `if` is false.
-- **Avoid unnecessary else** -> use it only when you really need an alternative action.
-- **Be careful with `input()`** -> convert values before comparing in the `if`.
+- **Else must come after an if** → you cannot use `else` alone.
+- **Indentation is required** → the code inside `else` must be indented.
+- **Else has no condition** → it runs automatically when the `if` is false.
+- **Avoid unnecessary else** → use it only when you really need an alternative action.
+- **Be careful with `input()`** → convert values before comparing in the `if`.
 
 **Example:**
 `age = 16`
@@ -89,3 +89,35 @@ It is the “backup” or “alternative” action.
     `print("You can enter")`
 `else:`
     `print("You cannot enter")`
+
+# 7 - Logical `and`
+
+## What it is:  
+The logical and operator checks two conditions at the same time.
+It only returns True when both conditions are True.
+
+  - **If one condition is False** → the whole expression becomes False
+  - **If both are True** → the expression is True
+
+
+- **Else must come after an if** → you cannot use `else` alone.
+- **Indentation is required** → the code inside `else` must be indented.
+- **Else has no condition** → it runs automatically when the `if` is false.
+- **Avoid unnecessary else** → use it only when you really need an alternative action.
+- **Be careful with `input()`** → convert values before comparing in the `if`.
+
+**Example:**
+***Both conditions True***
+`age = 20`
+`if age >= 18 and age <= 30:`
+    `print("Age is in the range")`
+
+***Both conditions False***
+`score = 85`
+`if score >= 80 and score <= 100:`
+    `print("Valid score")`
+
+***Checking two requirements***
+`temperature = 28`
+`if temperature >= 20 and temperature <= 30:`
+    `print("Comfortable temperature")`

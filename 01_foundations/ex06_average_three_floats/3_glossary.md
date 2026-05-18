@@ -3,7 +3,7 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-- Always use parentheses → print("Hello")
+- **Always use parentheses** → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
 
@@ -27,11 +27,11 @@ This will display:
 # 3 - Float
 
 ## What it is:
-A `float` is a decimal number in Python -> a number with a **dot** instead of a comma.
+A `float` is a decimal number in Python → a number with a **dot** instead of a comma.
 
-- **Floats use a dot, not a comma** -> Python only accepts decimals with a dot.
-- **Floats can lose precision** -> some decimal values are not stored exactly.
-- **`input()` returns text, not float** -> you must convert the input before using it as a decimal.
+- **Floats use a dot, not a comma** → Python only accepts decimals with a dot.
+- **Floats can lose precision** → some decimal values are not stored exactly.
+- **`input()` returns text, not float** → you must convert the input before using it as a decimal.
 - Converting float to int removes decimals
 
 **Example:**

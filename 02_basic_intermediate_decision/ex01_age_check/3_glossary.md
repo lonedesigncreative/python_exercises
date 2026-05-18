@@ -29,3 +29,40 @@ If the condition is **false**, Python **skips it**.
 `score = 90`
 `if score >= 80:`
    `print("Great job")`
+
+# 3 - Print
+
+## What it is:  
+`print` is a command that shows something on the screen.
+
+- Always use parentheses → print("Hello")
+- Text must be inside quotes `" "`
+- Missing quotes or parentheses causes an error.
+
+**Example:**
+`print("Python!")`
+
+This will display:
+- *Python!*
+
+# 4 - Input
+
+## What it is:  
+`input` is a command that **asks the user to type something**.
+
+- `input` always returns text, even if the user types a number.
+- If you want a number, you must convert it.
+
+**Example:**
+`name = input("Enter your name: ")`
+
+# 5 - Integer
+
+## What it is:  
+An integer is a whole number, without decimals.
+
+- An integer cannot have decimals.
+- Do NOT use a comma → Python will think it’s two values.
+
+**Example:**
+`age = 25`

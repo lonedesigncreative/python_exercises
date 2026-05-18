@@ -1,7 +1,10 @@
-print("=== MAIN MENU ===")
-print("1 - Add Product")
-print("2 - Update Product")
-print("3 - Delete Product")
-print("4 - View Product List")
-print("5 - Search Product")
-print("6 - Exit")
+# Program that checks if a number is greater than or equal to 5
+
+number = float(input("Enter a number: "))
+
+if number >= 5:
+    print("The number is greater than or equal to 5.")
+else:
+    print("The number is below 5.")
+
+print("End of program.")

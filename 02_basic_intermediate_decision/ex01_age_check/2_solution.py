@@ -1,7 +1,8 @@
-print("=== MAIN MENU ===")
-print("1 - Add Product")
-print("2 - Update Product")
-print("3 - Delete Product")
-print("4 - View Product List")
-print("5 - Search Product")
-print("6 - Exit")
+# Program that checks if the user is an adult
+
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("You are an adult.")
+
+print("End of program.")

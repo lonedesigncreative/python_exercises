@@ -1,9 +1,6 @@
-- Create a program that displays a menu of options.
-
-- The menu should include the following actions:
-    - Add Product
-    - Update Product
-    - Delete Product
-    - View Product List
-    - Search Product
-    - Exit
+- Ask the user to enter an **integer grade between 1 and 3**.
+- After reading the value, **use a selective decision structure** to convert the numeric grade into its **textual equivalent**.
+  - If the user **enters 1**, the program should display “**Poor**”.
+  - If the **value is 2**, it should display “**Average**”.
+  - If the **value is 3**, it should display “**Good**”.
+- For **any other number** outside this range, the program must show the message “**Invalid operator**.”

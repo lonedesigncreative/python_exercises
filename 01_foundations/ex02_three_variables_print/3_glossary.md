@@ -35,7 +35,7 @@ A decimal number - a number with a dot (.).
 **Example:**
 `price = 3.50`
 
-# 4. Text (in Python called string)
+# 4 - Text (in Python called string)
 
 ## What it is:  
 Text inside quotes `" "`.

@@ -39,7 +39,27 @@ A `float` is a decimal number in Python -> a number with a **dot** instead of a 
 
 - It is used when you need decimals, like money, measurements, or averages.
 
-# 4 - f-string (f"")
+# 4 - Text (in Python called string)
+
+## What it is:  
+Text inside quotes `" "`.
+
+- Text must always be inside quotes.
+- If you put numbers inside quotes, they become text, not numbers.
+
+**Example:**
+`name = "LoneDesign"`
+
+# Summary
+
+| **Concept** | **Meaning** | **Example** |
+| :--- | :--- | :--- |
+| print | hows something on the screen | print("Hi") |
+| integer | Whole number | 10 |
+| decimal (float) | Number with decimal | 2.5 |
+| text (string) | Words inside quotes | "Hello" |
+
+# 5 - f-string (f"")
 
 ## What it is:
 An f‑string is a special type of text that allows you to insert variables inside the text.
@@ -50,7 +70,7 @@ An f‑string is a special type of text that allows you to insert variables insi
 You write it with the letter f before the quotes:
 `f"Hello {name}"`
 
-# 5 - { }
+# 6 - { }
 
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.
@@ -74,7 +94,7 @@ Python replaces {age} with the value of the variable.
 | { } | Shows the variable’s value inside the f‑string | `{age}` |
 
 
-# 6 - Division (`/`)
+# 7 - Division (`/`)
 
 ## What it does:  
 Divides one value by another.
@@ -86,7 +106,7 @@ Always returns a decimal (float).
 **Example:**
 `result = 10 / 4   # 2.5`
 
-# 7 - `If`
+# 8 - `If`
 
 ## What it is:  
 An **if** statement checks a condition.
@@ -103,7 +123,7 @@ If the condition is **false**, Python **skips it**.
 `if score >= 80:`
    `print("Great job")`
 
-# 8 - `Else`
+# 9 - `Else`
 
 ## What it is:  
 The **else** block runs **when the if condition is false**.
@@ -126,7 +146,7 @@ It is the “backup” or “alternative” action.
 `else:`
     `print("You cannot enter")`
 
-# 9 - `round()`
+# 10 - `round()`
 
 ## What it is:  
 The round() function rounds a number to the number of decimal places you choose.
@@ -145,7 +165,7 @@ The round() function rounds a number to the number of decimal places you choose.
 `print(round(3.14159, 2))` # 3.14
 `print(round(7.89, 1))`    # 7.9
 
-# 10 - `>`
+# 11 - `>`
 
 ## What it is:  
 The `>` operator means **greater than**.

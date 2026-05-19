@@ -39,7 +39,27 @@ A `float` is a decimal number in Python -> a number with a **dot** instead of a 
 
 - It is used when you need decimals, like money, measurements, or averages.
 
-# 4 - `<=`
+# 4 - Text (in Python called string)
+
+## What it is:  
+Text inside quotes `" "`.
+
+- Text must always be inside quotes.
+- If you put numbers inside quotes, they become text, not numbers.
+
+**Example:**
+`name = "LoneDesign"`
+
+# Summary
+
+| **Concept** | **Meaning** | **Example** |
+| :--- | :--- | :--- |
+| print | hows something on the screen | print("Hi") |
+| integer | Whole number | 10 |
+| decimal (float) | Number with decimal | 2.5 |
+| text (string) | Words inside quotes | "Hello" |
+
+# 5 - `<=`
 
 ## What it is:  
 The `<=`  operator means **less than or equal to**.
@@ -58,7 +78,7 @@ It checks if a value is **smaller** or **the same** as another value.
 `print(temperature <= 15)`   # False
 
 
-# 5 - `If`
+# 6 - `If`
 
 ## What it is:  
 An **if** statement checks a condition.
@@ -75,7 +95,7 @@ If the condition is **false**, Python **skips it**.
 `if score >= 80:`
    `print("Great job")`
 
-# 6 - `Else`
+# 7 - `Else`
 
 ## What it is:  
 The **else** block runs **when the if condition is false**.
@@ -98,7 +118,7 @@ It is the “backup” or “alternative” action.
 `else:`
     `print("You cannot enter")`
 
-# 7 - `Elif`
+# 8 - `Elif`
 
 ## What it is:  
 **elif** means **“else if”**.
@@ -123,7 +143,7 @@ It is used when you want to check another condition after the first `if`.
 `else:`
     `print("Needs improvement")`
 
-# 8 - f-string (f"")
+# 9 - f-string (f"")
 
 ## What it is:
 An f‑string is a special type of text that allows you to insert variables inside the text.
@@ -134,7 +154,7 @@ An f‑string is a special type of text that allows you to insert variables insi
 You write it with the letter f before the quotes:
 `f"Hello {name}"`
 
-# 9 - { }
+# 10 - { }
 
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.
@@ -158,7 +178,7 @@ Python replaces {age} with the value of the variable.
 | { } | Shows the variable’s value inside the f‑string | `{age}` |
 
 
-# 10 - Division (`/`)
+# 11 - Division (`/`)
 
 ## What it does:  
 Divides one value by another.
@@ -167,7 +187,7 @@ Always returns a decimal (float).
 - Division always returns a decimal (float).
 - Be careful with dividing by zero - it causes an error.
 
-# 11 - Multiplication (`*`)
+# 12 - Multiplication (`*`)
 
 ## What it does:  
 Multiplies two values.
@@ -177,7 +197,7 @@ Multiplies two values.
 **Example:**
 `product = 6 * 2`
 
-# 12 - .2f
+# 13 - .2f
 
 ## What it means:
 `.2f` is a formatting code that tells Python to show a number with exactly **2 decimal places**.

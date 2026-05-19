@@ -35,7 +35,28 @@ An integer is a whole number, without decimals.
 **Example:**
 `age = 25`
 
-# 4 - `<`
+# 4 - Text (in Python called string)
+
+## What it is:  
+Text inside quotes `" "`.
+
+- Text must always be inside quotes.
+- If you put numbers inside quotes, they become text, not numbers.
+
+**Example:**
+`name = "LoneDesign"`
+
+# Summary
+
+| **Concept** | **Meaning** | **Example** |
+| :--- | :--- | :--- |
+| print | hows something on the screen | print("Hi") |
+| integer | Whole number | 10 |
+| decimal (float) | Number with decimal | 2.5 |
+| text (string) | Words inside quotes | "Hello" |
+
+
+# 5 - `<`
 
 ## What it is:  
 The `<` operator means **less than**.
@@ -57,7 +78,7 @@ It checks if a value is **strictly smaller** than another value.
 `print(score < 50)` # False
 
 
-# 5 - `>`
+# 6 - `>`
 
 ## What it is:  
 The `>` operator means **greater than**.
@@ -78,7 +99,7 @@ It checks if a value is **strictly bigger** than another value.
 `score = 40`
 `print(score > 60)` # False
 
-# 6 - `If`
+# 7 - `If`
 
 ## What it is:  
 An **if** statement checks a condition.
@@ -95,7 +116,7 @@ If the condition is **false**, Python **skips it**.
 `if score >= 80:`
    `print("Great job")`
 
-# 7 - `Else`
+# 8 - `Else`
 
 ## What it is:  
 The **else** block runs **when the if condition is false**.
@@ -118,7 +139,7 @@ It is the “backup” or “alternative” action.
 `else:`
     `print("You cannot enter")`
 
-# 8 - Logical `and`
+# 9 - Logical `and`
 
 ## What it is:  
 The logical and operator checks two conditions at the same time.

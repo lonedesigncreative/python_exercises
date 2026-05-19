@@ -39,7 +39,27 @@ A `float` is a decimal number in Python -> a number with a **dot** instead of a 
 
 - It is used when you need decimals, like money, measurements, or averages.
 
-# 4 - `>=`
+# 4 - Text (in Python called string)
+
+## What it is:  
+Text inside quotes `" "`.
+
+- Text must always be inside quotes.
+- If you put numbers inside quotes, they become text, not numbers.
+
+**Example:**
+`name = "LoneDesign"`
+
+# Summary
+
+| **Concept** | **Meaning** | **Example** |
+| :--- | :--- | :--- |
+| print | hows something on the screen | print("Hi") |
+| integer | Whole number | 10 |
+| decimal (float) | Number with decimal | 2.5 |
+| text (string) | Words inside quotes | "Hello" |
+
+# 5 - `>=`
 
 ## What it is:  
 `>=` means greater than or equal to.
@@ -54,7 +74,7 @@ It checks if a value is bigger or the same as another value.
 `print(age >= 18)`   # True
 
 
-# 5 - `If`
+# 6 - `If`
 
 ## What it is:  
 An **if** statement checks a condition.
@@ -71,7 +91,7 @@ If the condition is **false**, Python **skips it**.
 `if score >= 80:`
    `print("Great job")`
 
-# 6 - `Else`
+# 7 - `Else`
 
 ## What it is:  
 The **else** block runs **when the if condition is false**.

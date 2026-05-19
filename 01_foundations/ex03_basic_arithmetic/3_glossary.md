@@ -86,7 +86,28 @@ Returns the remainder of a division.
 This will display:
 - *Hello!*
 
-# 7 - f-string (f"")
+# 7 - Text (in Python called string)
+
+## What it is:  
+Text inside quotes `" "`.
+
+- Text must always be inside quotes.
+- If you put numbers inside quotes, they become text, not numbers.
+
+**Example:**
+`name = "LoneDesign"`
+
+# Summary
+
+| **Concept** | **Meaning** | **Example** |
+| :--- | :--- | :--- |
+| print | hows something on the screen | print("Hi") |
+| integer | Whole number | 10 |
+| decimal (float) | Number with decimal | 2.5 |
+| text (string) | Words inside quotes | "Hello" |
+
+
+# 8 - f-string (f"")
 
 ## What it is:
 An f‑string is a special type of text that allows you to insert variables inside the text.
@@ -97,7 +118,7 @@ An f‑string is a special type of text that allows you to insert variables insi
 You write it with the letter f before the quotes:
 `f"Hello {name}"`
 
-# 8 - { }
+# 9 - { }
 
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.

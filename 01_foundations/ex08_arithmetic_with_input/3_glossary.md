@@ -35,7 +35,28 @@ An integer is a whole number, without decimals.
 **Example:**
 `age = 25`
 
-# 4 - f-string (f"")
+# 4 - Text (in Python called string)
+
+## What it is:  
+Text inside quotes `" "`.
+
+- Text must always be inside quotes.
+- If you put numbers inside quotes, they become text, not numbers.
+
+**Example:**
+`name = "LoneDesign"`
+
+# Summary
+
+| **Concept** | **Meaning** | **Example** |
+| :--- | :--- | :--- |
+| print | hows something on the screen | print("Hi") |
+| integer | Whole number | 10 |
+| decimal (float) | Number with decimal | 2.5 |
+| text (string) | Words inside quotes | "Hello" |
+
+
+# 5 - f-string (f"")
 
 ## What it is:
 An f‑string is a special type of text that allows you to insert variables inside the text.
@@ -46,7 +67,7 @@ An f‑string is a special type of text that allows you to insert variables insi
 You write it with the letter f before the quotes:
 `f"Hello {name}"`
 
-# 5 - { }
+# 6 - { }
 
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.
@@ -69,7 +90,7 @@ Python replaces {age} with the value of the variable.
 | f-string | Text that can show variables | `f"Hello {name}"` |
 | { } | Shows the variable’s value inside the f‑string | `{age}` |
 
-# 6 - Addition (`+`)
+# 7 - Addition (`+`)
 
 ## What it does:  
 Adds two values.
@@ -81,7 +102,7 @@ Adds two values.
 `total = 5 + 3`
 
 
-# 7 - Subtraction (`−`)
+# 8 - Subtraction (`−`)
 
 ## What it does:  
 Subtracts one value from another.
@@ -93,7 +114,7 @@ Subtracts one value from another.
 `difference = 10 - 4`
 
 
-# 8 - Multiplication (`*`)
+# 9 - Multiplication (`*`)
 
 ## What it does:  
 Multiplies two values.
@@ -104,7 +125,7 @@ Multiplies two values.
 `product = 6 * 2`
 
 
-# 9 - Division (`/`)
+# 10 - Division (`/`)
 
 ## What it does:  
 Divides one value by another.
@@ -117,7 +138,7 @@ Always returns a decimal (float).
 `result = 10 / 4   # 2.5`
 
 
-# 10 - Remainder (`%`)
+# 11 - Remainder (`%`)
 Also called modulo.
 
 - Only works with numbers.

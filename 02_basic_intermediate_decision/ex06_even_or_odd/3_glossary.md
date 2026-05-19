@@ -78,22 +78,8 @@ Returns the remainder of a division.
 **Example:**
 `rest = 10 % 3`   # remainder is 1
 
-# 6 - Remainder (`%`)
-Also called modulo.
 
-- Only works with numbers.
-- If you use text, Python gives an error.
-- Be careful: % does not give the result of the division - only the remainder.
-
-
-## What it does:  
-Returns the remainder of a division.
-
-**Example:**
-`rest = 10 % 3`   # remainder is 1
-
-
-# 7 - `If`
+# 6 - `If`
 
 ## What it is:  
 An **if** statement checks a condition.
@@ -110,7 +96,7 @@ If the condition is **false**, Python **skips it**.
 `if score >= 80:`
    `print("Great job")`
 
-# 8 - `Else`
+# 7 - `Else`
 
 ## What it is:  
 The **else** block runs **when the if condition is false**.

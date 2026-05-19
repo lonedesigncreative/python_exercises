@@ -35,22 +35,50 @@ An integer is a whole number, without decimals.
 **Example:**
 `age = 25`
 
-# 4 - `>=`
+# 4 - `<`
 
 ## What it is:  
-`>=` means greater than or equal to.
-It checks if a value is bigger or the same as another value.
+The `<` operator means **less than**.
+It checks if a value is **strictly smaller** than another value.
 
-- **Compare only numbers** → do not compare text with numbers.
-- **Convert input() first** → input is text, so convert to `int()` or `float()` before using `>=`.
-- **Be clear about the boundary** → `>=` includes equality; `>` does not.
+  - If the left value is smaller → True
+  - If it is equal or bigger → False
+
+- **< is different from <=** → `<` does NOT include equality.
+- **Compare only numbers** → avoid comparing text with numbers.
+- **Convert input() first** → input is text, so convert before comparing.
+- **Spacing matters** → write `a < 10`, not `a<10abc`.
 
 **Example:**
-`age = 18`
-`print(age >= 18)`   # True
+`age = 15`
+`print(age < 18)`   # True
+
+`score = 70`
+`print(score < 50)` # False
 
 
-# 5 - `If`
+# 5 - `>`
+
+## What it is:  
+The `>` operator means **greater than**.
+It checks if a value is **strictly bigger** than another value.
+
+  - If the left value is bigger → True
+  - If it is equal or smaller → False
+
+- **> is different from >=** → `>` does NOT include equality.
+- **Compare only numbers** → avoid comparing text with numbers.
+- **Convert input() first** → input is text, so convert before comparing.
+- **Spacing matters** → write `a > 10`, not `a>10abc`.
+
+**Example:**
+`age = 20`
+`print(age > 18)`   # True
+
+`score = 40`
+`print(score > 60)` # False
+
+# 6 - `If`
 
 ## What it is:  
 An **if** statement checks a condition.
@@ -67,7 +95,7 @@ If the condition is **false**, Python **skips it**.
 `if score >= 80:`
    `print("Great job")`
 
-# 6 - `Else`
+# 7 - `Else`
 
 ## What it is:  
 The **else** block runs **when the if condition is false**.
@@ -90,7 +118,7 @@ It is the “backup” or “alternative” action.
 `else:`
     `print("You cannot enter")`
 
-# 7 - Logical `and`
+# 8 - Logical `and`
 
 ## What it is:  
 The logical and operator checks two conditions at the same time.

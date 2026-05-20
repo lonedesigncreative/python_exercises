@@ -17,6 +17,7 @@ This structure allows for clear, progressive, and professional study.
 
 ---
 
+
 ## 📚 Exercise Levels:
 
 | Level | Content | Folder |
@@ -28,6 +29,7 @@ This structure allows for clear, progressive, and professional study.
 | 🔴 **Advanced (Functions, Modules, Exceptions)** | functions, modules, error handling | `05_advanced_functions_modules_exceptions/` |
 
 ---
+
 
 ## 🧪 Projects:
 
@@ -49,6 +51,7 @@ Each project also includes:
 - `glossario.md`
 
 ---
+
 
 ## 📄 Repository Structure:
 
@@ -172,6 +175,7 @@ Python/
 
 ---
 
+
 ## 🚀 How to Use:
 
 1. Start with the **Foundations** folder.  
@@ -182,6 +186,7 @@ Python/
 6. Explore the projects to consolidate your knowledge.
 
 ---
+
 
 ## 🎯 Purpose:
 
@@ -194,5 +199,7 @@ This repository was created for:
 - 🔍 Future review and reference  
 
 ---
+
+
 
 ## 🎉 HAVE FUN LEARNING PYTHON!

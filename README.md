@@ -188,7 +188,7 @@ Python/
 ---
 
 
-## 🎯 <font color="#FF00FF"> Purpose: </font color>
+## 🎯 <span style="color:red">> Purpose: </span>
 
 This repository was created for:
 

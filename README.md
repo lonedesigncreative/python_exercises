@@ -202,3 +202,7 @@ This repository was created for:
 
  
 > ## 🎉 HAVE FUN LEARNING PYTHON!
+
+<font color="red">Este texto é vermelho</font>
+<font color="#00ff00">Este texto é verde</font>
+<font color="#4B0082">Este texto é índigo</font>

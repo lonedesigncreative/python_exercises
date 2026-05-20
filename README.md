@@ -1,205 +1,144 @@
-# 🐍 Python Exercises & Projects:
+<h1>🐍 Python Exercises & Projects</h1>
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+<img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge">
+<img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge">
 
-> This repository contains a complete and structured collection of Python exercises, organized from **beginner to advanced**, along with practical mini‑projects to reinforce learning through real applications.
+<p><strong>A complete and structured repository</strong> containing Python exercises from beginner to advanced, including practical mini‑projects.</p>
 
-Each exercise is stored in its own folder and includes:
+<p>Each exercise includes:</p>
+<ul>
+  <li><span style="color:#D35400;">statement.md</span></li>
+  <li><span style="color:#D35400;">solution.py</span></li>
+  <li><span style="color:#D35400;">glossary.md</span></li>
+</ul>
 
-- `enunciado.md` → exercise description
-- `solucao.py`   → Python solution
-- `glossario.md` → glossary of all terms used in the exercise
+<hr>
 
+<h2>📚 Exercise Levels</h2>
 
-This structure allows for clear, progressive, and professional study.
+<table>
+<tr><th>Level</th><th>Content</th><th>Folder</th></tr>
 
----
+<tr>
+<td>🟢 Foundations</td>
+<td>Variables, operators, input/output</td>
+<td><span style="color:#7B1FA2;">01_foundations/</span></td>
+</tr>
 
+<tr>
+<td>🟡 Basic–Intermediate (Decision)</td>
+<td>if, elif, else, validations</td>
+<td><span style="color:#7B1FA2;">02_basic_intermediate_decision/</span></td>
+</tr>
 
-## 📚 Exercise Levels:
+<tr>
+<td>🔵 Intermediate (Loops)</td>
+<td>for, while, counters</td>
+<td><span style="color:#7B1FA2;">03_intermediate_loops/</span></td>
+</tr>
 
-| Level | Content | Folder |
-|------|----------|--------|
-| 🟢 **Foundations (Beginner)** | Variables, operators, input/output | `01_foundations/` |
-| 🟡 **Basic–Intermediate (Decision)** | if, elif, else, validations | `02_basic_intermediate_decision/` |
-| 🔵 **Intermediate (Loops)** | for, while, counters, summations | `03_intermediate_loops/` |
-| 🟣 **Intermediate–Advanced (Lists & Dicts)** | lists, dictionaries, sorting, filtering | `04_intermediate_advanced_lists_dicts/` |
-| 🔴 **Advanced (Functions, Modules, Exceptions)** | functions, modules, error handling | `05_advanced_functions_modules_exceptions/` |
+<tr>
+<td>🟣 Intermediate–Advanced (Lists & Dicts)</td>
+<td>lists, dictionaries, sorting</td>
+<td><span style="color:#7B1FA2;">04_intermediate_advanced_lists_dicts/</span></td>
+</tr>
 
----
+<tr>
+<td>🔴 Advanced (Functions, Modules, Exceptions)</td>
+<td>functions, modules, error handling</td>
+<td><span style="color:#7B1FA2;">05_advanced_functions_modules_exceptions/</span></td>
+</tr>
+</table>
 
+<hr>
 
-## 🧪 Projects:
+<h2>🧪 Projects</h2>
 
-Mini‑projects designed to apply the concepts learned:
+<ul>
+  <li>🧮 Calculator</li>
+  <li>🎯 Number Guessing Game</li>
+  <li>📋 Menu‑Based System</li>
+  <li>🗂️ Task List Manager</li>
+  <li>🧠 Progressive challenges</li>
+</ul>
 
-- 🧮 Calculator  
-- 🎯 Number Guessing Game  
-- 📋 Menu‑Based System  
-- 🗂️ Task List Manager  
-- 🧠 Progressive challenges  
+<p>Folder: <span style="color:#7B1FA2;">projects/</span></p>
 
+<hr>
 
-📁 Folder: `projects/`
+<h2>📄 Repository Structure</h2>
 
-Each project also includes:
-
-- `enunciado.md`
-- `solucao.py`
-- `glossario.md`
-
----
-
-
-## 📄 Repository Structure:
-
-```plaintext
+<pre>
 Python/
 │
-├── 01_begginer/
-│   └── Ficha1/
-│       └── ex01_simple_menu/
-│             ├── 1_statement.md
-│             ├── 2_solution.py
-│             └── 3_glossary.md
-│       └── ex02_three_variables_print/
-│             ├── 1_statement.md
-│             ├── 2_solution.py
-│             └── 3_glossary.md
-│       └── ex03_basic_arithmetic/
-│             ├── 1_statement.md
-│             ├── 2_solution.py
-│             └── 3_glossary.md
-│       └── ex04_welcome_message/
-│             ├── 1_statement.md
-│             ├── 2_solution.py
-│             └── 3_glossary.md
-│       └── ex05_sum_three_integers/
-│             ├── 1_statement.md
-│             ├── 2_solution.py
-│             └── 3_glossary.md
-│       └── ex06_average_three_floats/
-│             ├── 1_statement.md
-│             ├── 2_solution.py
-│             └── 2_3_glossary.md│       
-│       └── ex07_triangle_area/
-│             ├── 1_statement.md
-│             ├── 2_solution.py
-│             └── 3_glossary.md
-│       └── ex08_arithmetic_with_input/
-│             ├── 1_statement.md
-│             ├── 2_solution.py
-│             └── 3_glossary.md
-│       └── ex09_land_price/
-│             ├── 1_statement.md
-│             ├── 2_solution.py
-│             └── 3_glossary.md
-│       └── ex10_salary_after_taxes/
-│             ├── 1_statement.md
-│             ├── 2_solution.py
-│             └── 3_glossary.md
+├── <span style="color:#7B1FA2;">01_begginer/</span>
+│   └── <span style="color:#7B1FA2;">Ficha1/</span>
+│       ├── <span style="color:#4A90E2;">ex01_simple_menu/</span>
+│       │     ├── <span style="color:#D35400;">1_statement.md</span>
+│       │     ├── <span style="color:#D35400;">2_solution.py</span>
+│       │     └── <span style="color:#D35400;">3_glossary.md</span>
+│       ├── <span style="color:#4A90E2;">ex02_three_variables_print/</span>
+│       ├── <span style="color:#4A90E2;">ex03_basic_arithmetic/</span>
+│       ├── <span style="color:#4A90E2;">ex04_welcome_message/</span>
+│       ├── <span style="color:#4A90E2;">ex05_sum_three_integers/</span>
+│       ├── <span style="color:#4A90E2;">ex06_average_three_floats/</span>
+│       ├── <span style="color:#4A90E2;">ex07_triangle_area/</span>
+│       ├── <span style="color:#4A90E2;">ex08_arithmetic_with_input/</span>
+│       ├── <span style="color:#4A90E2;">ex09_land_price/</span>
+│       └── <span style="color:#4A90E2;">ex10_salary_after_taxes/</span>
 │
-├── 02_basic_intermediate_decision/
-│   └── Ficha2/
-│       └── ex01_age_check/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
-│       └── ex02_greater_or_equal_5/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
-│       └── ex03_range_1_to_5/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
-│       └── ex04_safe_division/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
-│       └── ex05_car_fuel_consumption/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
-│       └── ex06_even_or_odd/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
-│       └── ex07_largest_of_3/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
-│       └── ex08_grade_to_text/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
-│       └── ex09_calculator/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
-│       └── ex10_month_days/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
+├── <span style="color:#7B1FA2;">02_basic_intermediate_decision/</span>
+│   └── <span style="color:#7B1FA2;">Ficha2/</span>
+│       ├── <span style="color:#4A90E2;">ex01_age_check/</span>
+│       ├── <span style="color:#4A90E2;">ex02_greater_or_equal_5/</span>
+│       ├── <span style="color:#4A90E2;">ex03_range_1_to_5/</span>
+│       ├── <span style="color:#4A90E2;">ex04_safe_division/</span>
+│       ├── <span style="color:#4A90E2;">ex05_car_fuel_consumption/</span>
+│       ├── <span style="color:#4A90E2;">ex06_even_or_odd/</span>
+│       ├── <span style="color:#4A90E2;">ex07_largest_of_3/</span>
+│       ├── <span style="color:#4A90E2;">ex08_grade_to_text/</span>
+│       ├── <span style="color:#4A90E2;">ex09_calculator/</span>
+│       └── <span style="color:#4A90E2;">ex10_month_days/</span>
 │
-├── 03_intermediate_loops/
-│   └── Ficha3/
-│       └── exXX_exercise_name/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
+├── <span style="color:#7B1FA2;">03_intermediate_loops/</span>
+│   └── <span style="color:#4A90E2;">exXX_exercise_name/</span>
 │
-├── 04_intermediate_advanced_lists_dicts/
-│   └── Ficha4/
-│       └── exXX_exercise_name/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
+├── <span style="color:#7B1FA2;">04_intermediate_advanced_lists_dicts/</span>
+│   └── <span style="color:#4A90E2;">exXX_exercise_name/</span>
 │
-├── 05_advanced_functions_modules_exceptions/
-│   ├── Ficha5_Exceptions/
-│   └── Modules/
-│       └── exXX_exercise_name/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
+├── <span style="color:#7B1FA2;">05_advanced_functions_modules_exceptions/</span>
+│   ├── <span style="color:#7B1FA2;">Ficha5_Exceptions/</span>
+│   └── <span style="color:#7B1FA2;">Modules/</span>
+│       └── <span style="color:#4A90E2;">exXX_exercise_name/</span>
 │
-└── projects/
-└── project_name/
-├── glossary.md
-├── solution.py
-└── statement.md
-```
+└── <span style="color:#7B1FA2;">projects/</span>
+    └── <span style="color:#4A90E2;">project_name/</span>
+</pre>
 
----
+<hr>
 
+<h2>🚀 How to Use</h2>
 
-## 🚀 How to Use:
+<ol>
+  <li>Start with the <strong>Foundations</strong> folder.</li>
+  <li>Progress through each level at your own pace.</li>
+  <li>Read the <span style="color:#D35400;">statement.md</span> before starting.</li>
+  <li>Try solving the exercise before checking <span style="color:#D35400;">solution.py</span>.</li>
+  <li>Use <span style="color:#D35400;">glossary.md</span> to learn new concepts.</li>
+  <li>Explore the projects to consolidate your knowledge.</li>
+</ol>
 
-1. Start with the **Foundations** folder.  
-2. Progress through each level at your own pace.  
-3. Read the `enunciado.md` before attempting the exercise.  
-4. Try solving it yourself before checking `solucao.py`.  
-5. Use `glossario.md` to learn every new term used.  
-6. Explore the projects to consolidate your knowledge.
+<hr>
 
----
+<h2>🎯 Purpose</h2>
 
+<ul>
+  <li>📚 Structured learning</li>
+  <li>🧠 Progressive practice</li>
+  <li>🧩 Concept consolidation</li>
+  <li>💼 Portfolio building</li>
+  <li>🔍 Future reference</li>
+</ul>
 
-## 🎯 Purpose:
-
-This repository was created for:
-
-- 📚 Structured learning  
-- 🧠 Progressive practice  
-- 🧩 Concept consolidation  
-- 💼 Portfolio building  
-- 🔍 Future review and reference  
-
----
-
-
-
-## 🎉 HAVE FUN LEARNING PYTHON!
+<h1>🎉 HAVE FUN LEARNING PYTHON!</h1>

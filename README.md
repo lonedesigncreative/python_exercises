@@ -1,12 +1,16 @@
 # 🐍 Python Exercises & Projects:
 
-This repository contains a complete and structured collection of Python exercises, organized from **beginner to advanced**, along with practical mini‑projects to reinforce learning through real applications.
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+
+> This repository contains a complete and structured collection of Python exercises, organized from **beginner to advanced**, along with practical mini‑projects to reinforce learning through real applications.
 
 Each exercise is stored in its own folder and includes:
 
-- enunciado.md   → exercise description
-- solucao.py     → Python solution
-- glossario.md   → glossary of all terms used in the exercise
+- `enunciado.md` → exercise description
+- `solucao.py`   → Python solution
+- `glossario.md` → glossary of all terms used in the exercise
 
 
 This structure allows for clear, progressive, and professional study.
@@ -15,25 +19,13 @@ This structure allows for clear, progressive, and professional study.
 
 ## 📚 Exercise Levels:
 
-### **1. Foundations (Beginner)**  
-Basic concepts: variables, operators, input/output, simple expressions.  
-📁 Folder: `01_foundations/`
-
-### **2. Basic–Intermediate (Decision Structures)**  
-Conditional logic using `if`, `elif`, `else`, logical operators, validations.  
-📁 Folder: `02_basic_intermediate_decision/`
-
-### **3. Intermediate (Loops)**  
-Iteration with `for` and `while`, counters, multiplication tables, summations.  
-📁 Folder: `03_intermediate_loops/`
-
-### **4. Intermediate–Advanced (Lists & Dictionaries)**  
-Data manipulation with lists, dictionaries, sorting, filtering, helper functions.  
-📁 Folder: `04_intermediate_advanced_lists_dicts/`
-
-### **5. Advanced (Functions, Modules & Exceptions)**  
-Function creation, modular programming, imports, error handling.  
-📁 Folder: `05_advanced_functions_modules_exceptions/`
+| Level | Content | Folder |
+|------|----------|--------|
+| 🟢 **Foundations (Beginner)** | Variables, operators, input/output | `01_foundations/` |
+| 🟡 **Basic–Intermediate (Decision)** | if, elif, else, validations | `02_basic_intermediate_decision/` |
+| 🔵 **Intermediate (Loops)** | for, while, counters, summations | `03_intermediate_loops/` |
+| 🟣 **Intermediate–Advanced (Lists & Dicts)** | lists, dictionaries, sorting, filtering | `04_intermediate_advanced_lists_dicts/` |
+| 🔴 **Advanced (Functions, Modules, Exceptions)** | functions, modules, error handling | `05_advanced_functions_modules_exceptions/` |
 
 ---
 
@@ -41,25 +33,26 @@ Function creation, modular programming, imports, error handling.
 
 Mini‑projects designed to apply the concepts learned:
 
-- Calculator  
-- Number Guessing Game  
-- Menu‑Based System  
-- Task List Manager  
-- Additional progressive challenges  
+- 🧮 Calculator  
+- 🎯 Number Guessing Game  
+- 📋 Menu‑Based System  
+- 🗂️ Task List Manager  
+- 🧠 Progressive challenges  
+
 
 📁 Folder: `projects/`
 
 Each project also includes:
 
-- enunciado.md
-- solucao.py
-- glossario.md
+- `enunciado.md`
+- `solucao.py`
+- `glossario.md`
 
 ---
 
 ## 📄 Repository Structure:
 
-```
+```plaintext
 Python/
 │
 ├── 01_begginer/

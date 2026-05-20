@@ -5,6 +5,11 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 ![Python](https://img.shields.io/badge/Python-blue?logo=python&logoColor=white&style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-🐍-yellow?style=for-the-badge)
+
+https://img.shields.io/badge/Python-blue?logo=python&logoColor=white&style=for-the-badge
+https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge
+https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge
 
 > This repository contains a complete and structured collection of Python exercises, organized from **beginner to advanced**, along with practical mini‑projects to reinforce learning through real applications.
 

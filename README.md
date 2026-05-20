@@ -188,7 +188,7 @@ Python/
 ---
 
 
-## 🎯 <font color="red"> Purpose: </font>
+## 🎯 <fontcolor="#FF00FF"> Purpose: </fontcolor>
 
 This repository was created for:
 
@@ -200,7 +200,5 @@ This repository was created for:
 
 ---
 
-
-> :bulb: **Tip:**
-> 
-## 🎉 HAVE FUN LEARNING PYTHON!
+ 
+> ## 🎉 HAVE FUN LEARNING PYTHON!

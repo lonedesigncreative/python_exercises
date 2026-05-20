@@ -200,9 +200,5 @@ This repository was created for:
 
 ---
 
- 
+
 > ## 🎉 HAVE FUN LEARNING PYTHON!
->
-> <div style="background-color: #ffcccc; padding: 10px; border-radius: 5px;">
-  <font color="#990000">Este texto está dentro de uma caixa vermelha clara.</font>
-</div>

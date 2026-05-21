@@ -1,0 +1,9 @@
+# Sum of even numbers from 1 to 50
+
+sum = 0
+
+for number in range(1, 51):  # from 1 to 50 inclusive
+    if number % 2 == 0:      # check if the number is even
+        sum = sum + number
+
+print(f"The sum of all even numbers from 1 to 50 is: {sum}")

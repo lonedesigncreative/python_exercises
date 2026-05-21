@@ -73,7 +73,7 @@ When Python finds a matching case, it runs that block of code.
   - **case** → the options you want to compare against
   - **case _** → the “default” (when nothing matches)
 
-> [!CAUTION]
+[!CAUTION]
 - **match compares exact values** → `"3"` is not the same as `3`.
 - **case _ is the default** → use it for “anything else”.
 - **match works top to bottom** → the first matching case wins.

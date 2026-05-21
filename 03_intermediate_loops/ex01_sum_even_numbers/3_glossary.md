@@ -111,6 +111,7 @@ A **for loop** is used when you want to **repeat a block of code a specific numb
 > “For each value in this sequence, do this action.”
 
 ### :warning: **Warning:**
+> [!CAUTION]
 - **Indentation is required** → everything inside the loop must be indented.
 - **range upper limit is not included** → `range(1, 5)` stops at 4, not 5.
 - **Variable name is temporary** → `i`, `n`, `item` are just loop variables.
@@ -161,5 +162,13 @@ The function **range** creates a sequence of numbers.
 > [!WARNING]
 > Urgent info that needs immediate user attention to avoid problems.
 
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+- **Indentation is required** → everything inside the loop must be indented.
+- **range upper limit is not included** → `range(1, 5)` stops at 4, not 5.
+- **Variable name is temporary** → `i`, `n`, `item` are just loop variables.
+- **Avoid infinite loops** → `for` loops normally don’t go infinite, but wrong ranges can cause issues.
+- **Be careful with input()** → convert values before using them in a range.
+- **Don’t modify the list while looping** → it can break the loop.
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.

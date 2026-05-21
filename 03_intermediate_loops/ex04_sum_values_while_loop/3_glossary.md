@@ -109,7 +109,7 @@ A **while loop** repeats a block of code **as long as the condition is True**.
 #### :warning: **Warning:** 
 > “Keep doing this while the condition is true.”
 
-> #### :bulb: **Nota**
+#### :bulb: **Nota**
   - When the condition becomes **False**, the loop stops.
 
 > [!IMPORTANT]

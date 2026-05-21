@@ -147,3 +147,19 @@ The function **range** creates a sequence of numbers.
   - `range(5)` → 0,1,2,3,4
   - `range(1, 5)` → 1,2,3,4
   - `range(1, 10, 2)` → 1,3,5,7,9 (step of 2)
+
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.

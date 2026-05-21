@@ -3,6 +3,7 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
+> [!CAUTION]
 - **Always use parentheses** → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
@@ -18,6 +19,7 @@ This will display:
 ## What it is:  
 `input` is a command that **asks the user to type something**.
 
+> [!CAUTION]
 - `input` always returns text, even if the user types a number.
 - If you want a number, you must convert it.
 
@@ -29,6 +31,7 @@ This will display:
 ## What it is:  
 An integer is a whole number, without decimals.
 
+> [!CAUTION]
 - An integer cannot have decimals.
 - **Do NOT use a comma** → Python will think it’s two values.
 
@@ -40,6 +43,7 @@ An integer is a whole number, without decimals.
 ## What it is:  
 Text inside quotes `" "`.
 
+> [!CAUTION]
 - Text must always be inside quotes.
 - If you put numbers inside quotes, they become text, not numbers.
 

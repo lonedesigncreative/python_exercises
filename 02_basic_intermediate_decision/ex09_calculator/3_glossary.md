@@ -3,6 +3,7 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
+> [!CAUTION]
 - Always use parentheses → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
@@ -18,6 +19,7 @@ This will display:
 ## What it is:  
 A decimal number - a number with a dot (.).
 
+> [!CAUTION]
 - Python uses a dot, not a comma.
 - 3.5 is correct, 3,5 is wrong.
 
@@ -29,6 +31,7 @@ A decimal number - a number with a dot (.).
 ## What it is:  
 Text inside quotes `" "`.
 
+> [!CAUTION]
 - Text must always be inside quotes.
 - If you put numbers inside quotes, they become text, not numbers.
 
@@ -49,6 +52,7 @@ Text inside quotes `" "`.
 ## What it does:  
 Adds two values.
 
+> [!CAUTION]
 - Only works correctly with numbers.
 - If you add text, Python will join the words instead of doing math.
 
@@ -60,6 +64,7 @@ Adds two values.
 ## What it does:  
 Subtracts one value from another.
 
+> [!CAUTION]
 - You cannot subtract text.
 - You cannot subtract using commas (European style). Use dots.
 
@@ -71,6 +76,7 @@ Subtracts one value from another.
 ## What it does:  
 Multiplies two values.
 
+> [!CAUTION]
 - Multiplying text repeats it.
 
 **Example:**
@@ -83,6 +89,7 @@ Multiplies two values.
 Divides one value by another.
 Always returns a decimal (float).
 
+> [!CAUTION]
 - Division always returns a decimal (float).
 - Be careful with dividing by zero - it causes an error.
 
@@ -106,6 +113,7 @@ Always returns a decimal (float).
 ## What it is:
 An f string is a special type of text that allows you to insert variables inside the text.
 
+> [!CAUTION]
 - Don’t forget the **f** before the quotes.
 - Without the **f**, Python will not replace the variables.
 
@@ -116,6 +124,7 @@ You write it with the letter f before the quotes:
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.
 
+> [!CAUTION]
 - Inside `{ }` you must put a **variable** or an **expression**.
 - If you put text without quotes, it gives an error.
 - If you put quotes inside `{ }`, it becomes text again.
@@ -147,6 +156,7 @@ When Python finds a matching case, it runs that block of code.
   - **case** → the options you want to compare against
   - **case _** → the “default” (when nothing matches)
 
+> [!CAUTION]
 - **match compares exact values** → `"3"` is not the same as `3`.
 - **case _ is the default** → use it for “anything else”.
 - **match works top to bottom** → the first matching case wins.

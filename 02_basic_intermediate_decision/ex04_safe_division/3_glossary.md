@@ -3,6 +3,7 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
+> [!CAUTION]
 - **Always use parentheses** → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
@@ -18,6 +19,7 @@ This will display:
 ## What it is:  
 `input` is a command that **asks the user to type something**.
 
+> [!CAUTION]
 - `input` always returns text, even if the user types a number.
 - If you want a number, you must convert it.
 
@@ -29,6 +31,7 @@ This will display:
 ## What it is:
 A `float` is a decimal number in Python -> a number with a **dot** instead of a comma.
 
+> [!CAUTION]
 - **Floats use a dot, not a comma** -> Python only accepts decimals with a dot.
 - **Floats can lose precision** -> some decimal values are not stored exactly.
 - **`input()` returns text, not float** -> you must convert the input before using it as a decimal.
@@ -44,6 +47,7 @@ A `float` is a decimal number in Python -> a number with a **dot** instead of a 
 ## What it is:  
 Text inside quotes `" "`.
 
+> [!CAUTION]
 - Text must always be inside quotes.
 - If you put numbers inside quotes, they become text, not numbers.
 
@@ -64,6 +68,7 @@ Text inside quotes `" "`.
 ## What it is:
 An f‑string is a special type of text that allows you to insert variables inside the text.
 
+> [!CAUTION]
 - Don’t forget the **f** before the quotes.
 - Without the **f**, Python will not replace the variables.
 
@@ -75,6 +80,7 @@ You write it with the letter f before the quotes:
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.
 
+> [!CAUTION]
 - Inside `{ }` you must put a **variable** or an **expression**.
 - If you put text without quotes, it gives an error.
 - If you put quotes inside `{ }`, it becomes text again.
@@ -100,6 +106,7 @@ Python replaces {age} with the value of the variable.
 Divides one value by another.
 Always returns a decimal (float).
 
+> [!CAUTION]
 - Division always returns a decimal (float).
 - Be careful with dividing by zero - it causes an error.
 
@@ -113,6 +120,7 @@ An **if** statement checks a condition.
 If the condition is **true**, the code inside **runs**.
 If the condition is **false**, Python **skips it**.
 
+> [!CAUTION]
 - **Indentation is required** → the code inside the `if` must be indented.
 - **If without else does nothing when false** → the program continues normally.
 - **Condition must be valid** → avoid writing text or invalid expressions inside the `if`.
@@ -132,6 +140,7 @@ It is the “backup” or “alternative” action.
 **if** = what happens when the condition is true
 **else** = what happens when the condition is false
 
+> [!CAUTION]
 - **Else must come after an if** → you cannot use `else` alone.
 - **Indentation is required** → the code inside `else` must be indented.
 - **Else has no condition** → it runs automatically when the `if` is false.
@@ -154,7 +163,7 @@ The round() function rounds a number to the number of decimal places you choose.
   - **round(number)** → rounds to the nearest whole number
   - **round(number, decimals)** → rounds to the number of decimals you specify
 
-
+> [!CAUTION]
 - **Rounding is not always exact** → floats can have tiny precision errors.
 - **`round()` does not format output** → it changes the number, but does not force decimals to appear.
 - **Use `.2f` for formatting** → if you want fixed decimal places, use formatting instead of round.
@@ -174,6 +183,7 @@ It checks if a value is **strictly bigger** than another value.
   - If the left value is bigger → True
   - If it is equal or smaller → False
 
+> [!CAUTION]
 - **> is different from `>=`** → `>` does NOT include equality.
 - **Compare only numbers** → avoid comparing text with numbers.
 - **Convert `input()` first** → input is text, so convert before comparing.

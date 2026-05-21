@@ -3,6 +3,7 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
+> [!CAUTION]
 - Always use parentheses → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
@@ -18,6 +19,7 @@ This will display:
 ## What it does:  
 Multiplies two values.
 
+> [!CAUTION]
 - Multiplying text repeats it.
 
 **Example:**
@@ -28,6 +30,7 @@ Multiplies two values.
 ## What it is:  
 A decimal number - a number with a dot (.).
 
+> [!CAUTION]
 - Python uses a dot, not a comma.
 - 3.5 is correct, 3,5 is wrong.
 
@@ -43,6 +46,7 @@ A decimal number - a number with a dot (.).
 ## What it is:  
 Text inside quotes `" "`.
 
+> [!CAUTION]
 - Text must always be inside quotes.
 - If you put numbers inside quotes, they become text, not numbers.
 
@@ -64,6 +68,7 @@ Text inside quotes `" "`.
 ## What it is:  
 `input` is a command that **asks the user to type something**.
 
+> [!CAUTION]
 - `input` always returns text, even if the user types a number.
 - If you want a number, you must convert it.
 
@@ -76,6 +81,7 @@ Text inside quotes `" "`.
 ## What it is:
 An f string is a special type of text that allows you to insert variables inside the text.
 
+> [!CAUTION]
 - Don’t forget the **f** before the quotes.
 - Without the **f**, Python will not replace the variables.
 
@@ -86,6 +92,7 @@ You write it with the letter f before the quotes:
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.
 
+> [!CAUTION]
 - Inside `{ }` you must put a **variable** or an **expression**.
 - If you put text without quotes, it gives an error.
 - If you put quotes inside `{ }`, it becomes text again.
@@ -109,6 +116,7 @@ Python replaces {age} with the value of the variable.
 ## What it does:  
 Adds two values.
 
+> [!CAUTION]
 - Only works correctly with numbers.
 - If you add text, Python will join the words instead of doing math.
 
@@ -122,6 +130,7 @@ Adds two values.
 Divides one value by another.
 Always returns a decimal (float).
 
+> [!CAUTION]
 - Division always returns a decimal (float).
 - Be careful with dividing by zero - it causes an error.
 
@@ -137,6 +146,7 @@ The round() function rounds a number to the number of decimal places you choose.
   - **round(number)** → rounds to the nearest whole number
   - **round(number, decimals)** → rounds to the number of decimals you specify
 
+> [!CAUTION]
 - **Rounding is not always exact** → floats can have tiny precision errors.
 - **`round()` does not format output** → it changes the number, but does not force decimals to appear.
 - **Use `.2f` for formatting** → if you want fixed decimal places, use formatting instead of round.
@@ -154,6 +164,7 @@ A **for loop** is used when you want to **repeat a block of code a specific numb
 ## What it means:
 > “For each value in this sequence, do this action.”
 
+> [!CAUTION]
 - **Indentation is required** → everything inside the loop must be indented.
 - **range upper limit is not included** → `range(1, 5)` stops at 4, not 5.
 - **Variable name is temporary** → `i`, `n`, `item` are just loop variables.
@@ -184,6 +195,7 @@ A **for loop** is used when you want to **repeat a block of code a specific numb
 
 `print(total)`
 
+> [!IMPORTANT]
 ## How the `range()` works
 The function **range** creates a sequence of numbers.
   - `range(5)` → 0,1,2,3,4

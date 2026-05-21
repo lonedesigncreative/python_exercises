@@ -14,29 +14,6 @@
 This will display:
 - *Python!*
 
-# 2 - Multiplication (`*`)
-
-## What it does:  
-Multiplies two values.
-
-> [!CAUTION]
-- Multiplying text repeats it.
-
-**Example:**
-`product = 6 * 2`
-
-# 3 - Integer
-
-## What it is:  
-An integer is a whole number, without decimals.
-
-> [!CAUTION]
-- An integer cannot have decimals.
-- **Do NOT use a comma** → Python will think it’s two values.
-
-**Example:**
-`age = 25`
-
 # 4 - Text (in Python called string)
 
 ## What it is:  
@@ -59,20 +36,39 @@ Text inside quotes `" "`.
 | text (string) | Words inside quotes | "Hello" |
 
 
-# 5 - Input
+# 5 - `<=`
 
 ## What it is:  
-`input` is a command that **asks the user to type something**.
+The `<=`  operator means **less than or equal to**.
+It checks if a value is **smaller** or **the same** as another value.
 
 > [!CAUTION]
-- `input` always returns text, even if the user types a number.
-- If you want a number, you must convert it.
+- **`<=` includes equality** → different from `<`, which does not.
+- **Compare only numbers** → avoid comparing text with numbers.
+- **Convert `input()` first** → input is text, so convert before comparing.
+- **Spacing matters** → write `a <= 10`, not `a<=10abc`.
 
 **Example:**
-`name = input("Enter your name: ")`
+`age = 12`
+`print(age <= 12)`   # True
+
+`temperature = 18`
+`print(temperature <= 15)`   # False
 
 
-# 6 - f-string (f"")
+# 6 - Addition (`+`)
+
+## What it does:  
+Adds two values.
+
+> [!CAUTION]
+- Only works correctly with numbers.
+- If you add text, Python will join the words instead of doing math.
+
+**Example:**
+`total = 5 + 3`
+
+# 7 - f-string (f"")
 
 ## What it is:
 An f string is a special type of text that allows you to insert variables inside the text.
@@ -84,7 +80,7 @@ An f string is a special type of text that allows you to insert variables inside
 You write it with the letter f before the quotes:
 `f"Hello {name}"`
 
-# 7 - { }
+# 8 - { }
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.
 
@@ -107,47 +103,47 @@ Python replaces {age} with the value of the variable.
 | f-string | Text that can show variables | `f"Hello {name}"` |
 | { } | Shows the variable’s value inside the f string | `{age}` |
 
+# 9 - While (loop)
+A **while loop** repeats a block of code **as long as the condition is True**.
 
-# 8 - For (loop)
-A **for loop** is used when you want to **repeat a block of code a specific number of times** or **go through each item in a sequence** (like a list, string, or range).
+## What it means:  
+> “Keep doing this while the condition is true.”
 
-## What it means:
-> “For each value in this sequence, do this action.”
-
-> [!CAUTION]
-- **Indentation is required** → everything inside the loop must be indented.
-- **range upper limit is not included** → `range(1, 5)` stops at 4, not 5.
-- **Variable name is temporary** → `i`, `n`, `item` are just loop variables.
-- **Avoid infinite loops** → `for` loops normally don’t go infinite, but wrong ranges can cause issues.
-- **Be careful with input()** → convert values before using them in a range.
-- **Don’t modify the list while looping** → it can break the loop.
-
-**Example:**
-*1. Loop from 1 to 5*
-`for i in range(1, 6):`
-    `print(i)`
-
-*2. Loop through a list*
-`fruits = ["apple", "banana", "orange"]`
-
-`for fruit in fruits:`
-    `print(fruit)`
-
-*3. Loop through each letter in a string*
-`for letter in "Python":`
-    `print(letter)`
-
-*4. Sum numbers from 1 to 10*
-`total = 0`
-
-`for n in range(1, 11):`
-    `total += n`
-
-`print(total)`
+> [!NOTE]
+  - When the condition becomes **False**, the loop stops.
 
 > [!IMPORTANT]
-## How the `range()` works
-The function **range** creates a sequence of numbers.
-  - `range(5)` → 0,1,2,3,4
-  - `range(1, 5)` → 1,2,3,4
-  - `range(1, 10, 2)` → 1,3,5,7,9 (step of 2)
+## How it works:
+- The condition is checked first.
+- If True, the loop runs.
+- If False, the loop stops.
+
+> [!CAUTION]
+- **Avoid infinite loops** → always update the variable inside the loop.
+- **Condition must eventually become False** → otherwise the loop never ends.
+- **Indentation is required** → everything inside the loop must be indented.
+- **Be careful with `input()`** → convert values before comparing.
+- **Use while when repetitions are unknown** → if you know the exact number, `for` is usually better.
+
+**Example:**
+*Example 1 - Count from 1 to 5*
+`i = 1`
+
+`while i <= 5:`
+    `print(i)`
+    `i += 1`
+
+*Example 2 - Ask for a password until correct*
+`password = ""`
+
+`while password != "1234":`
+    `password = input("Enter password: ")`
+
+`print("Access granted")`
+
+*Example 3 - Countdown*
+`n = 5`
+
+`while n > 0:`
+    `print(n)`
+    `n -= 1`

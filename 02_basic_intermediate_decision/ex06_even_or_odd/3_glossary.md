@@ -3,6 +3,7 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
+> [!CAUTION]
 - **Always use parentheses** → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
@@ -18,6 +19,7 @@ This will display:
 ## What it is:  
 `input` is a command that **asks the user to type something**.
 
+> [!CAUTION]
 - `input` always returns text, even if the user types a number.
 - If you want a number, you must convert it.
 
@@ -29,6 +31,7 @@ This will display:
 ## What it is:  
 An integer is a whole number, without decimals.
 
+> [!CAUTION]
 - An integer cannot have decimals.
 - **Do NOT use a comma** → Python will think it’s two values.
 
@@ -45,6 +48,7 @@ It returns True when the values are equal and False when they are different.
   - `==` → compares values
   - It does not assign values (that’s =)
 
+> [!CAUTION]
 - **== is not =**
   - = assigns a value; == compares values.
 - **Compare compatible types**
@@ -67,10 +71,10 @@ It returns True when the values are equal and False when they are different.
 # 5 - Remainder (`%`)
 Also called modulo.
 
+> [!CAUTION]
 - Only works with numbers.
 - If you use text, Python gives an error.
 - Be careful: % does not give the result of the division - only the remainder.
-
 
 ## What it does:  
 Returns the remainder of a division.
@@ -86,6 +90,7 @@ An **if** statement checks a condition.
 If the condition is **true**, the code inside **runs**.
 If the condition is **false**, Python **skips it**.
 
+> [!CAUTION]
 - **Indentation is required** → the code inside the `if` must be indented.
 - **If without else does nothing when false** → the program continues normally.
 - **Condition must be valid** → avoid writing text or invalid expressions inside the `if`.
@@ -105,6 +110,7 @@ It is the “backup” or “alternative” action.
   - **if** = what happens when the condition is true
   - **else** = what happens when the condition is false
 
+> [!CAUTION]
 - **Else must come after an if** → you cannot use `else` alone.
 - **Indentation is required** → the code inside `else` must be indented.
 - **Else has no condition** → it runs automatically when the `if` is false.

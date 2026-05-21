@@ -3,6 +3,7 @@
 ## What it is:  
 `input` is a command that **asks the user to type something**.
 
+> [!CAUTION]
 - `input` always returns text, even if the user types a number.
 - If you want a number, you must convert it.
 
@@ -16,6 +17,7 @@ It waits for the user to write something and press Enter.
 ## What it is:  
 Text inside quotes `" "`.
 
+> [!CAUTION]
 - Text must always be inside quotes.
 - If you put numbers inside quotes, they become text, not numbers.
 
@@ -37,6 +39,7 @@ Text inside quotes `" "`.
 ## What it is:
 An f‑string is a special type of text that allows you to insert variables inside the text.
 
+> [!CAUTION]
 - Don’t forget the **f** before the quotes.
 - Without the **f**, Python will not replace the variables.
 
@@ -48,6 +51,7 @@ You write it with the letter f before the quotes:
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.
 
+> [!CAUTION]
 - Inside `{ }` you must put a **variable** or an **expression**.
 - If you put text without quotes, it gives an error.
 - If you put quotes inside `{ }`, it becomes text again.

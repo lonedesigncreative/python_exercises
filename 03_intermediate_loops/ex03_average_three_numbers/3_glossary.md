@@ -196,7 +196,7 @@ A **for loop** is used when you want to **repeat a block of code a specific numb
 `print(total)`
 
 > [!IMPORTANT]
-> #### How the `range()` works:
+> - #### How the `range()` works:
 > The function **range** creates a sequence of numbers.
 >   - `range(5)` → 0,1,2,3,4
 >   - `range(1, 5)` → 1,2,3,4

@@ -3,7 +3,8 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-### :warning: **Warning:**
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
 - Always use parentheses → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
@@ -19,7 +20,8 @@ This will display:
 ## What it does:  
 Adds two values.
 
-### :warning: **Warning:**
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
 - Only works correctly with numbers.
 - If you add text, Python will join the words instead of doing math.
 
@@ -29,7 +31,8 @@ Adds two values.
 # 3 - Remainder (`%`)
 Also called modulo.
 
-### :warning: **Warning:**
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
 - Only works with numbers.
 - If you use text, Python gives an error.
 - Be careful: % does not give the result of the division - only the remainder.
@@ -49,7 +52,8 @@ It returns True when the values are equal and False when they are different.
   - `==` → compares values
   - It does not assign values (that’s =)
 
-### :warning: **Warning:**
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
 - **== is not =**
   - = assigns a value; == compares values.
 - **Compare compatible types**
@@ -73,7 +77,8 @@ It returns True when the values are equal and False when they are different.
 ## What it is:
 An f string is a special type of text that allows you to insert variables inside the text.
 
-### :warning: **Warning:**
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
 - Don’t forget the **f** before the quotes.
 - Without the **f**, Python will not replace the variables.
 
@@ -84,7 +89,8 @@ You write it with the letter f before the quotes:
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.
 
-### :warning: **Warning:**
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
 - Inside `{ }` you must put a **variable** or an **expression**.
 - If you put text without quotes, it gives an error.
 - If you put quotes inside `{ }`, it becomes text again.
@@ -110,14 +116,14 @@ A **for loop** is used when you want to **repeat a block of code a specific numb
 ## What it means:
 > “For each value in this sequence, do this action.”
 
-### :warning: **Warning:**
 > [!CAUTION]
-- **Indentation is required** → everything inside the loop must be indented.
-- **range upper limit is not included** → `range(1, 5)` stops at 4, not 5.
-- **Variable name is temporary** → `i`, `n`, `item` are just loop variables.
-- **Avoid infinite loops** → `for` loops normally don’t go infinite, but wrong ranges can cause issues.
-- **Be careful with input()** → convert values before using them in a range.
-- **Don’t modify the list while looping** → it can break the loop.
+> Advises about risks or negative outcomes of certain actions.
+> - **Indentation is required** → everything inside the loop must be indented.
+> - **range upper limit is not included** → `range(1, 5)` stops at 4, not 5.
+> - **Variable name is temporary** → `i`, `n`, `item` are just loop variables.
+> - **Avoid infinite loops** → `for` loops normally don’t go infinite, but wrong ranges can cause issues.
+> - **Be careful with input()** → convert values before using them in a range.
+> - **Don’t modify the list while looping** → it can break the loop.
 
 **Example:**
 *1. Loop from 1 to 5*
@@ -148,27 +154,3 @@ The function **range** creates a sequence of numbers.
   - `range(5)` → 0,1,2,3,4
   - `range(1, 5)` → 1,2,3,4
   - `range(1, 10, 2)` → 1,3,5,7,9 (step of 2)
-
-
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
-- **Indentation is required** → everything inside the loop must be indented.
-- **range upper limit is not included** → `range(1, 5)` stops at 4, not 5.
-- **Variable name is temporary** → `i`, `n`, `item` are just loop variables.
-- **Avoid infinite loops** → `for` loops normally don’t go infinite, but wrong ranges can cause issues.
-- **Be careful with input()** → convert values before using them in a range.
-- **Don’t modify the list while looping** → it can break the loop.
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.

@@ -1,9 +1,7 @@
-- Create a program that displays a menu of options.
-
-- The menu should include the following actions:
-    - Add Product
-    - Update Product
-    - Delete Product
-    - View Product List
-    - Search Product
-    - Exit
+- Ask the user to enter **two numerical values** and specify which **arithmetic operation** they want to perform.
+- After reading the inputs, use a selective decision structure to evaluate the operator provided.
+- If the user enters **"+"**, the program should calculate and display the **sum**.
+- If the operator is **"-"**, the program must perform the **subtraction**.
+- If **"*"** is entered, the program should carry out the **multiplication**.
+- If the chosen operator is **"/"**, the program must execute the division.
+- For any other symbol that does not correspond to a valid operation, the program should display the message **"Invalid operator."**

@@ -3,7 +3,7 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-## :warning: **Warning:**
+#### :warning: **Warning:**
 - Always use parentheses → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
@@ -19,7 +19,7 @@ This will display:
 ## What it is:  
 Text inside quotes `" "`.
 
-## :warning: **Warning:**
+#### :warning: **Warning:**
 - Text must always be inside quotes.
 - If you put numbers inside quotes, they become text, not numbers.
 
@@ -42,7 +42,7 @@ Text inside quotes `" "`.
 The `<=`  operator means **less than or equal to**.
 It checks if a value is **smaller** or **the same** as another value.
 
-## :warning: **Warning:**
+### :warning: **Warning:**
 - **`<=` includes equality** → different from `<`, which does not.
 - **Compare only numbers** → avoid comparing text with numbers.
 - **Convert `input()` first** → input is text, so convert before comparing.
@@ -61,7 +61,7 @@ It checks if a value is **smaller** or **the same** as another value.
 ## What it does:  
 Adds two values.
 
-## :warning: **Warning:**
+### :warning: **Warning:**
 - Only works correctly with numbers.
 - If you add text, Python will join the words instead of doing math.
 
@@ -73,7 +73,7 @@ Adds two values.
 ## What it is:
 An f string is a special type of text that allows you to insert variables inside the text.
 
-## :warning: **Warning:**
+### :warning: **Warning:**
 - Don’t forget the **f** before the quotes.
 - Without the **f**, Python will not replace the variables.
 
@@ -84,7 +84,7 @@ You write it with the letter f before the quotes:
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.
 
-## :warning: **Warning:**
+### :warning: **Warning:**
 - Inside `{ }` you must put a **variable** or an **expression**.
 - If you put text without quotes, it gives an error.
 - If you put quotes inside `{ }`, it becomes text again.
@@ -106,10 +106,10 @@ Python replaces {age} with the value of the variable.
 # 9 - While (loop)
 A **while loop** repeats a block of code **as long as the condition is True**.
 
-### :warning: **Warning:** 
+#### :warning: **Warning:** 
 > “Keep doing this while the condition is true.”
 
-> :note:
+> #### :bulb: **Nota**
   - When the condition becomes **False**, the loop stops.
 
 > [!IMPORTANT]
@@ -118,7 +118,7 @@ A **while loop** repeats a block of code **as long as the condition is True**.
 - If True, the loop runs.
 - If False, the loop stops.
 
-### :warning: **Warning:**
+#### :warning: **Warning:**
 - **Avoid infinite loops** → always update the variable inside the loop.
 - **Condition must eventually become False** → otherwise the loop never ends.
 - **Indentation is required** → everything inside the loop must be indented.

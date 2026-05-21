@@ -1,0 +1,3 @@
+- Ask the user to enter an **integer number**, which will be used as the base for generating the multiplication table.
+- Use the **`range()` function**, explicitly defining the **minimum limit (1)** and the **maximum limit (10)**, to iterate through all values in this interval.
+- With this information, build a program that **calculates and displays the complete multiplication table** for the number provided, showing the result of each multiplication from 1 to 10.

@@ -117,7 +117,6 @@ A **for loop** is used when you want to **repeat a block of code a specific numb
 > “For each value in this sequence, do this action.”
 
 > [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
 > - **Indentation is required** → everything inside the loop must be indented.
 > - **range upper limit is not included** → `range(1, 5)` stops at 4, not 5.
 > - **Variable name is temporary** → `i`, `n`, `item` are just loop variables.

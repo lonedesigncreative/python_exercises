@@ -3,7 +3,7 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-> [!CAUTION]
+## :warning: **Warning:**
 - **Always use parentheses** → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
@@ -19,7 +19,7 @@ This will display:
 ## What it is:  
 `input` is a command that **asks the user to type something**.
 
-> [!CAUTION]
+## :warning: **Warning:**
 - `input` always returns text, even if the user types a number.
 - If you want a number, you must convert it.
 
@@ -31,7 +31,7 @@ This will display:
 ## What it is:
 A `float` is a decimal number in Python -> a number with a **dot** instead of a comma.
 
-> [!CAUTION]
+## :warning: **Warning:**
 - **Floats use a dot, not a comma** → Python only accepts decimals with a dot.
 - **Floats can lose precision** → some decimal values are not stored exactly.
 - **`input()` returns text, not float** → you must convert the input before using it as a decimal.
@@ -47,7 +47,7 @@ A `float` is a decimal number in Python -> a number with a **dot** instead of a 
 ## What it is:  
 Text inside quotes `" "`.
 
-> [!CAUTION]
+## :warning: **Warning:**
 - Text must always be inside quotes.
 - If you put numbers inside quotes, they become text, not numbers.
 
@@ -69,7 +69,7 @@ Text inside quotes `" "`.
 The `<=`  operator means **less than or equal to**.
 It checks if a value is **smaller** or **the same** as another value.
 
-> [!CAUTION]
+## :warning: **Warning:**
 - **`<=` includes equality** → different from `<`, which does not.
 - **Compare only numbers** → avoid comparing text with numbers.
 - **Convert `input()` first** → input is text, so convert before comparing.
@@ -90,7 +90,7 @@ An **if** statement checks a condition.
 If the condition is **true**, the code inside **runs**.
 If the condition is **false**, Python **skips it**.
 
-> [!CAUTION]
+## :warning: **Warning:**
 - **Indentation is required** → the code inside the `if` must be indented.
 - **If without else does nothing when false** → the program continues normally.
 - **Condition must be valid** → avoid writing text or invalid expressions inside the `if`.
@@ -110,7 +110,7 @@ It is the “backup” or “alternative” action.
   - **if** = what happens when the condition is true
   - **else** = what happens when the condition is false
 
-> [!CAUTION]
+## :warning: **Warning:**
 - **Else must come after an if** → you cannot use `else` alone.
 - **Indentation is required** → the code inside `else` must be indented.
 - **Else has no condition** → it runs automatically when the `if` is false.
@@ -135,7 +135,7 @@ It is used when you want to check another condition after the first `if`.
   - `elif` → second condition (only checked if the first is false)
   - `else` → runs when all previous conditions are false
 
-> [!CAUTION]
+## :warning: **Warning:**
 - **Elif must come after an if** → you cannot start with `elif`.
 - **Order matters** → Python checks conditions from top to bottom.
 - **Only one block runs** → once one condition is true, the rest are skipped.
@@ -156,7 +156,7 @@ It is used when you want to check another condition after the first `if`.
 ## What it is:
 An f‑string is a special type of text that allows you to insert variables inside the text.
 
-> [!CAUTION]
+## :warning: **Warning:**
 - Don’t forget the **f** before the quotes.
 - Without the **f**, Python will not replace the variables.
 
@@ -168,7 +168,7 @@ You write it with the letter f before the quotes:
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.
 
-> [!CAUTION]
+## :warning: **Warning:**
 - Inside `{ }` you must put a **variable** or an **expression**.
 - If you put text without quotes, it gives an error.
 - If you put quotes inside `{ }`, it becomes text again.
@@ -194,7 +194,7 @@ Python replaces {age} with the value of the variable.
 Divides one value by another.
 Always returns a decimal (float).
 
-> [!CAUTION]
+## :warning: **Warning:**
 - Division always returns a decimal (float).
 - Be careful with dividing by zero - it causes an error.
 
@@ -216,7 +216,7 @@ Multiplies two values.
 **The f means:** format as a float (decimal number)
 It is typically used within an f-string.
 
-> [!CAUTION]
+## :warning: **Warning:**
 - **Use only inside f‑strings** → the `._f` format only works inside `{ }` in an f‑string.
 - **Works only with numbers** → you can only format integers or floats.
 - **It rounds the value** → the number is rounded to the number of decimals you choose.

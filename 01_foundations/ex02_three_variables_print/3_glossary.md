@@ -3,7 +3,7 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-> [!CAUTION]
+## :warning: **Warning:**
 - **Always use parentheses** → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
@@ -19,7 +19,7 @@ This will display:
 ## What it is:  
 An integer is a whole number, without decimals.
 
-> [!CAUTION]
+## :warning: **Warning:**
 - An integer cannot have decimals.
 - **Do NOT use a comma** → Python will think it’s two values.
 
@@ -31,7 +31,7 @@ An integer is a whole number, without decimals.
 ## What it is:  
 A decimal number - a number with a dot (.).
 
-> [!CAUTION]
+## :warning: **Warning:**
 - Python uses a dot, not a comma.
 - 3.5 is correct, 3,5 is wrong.
 
@@ -43,7 +43,7 @@ A decimal number - a number with a dot (.).
 ## What it is:  
 Text inside quotes `" "`.
 
-> [!CAUTION]
+## :warning: **Warning:**
 - Text must always be inside quotes.
 - If you put numbers inside quotes, they become text, not numbers.
 

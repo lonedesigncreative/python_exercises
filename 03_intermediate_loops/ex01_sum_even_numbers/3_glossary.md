@@ -3,7 +3,7 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-> [!CAUTION]
+## :warning: **Warning:**
 - Always use parentheses → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
@@ -19,7 +19,7 @@ This will display:
 ## What it does:  
 Adds two values.
 
-> [!CAUTION]
+## :warning: **Warning:**
 - Only works correctly with numbers.
 - If you add text, Python will join the words instead of doing math.
 
@@ -29,7 +29,7 @@ Adds two values.
 # 3 - Remainder (`%`)
 Also called modulo.
 
-> [!CAUTION]
+## :warning: **Warning:**
 - Only works with numbers.
 - If you use text, Python gives an error.
 - Be careful: % does not give the result of the division - only the remainder.
@@ -49,7 +49,7 @@ It returns True when the values are equal and False when they are different.
   - `==` → compares values
   - It does not assign values (that’s =)
 
-> [!CAUTION]
+## :warning: **Warning:**
 - **== is not =**
   - = assigns a value; == compares values.
 - **Compare compatible types**
@@ -73,7 +73,7 @@ It returns True when the values are equal and False when they are different.
 ## What it is:
 An f string is a special type of text that allows you to insert variables inside the text.
 
-> [!CAUTION]
+## :warning: **Warning:**
 - Don’t forget the **f** before the quotes.
 - Without the **f**, Python will not replace the variables.
 
@@ -84,7 +84,7 @@ You write it with the letter f before the quotes:
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.
 
-> [!CAUTION]
+## :warning: **Warning:**
 - Inside `{ }` you must put a **variable** or an **expression**.
 - If you put text without quotes, it gives an error.
 - If you put quotes inside `{ }`, it becomes text again.
@@ -110,7 +110,7 @@ A **for loop** is used when you want to **repeat a block of code a specific numb
 ## What it means:
 > “For each value in this sequence, do this action.”
 
-> [!CAUTION]
+## :warning: **Warning:**
 - **Indentation is required** → everything inside the loop must be indented.
 - **range upper limit is not included** → `range(1, 5)` stops at 4, not 5.
 - **Variable name is temporary** → `i`, `n`, `item` are just loop variables.

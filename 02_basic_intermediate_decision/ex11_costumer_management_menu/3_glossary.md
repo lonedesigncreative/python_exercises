@@ -3,7 +3,7 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-:warning: **Warning:**
+## :warning: **Warning:**
 - Always use parentheses → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
@@ -19,7 +19,7 @@ This will display:
 ## What it is:  
 An integer is a whole number, without decimals.
 
-:warning: **Warning:**
+## :warning: **Warning:**
 - An integer cannot have decimals.
 - **Do NOT use a comma** → Python will think it’s two values.
 
@@ -31,7 +31,7 @@ An integer is a whole number, without decimals.
 ## What it is:  
 Text inside quotes `" "`.
 
-:warning: **Warning:**
+## :warning: **Warning:**
 - Text must always be inside quotes.
 - If you put numbers inside quotes, they become text, not numbers.
 
@@ -52,7 +52,7 @@ Text inside quotes `" "`.
 ## What it is:  
 `input` is a command that **asks the user to type something**.
 
-:warning: **Warning:**
+## :warning: **Warning:**
 - `input` always returns text, even if the user types a number.
 - If you want a number, you must convert it.
 
@@ -73,7 +73,7 @@ When Python finds a matching case, it runs that block of code.
   - **case** → the options you want to compare against
   - **case _** → the “default” (when nothing matches)
 
-:warning: **Warning:**
+## :warning: **Warning:**
 - **match compares exact values** → `"3"` is not the same as `3`.
 - **case _ is the default** → use it for “anything else”.
 - **match works top to bottom** → the first matching case wins.

@@ -35,7 +35,7 @@ This structure allows for clear, progressive, and professional study.
 
 ## 📘 Concepts & Topics:
 
-🟢 **Foundations (Beginner)**
+> 🟢 **Foundations (Beginner)**
 >
 ### 🔹 Fundamental Concepts
 - **Variables and Data Types**  
@@ -74,7 +74,7 @@ This worksheet introduces the **core building blocks of Python**: variables, dat
 
 
 
-🟡 **Basic–Intermediate (Decision)**
+> 🟡 **Basic–Intermediate (Decision)**
 >
 ### 🔹 Core Concepts
 - **Conditional Statements**

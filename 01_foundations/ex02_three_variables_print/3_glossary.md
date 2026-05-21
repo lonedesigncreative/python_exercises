@@ -3,10 +3,10 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-### :warning: **Warning:**
-- **Always use parentheses** → print("Hello")
-- Text must be inside quotes `" "`
-- Missing quotes or parentheses causes an error.
+> [!CAUTION]
+> - **Always use parentheses** → print("Hello")
+> - Text must be inside quotes `" "`
+> - Missing quotes or parentheses causes an error.
 
 **Example:**
 `print("Hello!")`
@@ -19,9 +19,9 @@ This will display:
 ## What it is:  
 An integer is a whole number, without decimals.
 
-### :warning: **Warning:**
-- An integer cannot have decimals.
-- **Do NOT use a comma** → Python will think it’s two values.
+> [!CAUTION]
+> - An integer cannot have decimals.
+> - **Do NOT use a comma** → Python will think it’s two values.
 
 **Example:**
 `age = 25`
@@ -31,9 +31,9 @@ An integer is a whole number, without decimals.
 ## What it is:  
 A decimal number - a number with a dot (.).
 
-### :warning: **Warning:**
-- Python uses a dot, not a comma.
-- 3.5 is correct, 3,5 is wrong.
+> [!CAUTION]
+> - Python uses a dot, not a comma.
+> - 3.5 is correct, 3,5 is wrong.
 
 **Example:**
 `price = 3.50`
@@ -43,9 +43,9 @@ A decimal number - a number with a dot (.).
 ## What it is:  
 Text inside quotes `" "`.
 
-### :warning: **Warning:**
-- Text must always be inside quotes.
-- If you put numbers inside quotes, they become text, not numbers.
+> [!CAUTION]
+> - Text must always be inside quotes.
+> - If you put numbers inside quotes, they become text, not numbers.
 
 **Example:**
 `name = "LoneDesign"`

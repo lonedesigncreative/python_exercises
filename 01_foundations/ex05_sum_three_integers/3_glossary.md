@@ -3,9 +3,9 @@
 ## What it does:  
 `int()` converts something into an **integer**, meaning it turns a value into a whole number.
 
-### :warning: **Warning:**
-- `input` always returns text, even if the user types a number.
-- If you want a number, you must convert it.
+> [!CAUTION]
+> - `input` always returns text, even if the user types a number.
+> - If you want a number, you must convert it.
 
 **Example:**
 `age = int("25")`
@@ -17,9 +17,9 @@ It takes `"25"` **(text)** and turns it into `25` **(number)**.
 ## What it is:  
 An integer is a whole number, without decimals.
 
-### :warning: **Warning:**
-- An integer cannot have decimals.
-- **Do NOT use a comma** → Python will think it’s two values.
+> [!CAUTION]
+> - An integer cannot have decimals.
+> - **Do NOT use a comma** → Python will think it’s two values.
 
 **Example:**
 `age = 25`
@@ -29,10 +29,10 @@ An integer is a whole number, without decimals.
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-### :warning: **Warning:**
-- **Always use parentheses** → print("Hello")
-- Text must be inside quotes `" "`
-- Missing quotes or parentheses causes an error.
+> [!CAUTION]
+> - **Always use parentheses** → print("Hello")
+> - Text must be inside quotes `" "`
+> - Missing quotes or parentheses causes an error.
 
 **Example:**
 `print("Hello!")`
@@ -45,9 +45,9 @@ This will display:
 ## What it is:  
 Text inside quotes `" "`.
 
-### :warning: **Warning:**
-- Text must always be inside quotes.
-- If you put numbers inside quotes, they become text, not numbers.
+> [!CAUTION]
+> - Text must always be inside quotes.
+> - If you put numbers inside quotes, they become text, not numbers.
 
 **Example:**
 `name = "LoneDesign"`
@@ -67,9 +67,9 @@ Text inside quotes `" "`.
 ## What it does:  
 Adds two values.
 
-### :warning: **Warning:**
-- Only works correctly with numbers.
-- If you add text, Python will join the words instead of doing math.
+> [!CAUTION]
+> - Only works correctly with numbers.
+> - If you add text, Python will join the words instead of doing math.
 
 **Example:**
 `total = 5 + 3`
@@ -79,9 +79,9 @@ Adds two values.
 ## What it is:
 An f‑string is a special type of text that allows you to insert variables inside the text.
 
-### :warning: **Warning:**
-- Don’t forget the **f** before the quotes.
-- Without the **f**, Python will not replace the variables.
+> [!CAUTION]
+> - Don’t forget the **f** before the quotes.
+> - Without the **f**, Python will not replace the variables.
 
 You write it with the letter f before the quotes:
 `f"Hello {name}"`
@@ -91,10 +91,10 @@ You write it with the letter f before the quotes:
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.
 
-### :warning: **Warning:**
-- Inside `{ }` you must put a **variable** or an **expression**.
-- If you put text without quotes, it gives an error.
-- If you put quotes inside `{ }`, it becomes text again.
+> [!CAUTION]
+> - Inside `{ }` you must put a **variable** or an **expression**.
+> - If you put text without quotes, it gives an error.
+> - If you put quotes inside `{ }`, it becomes text again.
 
 **Example:**
 `age = 25`

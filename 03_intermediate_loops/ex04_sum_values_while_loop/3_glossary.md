@@ -3,10 +3,10 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-#### :warning: **Warning:**
-- Always use parentheses → print("Hello")
-- Text must be inside quotes `" "`
-- Missing quotes or parentheses causes an error.
+> [!CAUTION]
+> - Always use parentheses → print("Hello")
+> - Text must be inside quotes `" "`
+> - Missing quotes or parentheses causes an error.
 
 **Example:**
 `print("Python!")`
@@ -19,9 +19,9 @@ This will display:
 ## What it is:  
 Text inside quotes `" "`.
 
-#### :warning: **Warning:**
-- Text must always be inside quotes.
-- If you put numbers inside quotes, they become text, not numbers.
+> [!CAUTION]
+> - Text must always be inside quotes.
+> - If you put numbers inside quotes, they become text, not numbers.
 
 **Example:**
 `name = "LoneDesign"`
@@ -42,11 +42,11 @@ Text inside quotes `" "`.
 The `<=`  operator means **less than or equal to**.
 It checks if a value is **smaller** or **the same** as another value.
 
-### :warning: **Warning:**
-- **`<=` includes equality** → different from `<`, which does not.
-- **Compare only numbers** → avoid comparing text with numbers.
-- **Convert `input()` first** → input is text, so convert before comparing.
-- **Spacing matters** → write `a <= 10`, not `a<=10abc`.
+> [!CAUTION]
+> - **`<=` includes equality** → different from `<`, which does not.
+> - **Compare only numbers** → avoid comparing text with numbers.
+> - **Convert `input()` first** → input is text, so convert before comparing.
+> - **Spacing matters** → write `a <= 10`, not `a<=10abc`.
 
 **Example:**
 `age = 12`
@@ -61,9 +61,9 @@ It checks if a value is **smaller** or **the same** as another value.
 ## What it does:  
 Adds two values.
 
-### :warning: **Warning:**
-- Only works correctly with numbers.
-- If you add text, Python will join the words instead of doing math.
+> [!CAUTION]
+> - Only works correctly with numbers.
+> - If you add text, Python will join the words instead of doing math.
 
 **Example:**
 `total = 5 + 3`
@@ -73,9 +73,9 @@ Adds two values.
 ## What it is:
 An f string is a special type of text that allows you to insert variables inside the text.
 
-### :warning: **Warning:**
-- Don’t forget the **f** before the quotes.
-- Without the **f**, Python will not replace the variables.
+> [!CAUTION]
+> - Don’t forget the **f** before the quotes.
+> - Without the **f**, Python will not replace the variables.
 
 You write it with the letter f before the quotes:
 `f"Hello {name}"`
@@ -84,10 +84,10 @@ You write it with the letter f before the quotes:
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.
 
-### :warning: **Warning:**
-- Inside `{ }` you must put a **variable** or an **expression**.
-- If you put text without quotes, it gives an error.
-- If you put quotes inside `{ }`, it becomes text again.
+> [!CAUTION]
+> - Inside `{ }` you must put a **variable** or an **expression**.
+> - If you put text without quotes, it gives an error.
+> - If you put quotes inside `{ }`, it becomes text again.
 
 **Example:**
 `age = 25`
@@ -106,11 +106,11 @@ Python replaces {age} with the value of the variable.
 # 9 - While (loop)
 A **while loop** repeats a block of code **as long as the condition is True**.
 
-#### :warning: **Warning:** 
+> [!CAUTION] 
 > “Keep doing this while the condition is true.”
 
-#### :bulb: **Nota**
-  - When the condition becomes **False**, the loop stops.
+> [!TIP]
+>  - When the condition becomes **False**, the loop stops.
 
 > [!IMPORTANT]
 ## How it works:
@@ -118,12 +118,12 @@ A **while loop** repeats a block of code **as long as the condition is True**.
 - If True, the loop runs.
 - If False, the loop stops.
 
-#### :warning: **Warning:**
-- **Avoid infinite loops** → always update the variable inside the loop.
-- **Condition must eventually become False** → otherwise the loop never ends.
-- **Indentation is required** → everything inside the loop must be indented.
-- **Be careful with `input()`** → convert values before comparing.
-- **Use while when repetitions are unknown** → if you know the exact number, `for` is usually better.
+> [!CAUTION]
+> - **Avoid infinite loops** → always update the variable inside the loop.
+> - **Condition must eventually become False** → otherwise the loop never ends.
+> - **Indentation is required** → everything inside the loop must be indented.
+> - **Be careful with `input()`** → convert values before comparing.
+> - **Use while when repetitions are unknown** → if you know the exact number, `for` is usually better.
 
 **Example:**
 *Example 1 - Count from 1 to 5*

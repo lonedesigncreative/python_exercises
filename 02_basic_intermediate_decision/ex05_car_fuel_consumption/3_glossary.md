@@ -3,10 +3,10 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-### :warning: **Warning:**
-- **Always use parentheses** → print("Hello")
-- Text must be inside quotes `" "`
-- Missing quotes or parentheses causes an error.
+> [!CAUTION]
+> - **Always use parentheses** → print("Hello")
+> - Text must be inside quotes `" "`
+> - Missing quotes or parentheses causes an error.
 
 **Example:**
 `print("Python!")`
@@ -19,9 +19,9 @@ This will display:
 ## What it is:  
 `input` is a command that **asks the user to type something**.
 
-### :warning: **Warning:**
-- `input` always returns text, even if the user types a number.
-- If you want a number, you must convert it.
+> [!CAUTION]
+> - `input` always returns text, even if the user types a number.
+> - If you want a number, you must convert it.
 
 **Example:**
 `name = input("Enter your name: ")`
@@ -31,11 +31,11 @@ This will display:
 ## What it is:
 A `float` is a decimal number in Python -> a number with a **dot** instead of a comma.
 
-### :warning: **Warning:**
-- **Floats use a dot, not a comma** → Python only accepts decimals with a dot.
-- **Floats can lose precision** → some decimal values are not stored exactly.
-- **`input()` returns text, not float** → you must convert the input before using it as a decimal.
-- Converting float to int removes decimals
+> [!CAUTION]
+> - **Floats use a dot, not a comma** → Python only accepts decimals with a dot.
+> - **Floats can lose precision** → some decimal values are not stored exactly.
+> - **`input()` returns text, not float** → you must convert the input before using it as a decimal.
+> - Converting float to int removes decimals
 
 **Example:**
 `price = 3.5`
@@ -47,9 +47,9 @@ A `float` is a decimal number in Python -> a number with a **dot** instead of a 
 ## What it is:  
 Text inside quotes `" "`.
 
-### :warning: **Warning:**
-- Text must always be inside quotes.
-- If you put numbers inside quotes, they become text, not numbers.
+> [!CAUTION]
+> - Text must always be inside quotes.
+> - If you put numbers inside quotes, they become text, not numbers.
 
 **Example:**
 `name = "LoneDesign"`
@@ -69,11 +69,11 @@ Text inside quotes `" "`.
 The `<=`  operator means **less than or equal to**.
 It checks if a value is **smaller** or **the same** as another value.
 
-### :warning: **Warning:**
-- **`<=` includes equality** → different from `<`, which does not.
-- **Compare only numbers** → avoid comparing text with numbers.
-- **Convert `input()` first** → input is text, so convert before comparing.
-- **Spacing matters** → write `a <= 10`, not `a<=10abc`.
+> [!CAUTION]
+> - **`<=` includes equality** → different from `<`, which does not.
+> - **Compare only numbers** → avoid comparing text with numbers.
+> - **Convert `input()` first** → input is text, so convert before comparing.
+> - **Spacing matters** → write `a <= 10`, not `a<=10abc`.
 
 **Example:**
 `age = 12`
@@ -90,11 +90,11 @@ An **if** statement checks a condition.
 If the condition is **true**, the code inside **runs**.
 If the condition is **false**, Python **skips it**.
 
-### :warning: **Warning:**
-- **Indentation is required** → the code inside the `if` must be indented.
-- **If without else does nothing when false** → the program continues normally.
-- **Condition must be valid** → avoid writing text or invalid expressions inside the `if`.
-- **B****e careful with spacing** → `if age >= 18`: works, but `ifage>=18`: is invalid.
+> [!CAUTION]
+> - **Indentation is required** → the code inside the `if` must be indented.
+> - **If without else does nothing when false** → the program continues normally.
+> - **Condition must be valid** → avoid writing text or invalid expressions inside the `if`.
+> - **B****e careful with spacing** → `if age >= 18`: works, but `ifage>=18`: is invalid.
 
 **Example:**
 `score = 90`
@@ -110,12 +110,12 @@ It is the “backup” or “alternative” action.
   - **if** = what happens when the condition is true
   - **else** = what happens when the condition is false
 
-### :warning: **Warning:**
-- **Else must come after an if** → you cannot use `else` alone.
-- **Indentation is required** → the code inside `else` must be indented.
-- **Else has no condition** → it runs automatically when the `if` is false.
-- **Avoid unnecessary else** → use it only when you really need an alternative action.
-- **Be careful with `input()`** → convert values before comparing in the `if`.
+> [!CAUTION]
+> - **Else must come after an if** → you cannot use `else` alone.
+> - **Indentation is required** → the code inside `else` must be indented.
+> - **Else has no condition** → it runs automatically when the `if` is false.
+> - **Avoid unnecessary else** → use it only when you really need an alternative action.
+> - **Be careful with `input()`** → convert values before comparing in the `if`.
 
 **Example:**
 `age = 16`
@@ -135,11 +135,11 @@ It is used when you want to check another condition after the first `if`.
   - `elif` → second condition (only checked if the first is false)
   - `else` → runs when all previous conditions are false
 
-### :warning: **Warning:**
-- **Elif must come after an if** → you cannot start with `elif`.
-- **Order matters** → Python checks conditions from top to bottom.
-- **Only one block runs** → once one condition is true, the rest are skipped.
-- **Indentation is required** → keep the structure clean.
+> [!CAUTION]
+> - **Elif must come after an if** → you cannot start with `elif`.
+> - **Order matters** → Python checks conditions from top to bottom.
+> - **Only one block runs** → once one condition is true, the rest are skipped.
+> - **Indentation is required** → keep the structure clean.
 
 **Example:**
 `score = 75`
@@ -156,9 +156,9 @@ It is used when you want to check another condition after the first `if`.
 ## What it is:
 An f‑string is a special type of text that allows you to insert variables inside the text.
 
-### :warning: **Warning:**
-- Don’t forget the **f** before the quotes.
-- Without the **f**, Python will not replace the variables.
+> [!CAUTION]
+> - Don’t forget the **f** before the quotes.
+> - Without the **f**, Python will not replace the variables.
 
 You write it with the letter f before the quotes:
 `f"Hello {name}"`
@@ -168,10 +168,10 @@ You write it with the letter f before the quotes:
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.
 
-### :warning: **Warning:**
-- Inside `{ }` you must put a **variable** or an **expression**.
-- If you put text without quotes, it gives an error.
-- If you put quotes inside `{ }`, it becomes text again.
+> [!CAUTION]
+> - Inside `{ }` you must put a **variable** or an **expression**.
+> - If you put text without quotes, it gives an error.
+> - If you put quotes inside `{ }`, it becomes text again.
 
 **Example:**
 `age = 25`
@@ -194,16 +194,17 @@ Python replaces {age} with the value of the variable.
 Divides one value by another.
 Always returns a decimal (float).
 
-### :warning: **Warning:**
-- Division always returns a decimal (float).
-- Be careful with dividing by zero - it causes an error.
+> [!CAUTION]
+> - Division always returns a decimal (float).
+> - Be careful with dividing by zero - it causes an error.
 
 # 12 - Multiplication (`*`)
 
 ## What it does:  
 Multiplies two values.
 
-- Multiplying text repeats it.
+> [!CAUTION]
+> - Multiplying text repeats it.
 
 **Example:**
 `product = 6 * 2`
@@ -216,12 +217,12 @@ Multiplies two values.
 **The f means:** format as a float (decimal number)
 It is typically used within an f-string.
 
-### :warning: **Warning:**
-- **Use only inside f‑strings** → the `._f` format only works inside `{ }` in an f‑string.
-- **Works only with numbers** → you can only format integers or floats.
-- **It rounds the value** → the number is rounded to the number of decimals you choose.
-- **The dot defines decimal places** → `.1f`, `.2f`, `.3f` decide how many decimals appear.
-- **Always shows fixed decimals** → even if the number has no decimals, it will display the exact amount you set.
+> [!CAUTION]
+> - **Use only inside f‑strings** → the `._f` format only works inside `{ }` in an f‑string.
+> - **Works only with numbers** → you can only format integers or floats.
+> - **It rounds the value** → the number is rounded to the number of decimals you choose.
+> - **The dot defines decimal places** → `.1f`, `.2f`, `.3f` decide how many decimals appear.
+> - **Always shows fixed decimals** → even if the number has no decimals, it will display the exact amount you set.
 
 **Example:**
 `price = 3.456`

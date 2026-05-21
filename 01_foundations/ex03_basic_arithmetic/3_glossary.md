@@ -3,9 +3,9 @@
 ## What it does:  
 Adds two values.
 
-### :warning: **Warning:**
-- Only works correctly with numbers.
-- If you add text, Python will join the words instead of doing math.
+> [!CAUTION]
+> - Only works correctly with numbers.
+> - If you add text, Python will join the words instead of doing math.
 
 **Example:**
 `total = 5 + 3`
@@ -16,9 +16,9 @@ Adds two values.
 ## What it does:  
 Subtracts one value from another.
 
-### :warning: **Warning:**
-- You cannot subtract text.
-- You cannot subtract using commas (European style). Use dots.
+> [!CAUTION]
+> - You cannot subtract text.
+> - You cannot subtract using commas (European style). Use dots.
 
 **Example:**
 `difference = 10 - 4`
@@ -29,8 +29,8 @@ Subtracts one value from another.
 ## What it does:  
 Multiplies two values.
 
-### :warning: **Warning:**
-- Multiplying text repeats it.
+> [!CAUTION]
+> - Multiplying text repeats it.
 
 **Example:**
 `product = 6 * 2`
@@ -42,9 +42,9 @@ Multiplies two values.
 Divides one value by another.
 Always returns a decimal (float).
 
-### :warning: **Warning:**
-- Division always returns a decimal (float).
-- Be careful with dividing by zero - it causes an error.
+> [!CAUTION]
+> - Division always returns a decimal (float).
+> - Be careful with dividing by zero - it causes an error.
 
 **Example:**
 `result = 10 / 4   # 2.5`
@@ -53,10 +53,10 @@ Always returns a decimal (float).
 # 5 - Remainder (`%`)
 Also called modulo.
 
-### :warning: **Warning:**
-- Only works with numbers.
-- If you use text, Python gives an error.
-- Be careful: % does not give the result of the division - only the remainder.
+> [!CAUTION]
+> - Only works with numbers.
+> - If you use text, Python gives an error.
+> - Be careful: % does not give the result of the division - only the remainder.
 
 
 ## What it does:  
@@ -81,10 +81,10 @@ Returns the remainder of a division.
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-### :warning: **Warning:**
-- **Always use parentheses** → print("Hello")
-- Text must be inside quotes `" "`
-- Missing quotes or parentheses causes an error.
+> [!CAUTION]
+> - **Always use parentheses** → print("Hello")
+> - Text must be inside quotes `" "`
+> - Missing quotes or parentheses causes an error.
 
 **Example:**
 `print("Hello!")`
@@ -97,9 +97,9 @@ This will display:
 ## What it is:  
 Text inside quotes `" "`.
 
-### :warning: **Warning:**
-- Text must always be inside quotes.
-- If you put numbers inside quotes, they become text, not numbers.
+> [!CAUTION]
+> - Text must always be inside quotes.
+> - If you put numbers inside quotes, they become text, not numbers.
 
 **Example:**
 `name = "LoneDesign"`
@@ -119,9 +119,9 @@ Text inside quotes `" "`.
 ## What it is:
 An f‑string is a special type of text that allows you to insert variables inside the text.
 
-### :warning: **Warning:**
-- Don’t forget the **f** before the quotes.
-- Without the **f**, Python will not replace the variables.
+> [!CAUTION]
+> - Don’t forget the **f** before the quotes.
+> - Without the **f**, Python will not replace the variables.
 
 You write it with the letter f before the quotes:
 `f"Hello {name}"`
@@ -131,7 +131,13 @@ You write it with the letter f before the quotes:
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.
 
-### :warning: **Warning:**
-- Inside `{ }` you must put a **variable** or an **expression**.
-- If you put text without quotes, it gives an error.
-- If you put quotes inside `{ }`, it becomes text again.
+> [!CAUTION]
+> - Inside `{ }` you must put a **variable** or an **expression**.
+> - If you put text without quotes, it gives an error.
+> - If you put quotes inside `{ }`, it becomes text again.
+
+**Example:**
+`age = 25`
+`print(f"You are {age} years old")`
+
+Python replaces {age} with the value of the variable.

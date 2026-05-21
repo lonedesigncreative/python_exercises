@@ -3,10 +3,10 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-### :warning: **Warning:**
-- **Always use parentheses** → print("Hello")
-- Text must be inside quotes `" "`
-- Missing quotes or parentheses causes an error.
+> [!CAUTION]
+> - **Always use parentheses** → print("Hello")
+> - Text must be inside quotes `" "`
+> - Missing quotes or parentheses causes an error.
 
 **Example:**
 `print("Python!")`
@@ -19,9 +19,9 @@ This will display:
 ## What it is:  
 `input` is a command that **asks the user to type something**.
 
-### :warning: **Warning:**
-- `input` always returns text, even if the user types a number.
-- If you want a number, you must convert it.
+> [!CAUTION]
+> - `input` always returns text, even if the user types a number.
+> - If you want a number, you must convert it.
 
 **Example:**
 `name = input("Enter your name: ")`
@@ -31,11 +31,11 @@ This will display:
 ## What it is:
 A `float` is a decimal number in Python -> a number with a **dot** instead of a comma.
 
-### :warning: **Warning:**
-- **Floats use a dot, not a comma** -> Python only accepts decimals with a dot.
-- **Floats can lose precision** -> some decimal values are not stored exactly.
-- **`input()` returns text, not float** -> you must convert the input before using it as a decimal.
-- Converting float to int removes decimals
+> [!CAUTION]
+> - **Floats use a dot, not a comma** -> Python only accepts decimals with a dot.
+> - **Floats can lose precision** -> some decimal values are not stored exactly.
+> - **`input()` returns text, not float** -> you must convert the input before using it as a decimal.
+> - Converting float to int removes decimals
 
 **Example:**
 `price = 3.5`
@@ -47,9 +47,9 @@ A `float` is a decimal number in Python -> a number with a **dot** instead of a 
 ## What it is:  
 Text inside quotes `" "`.
 
-### :warning: **Warning:**
-- Text must always be inside quotes.
-- If you put numbers inside quotes, they become text, not numbers.
+> [!CAUTION]
+> - Text must always be inside quotes.
+> - If you put numbers inside quotes, they become text, not numbers.
 
 **Example:**
 `name = "LoneDesign"`
@@ -69,10 +69,10 @@ Text inside quotes `" "`.
 `>=` means greater than or equal to.
 It checks if a value is bigger or the same as another value.
 
-### :warning: **Warning:**
-- **Compare only numbers** -> do not compare text with numbers.
-- **Convert input() first** -> input is text, so convert to `int()` or `float()` before using `>=`.
-- **Be clear about the boundary** -> `>=` includes equality; `>` does not.
+> [!CAUTION]
+> - **Compare only numbers** -> do not compare text with numbers.
+> - **Convert input() first** -> input is text, so convert to `int()` or `float()` before using `>=`.
+> - **Be clear about the boundary** -> `>=` includes equality; `>` does not.
 
 **Example:**
 `age = 18`
@@ -86,11 +86,11 @@ An **if** statement checks a condition.
 If the condition is **true**, the code inside **runs**.
 If the condition is **false**, Python **skips it**.
 
-### :warning: **Warning:**
-- **Indentation is required** -> the code inside the `if` must be indented.
-- **If without else does nothing when false** -> the program continues normally.
-- **Condition must be valid** -> avoid writing text or invalid expressions inside the `if`.
-- **B****e careful with spacing** -> `if age >= 18`: works, but `ifage>=18`: is invalid.
+> [!CAUTION]
+> - **Indentation is required** -> the code inside the `if` must be indented.
+> - **If without else does nothing when false** -> the program continues normally.
+> - **Condition must be valid** -> avoid writing text or invalid expressions inside the `if`.
+> - **B****e careful with spacing** -> `if age >= 18`: works, but `ifage>=18`: is invalid.
 
 **Example:**
 `score = 90`
@@ -106,12 +106,12 @@ It is the “backup” or “alternative” action.
   - **if** = what happens when the condition is true
   - **else** = what happens when the condition is false
 
-### :warning: **Warning:**
-- **Else must come after an if** → you cannot use `else` alone.
-- **Indentation is required** → the code inside `else` must be indented.
-- **Else has no condition** → it runs automatically when the `if` is false.
-- **Avoid unnecessary else** → use it only when you really need an alternative action.
-- **Be careful with `input()`** → convert values before comparing in the `if`.
+> [!CAUTION]
+> - **Else must come after an if** → you cannot use `else` alone.
+> - **Indentation is required** → the code inside `else` must be indented.
+> - **Else has no condition** → it runs automatically when the `if` is false.
+> - **Avoid unnecessary else** → use it only when you really need an alternative action.
+> - **Be careful with `input()`** → convert values before comparing in the `if`.
 
 **Example:**
 `age = 16`

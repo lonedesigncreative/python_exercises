@@ -4,10 +4,9 @@
 `print` is a command that shows something on the screen.
 
 > [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
-- Always use parentheses → print("Hello")
-- Text must be inside quotes `" "`
-- Missing quotes or parentheses causes an error.
+> - Always use parentheses → print("Hello")
+> - Text must be inside quotes `" "`
+> - Missing quotes or parentheses causes an error.
 
 **Example:**
 `print("Python!")`
@@ -21,9 +20,8 @@ This will display:
 Adds two values.
 
 > [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
-- Only works correctly with numbers.
-- If you add text, Python will join the words instead of doing math.
+> - Only works correctly with numbers.
+> - If you add text, Python will join the words instead of doing math.
 
 **Example:**
 `total = 5 + 3`
@@ -32,10 +30,9 @@ Adds two values.
 Also called modulo.
 
 > [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
-- Only works with numbers.
-- If you use text, Python gives an error.
-- Be careful: % does not give the result of the division - only the remainder.
+> - Only works with numbers.
+> - If you use text, Python gives an error.
+> - Be careful: % does not give the result of the division - only the remainder.
 
 ## What it does:  
 Returns the remainder of a division.
@@ -53,17 +50,16 @@ It returns True when the values are equal and False when they are different.
   - It does not assign values (that’s =)
 
 > [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
-- **== is not =**
-  - = assigns a value; == compares values.
-- **Compare compatible types**
-    - avoid comparing numbers with text ("10" == 10 is False).
+> - **== is not =**
+>   - = assigns a value; == compares values.
+> - **Compare compatible types**
+>     - avoid comparing numbers with text ("10" == 10 is False).
 - **Becareful with `input()`**
-    - input returns text, so convert before comparing (`int(input())`).
-- **Case sensitivity matters**
-    - `"Ana" == "ana"` is False because the letters are different.
-- **Spacing matters** —
-  - write `a == 10`, not `a==10abc`.
+>     - input returns text, so convert before comparing (`int(input())`).
+> - **Case sensitivity matters**
+>     - `"Ana" == "ana"` is False because the letters are different.
+> - **Spacing matters** —
+>   - write `a == 10`, not `a==10abc`.
 
 **Example:**
 `age = 18`
@@ -78,9 +74,8 @@ It returns True when the values are equal and False when they are different.
 An f string is a special type of text that allows you to insert variables inside the text.
 
 > [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
-- Don’t forget the **f** before the quotes.
-- Without the **f**, Python will not replace the variables.
+> - Don’t forget the **f** before the quotes.
+> - Without the **f**, Python will not replace the variables.
 
 You write it with the letter f before the quotes:
 `f"Hello {name}"`
@@ -90,10 +85,9 @@ You write it with the letter f before the quotes:
 The `{ }` are used to show the value of a variable inside the text.
 
 > [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
-- Inside `{ }` you must put a **variable** or an **expression**.
-- If you put text without quotes, it gives an error.
-- If you put quotes inside `{ }`, it becomes text again.
+> - Inside `{ }` you must put a **variable** or an **expression**.
+> - If you put text without quotes, it gives an error.
+> - If you put quotes inside `{ }`, it becomes text again.
 
 **Example:**
 `age = 25`
@@ -148,8 +142,8 @@ A **for loop** is used when you want to **repeat a block of code a specific numb
 `print(total)`
 
 > [!IMPORTANT]
-## How the `range()` works
-The function **range** creates a sequence of numbers.
-  - `range(5)` → 0,1,2,3,4
-  - `range(1, 5)` → 1,2,3,4
-  - `range(1, 10, 2)` → 1,3,5,7,9 (step of 2)
+> ## How the `range()` works
+> The function **range** creates a sequence of numbers.
+>   - `range(5)` → 0,1,2,3,4
+>   - `range(1, 5)` → 1,2,3,4
+>   - `range(1, 10, 2)` → 1,3,5,7,9 (step of 2)

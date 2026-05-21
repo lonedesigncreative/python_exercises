@@ -3,10 +3,10 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-### :warning: **Warning:**
-- Always use parentheses → print("Hello")
-- Text must be inside quotes `" "`
-- Missing quotes or parentheses causes an error.
+> [!CAUTION]
+> - Always use parentheses → print("Hello")
+> - Text must be inside quotes `" "`
+> - Missing quotes or parentheses causes an error.
 
 **Example:**
 `print("Python!")`
@@ -19,8 +19,8 @@ This will display:
 ## What it does:  
 Multiplies two values.
 
-### :warning: **Warning:**
-- Multiplying text repeats it.
+> [!CAUTION]
+> - Multiplying text repeats it.
 
 **Example:**
 `product = 6 * 2`
@@ -30,9 +30,9 @@ Multiplies two values.
 ## What it is:  
 An integer is a whole number, without decimals.
 
-### :warning: **Warning:**
-- An integer cannot have decimals.
-- **Do NOT use a comma** → Python will think it’s two values.
+> [!CAUTION]
+> - An integer cannot have decimals.
+> - **Do NOT use a comma** → Python will think it’s two values.
 
 **Example:**
 `age = 25`
@@ -42,9 +42,9 @@ An integer is a whole number, without decimals.
 ## What it is:  
 Text inside quotes `" "`.
 
-### :warning: **Warning:**
-- Text must always be inside quotes.
-- If you put numbers inside quotes, they become text, not numbers.
+> [!CAUTION]
+> - Text must always be inside quotes.
+> - If you put numbers inside quotes, they become text, not numbers.
 
 **Example:**
 `name = "LoneDesign"`
@@ -64,9 +64,9 @@ Text inside quotes `" "`.
 ## What it is:  
 `input` is a command that **asks the user to type something**.
 
-### :warning: **Warning:**
-- `input` always returns text, even if the user types a number.
-- If you want a number, you must convert it.
+> [!CAUTION]
+> - `input` always returns text, even if the user types a number.
+> - If you want a number, you must convert it.
 
 **Example:**
 `name = input("Enter your name: ")`
@@ -77,9 +77,9 @@ Text inside quotes `" "`.
 ## What it is:
 An f string is a special type of text that allows you to insert variables inside the text.
 
-### :warning: **Warning:**
-- Don’t forget the **f** before the quotes.
-- Without the **f**, Python will not replace the variables.
+> [!CAUTION]
+> - Don’t forget the **f** before the quotes.
+> - Without the **f**, Python will not replace the variables.
 
 You write it with the letter f before the quotes:
 `f"Hello {name}"`
@@ -88,10 +88,10 @@ You write it with the letter f before the quotes:
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.
 
-### :warning: **Warning:**
-- Inside `{ }` you must put a **variable** or an **expression**.
-- If you put text without quotes, it gives an error.
-- If you put quotes inside `{ }`, it becomes text again.
+> [!CAUTION]
+> - Inside `{ }` you must put a **variable** or an **expression**.
+> - If you put text without quotes, it gives an error.
+> - If you put quotes inside `{ }`, it becomes text again.
 
 **Example:**
 `age = 25`
@@ -114,13 +114,13 @@ A **for loop** is used when you want to **repeat a block of code a specific numb
 ## What it means:
 > “For each value in this sequence, do this action.”
 
-### :warning: **Warning:**
-- **Indentation is required** → everything inside the loop must be indented.
-- **range upper limit is not included** → `range(1, 5)` stops at 4, not 5.
-- **Variable name is temporary** → `i`, `n`, `item` are just loop variables.
-- **Avoid infinite loops** → `for` loops normally don’t go infinite, but wrong ranges can cause issues.
-- **Be careful with input()** → convert values before using them in a range.
-- **Don’t modify the list while looping** → it can break the loop.
+> [!CAUTION]
+> - **Indentation is required** → everything inside the loop must be indented.
+> - **range upper limit is not included** → `range(1, 5)` stops at 4, not 5.
+> - **Variable name is temporary** → `i`, `n`, `item` are just loop variables.
+> - **Avoid infinite loops** → `for` loops normally don’t go infinite, but wrong ranges can cause issues.
+> - **Be careful with input()** → convert values before using them in a range.
+> - **Don’t modify the list while looping** → it can break the loop.
 
 **Example:**
 *1. Loop from 1 to 5*
@@ -146,8 +146,8 @@ A **for loop** is used when you want to **repeat a block of code a specific numb
 `print(total)`
 
 > [!IMPORTANT]
-## How the `range()` works
-The function **range** creates a sequence of numbers.
-  - `range(5)` → 0,1,2,3,4
-  - `range(1, 5)` → 1,2,3,4
-  - `range(1, 10, 2)` → 1,3,5,7,9 (step of 2)
+> ## How the `range()` works
+> The function **range** creates a sequence of numbers.
+>  - `range(5)` → 0,1,2,3,4
+>  - `range(1, 5)` → 1,2,3,4
+>  - `range(1, 10, 2)` → 1,3,5,7,9 (step of 2)

@@ -3,10 +3,10 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-### :warning: **Warning:**
-- **Always use parentheses** → print("Hello")
-- Text must be inside quotes `" "`
-- Missing quotes or parentheses causes an error.
+> [!CAUTION]
+> - **Always use parentheses** → print("Hello")
+> - Text must be inside quotes `" "`
+> - Missing quotes or parentheses causes an error.
 
 **Example:**
 `print("Python!")`
@@ -19,9 +19,9 @@ This will display:
 ## What it is:  
 `input` is a command that **asks the user to type something**.
 
-### :warning: **Warning:**
-- `input` always returns text, even if the user types a number.
-- If you want a number, you must convert it.
+> [!CAUTION]
+> - `input` always returns text, even if the user types a number.
+> - If you want a number, you must convert it.
 
 **Example:**
 `name = input("Enter your name: ")`
@@ -31,11 +31,11 @@ This will display:
 ## What it is:
 A `float` is a decimal number in Python -> a number with a **dot** instead of a comma.
 
-### :warning: **Warning:**
-- **Floats use a dot, not a comma** -> Python only accepts decimals with a dot.
-- **Floats can lose precision** -> some decimal values are not stored exactly.
-- **`input()` returns text, not float** -> you must convert the input before using it as a decimal.
-- Converting float to int removes decimals
+> [!CAUTION]
+> - **Floats use a dot, not a comma** -> Python only accepts decimals with a dot.
+> - **Floats can lose precision** -> some decimal values are not stored exactly.
+> - **`input()` returns text, not float** -> you must convert the input before using it as a decimal.
+> - Converting float to int **removes** decimals.
 
 **Example:**
 `price = 3.5`
@@ -47,9 +47,9 @@ A `float` is a decimal number in Python -> a number with a **dot** instead of a 
 ## What it is:  
 Text inside quotes `" "`.
 
-### :warning: **Warning:**
-- Text must always be inside quotes.
-- If you put numbers inside quotes, they become text, not numbers.
+> [!CAUTION]
+> - Text must always be inside quotes.
+> - If you put numbers inside quotes, they become text, not numbers.
 
 **Example:**
 `name = "LoneDesign"`
@@ -68,9 +68,9 @@ Text inside quotes `" "`.
 ## What it is:
 An f‑string is a special type of text that allows you to insert variables inside the text.
 
-### :warning: **Warning:**
-- Don’t forget the **f** before the quotes.
-- Without the **f**, Python will not replace the variables.
+> [!CAUTION]
+> - Don’t forget the **f** before the quotes.
+> - Without the **f**, Python will not replace the variables.
 
 You write it with the letter f before the quotes:
 `f"Hello {name}"`
@@ -80,10 +80,10 @@ You write it with the letter f before the quotes:
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.
 
-### :warning: **Warning:**
-- Inside `{ }` you must put a **variable** or an **expression**.
-- If you put text without quotes, it gives an error.
-- If you put quotes inside `{ }`, it becomes text again.
+> [!CAUTION]
+> - Inside `{ }` you must put a **variable** or an **expression**.
+> - If you put text without quotes, it gives an error.
+> - If you put quotes inside `{ }`, it becomes text again.
 
 **Example:**
 `age = 25`
@@ -106,9 +106,9 @@ Python replaces {age} with the value of the variable.
 Divides one value by another.
 Always returns a decimal (float).
 
-### :warning: **Warning:**
-- Division always returns a decimal (float).
-- Be careful with dividing by zero - it causes an error.
+> [!CAUTION]
+> - Division always returns a decimal (float).
+> - Be careful with dividing by zero - it causes an error.
 
 **Example:**
 `result = 10 / 4   # 2.5`
@@ -120,11 +120,11 @@ An **if** statement checks a condition.
 If the condition is **true**, the code inside **runs**.
 If the condition is **false**, Python **skips it**.
 
-### :warning: **Warning:**
-- **Indentation is required** → the code inside the `if` must be indented.
-- **If without else does nothing when false** → the program continues normally.
-- **Condition must be valid** → avoid writing text or invalid expressions inside the `if`.
-- **B****e careful with spacing** → `if age >= 18`: works, but `ifage>=18`: is invalid.
+> [!CAUTION]
+> - **Indentation is required** → the code inside the `if` must be indented.
+> - **If without else does nothing when false** → the program continues normally.
+> - **Condition must be valid** → avoid writing text or invalid expressions inside the `if`.
+> - **B****e careful with spacing** → `if age >= 18`: works, but `ifage>=18`: is invalid.
 
 **Example:**
 `score = 90`
@@ -140,12 +140,12 @@ It is the “backup” or “alternative” action.
 **if** = what happens when the condition is true
 **else** = what happens when the condition is false
 
-### :warning: **Warning:**
-- **Else must come after an if** → you cannot use `else` alone.
-- **Indentation is required** → the code inside `else` must be indented.
-- **Else has no condition** → it runs automatically when the `if` is false.
-- **Avoid unnecessary else** → use it only when you really need an alternative action.
-- **Be careful with `input()`** → convert values before comparing in the `if`.
+> [!CAUTION]
+> - **Else must come after an if** → you cannot use `else` alone.
+> - **Indentation is required** → the code inside `else` must be indented.
+> - **Else has no condition** → it runs automatically when the `if` is false.
+> - **Avoid unnecessary else** → use it only when you really need an alternative action.
+> - **Be careful with `input()`** → convert values before comparing in the `if`.
 
 **Example:**
 `age = 16`
@@ -163,11 +163,11 @@ The round() function rounds a number to the number of decimal places you choose.
   - **round(number)** → rounds to the nearest whole number
   - **round(number, decimals)** → rounds to the number of decimals you specify
 
-### :warning: **Warning:**
-- **Rounding is not always exact** → floats can have tiny precision errors.
-- **`round()` does not format output** → it changes the number, but does not force decimals to appear.
-- **Use `.2f` for formatting** → if you want fixed decimal places, use formatting instead of round.
-- **Be careful with `input()`** → convert to float before rounding.
+> [!CAUTION]
+> - **Rounding is not always exact** → floats can have tiny precision errors.
+> - **`round()` does not format output** → it changes the number, but does not force decimals to appear.
+> - **Use `.2f` for formatting** → if you want fixed decimal places, use formatting instead of round.
+> - **Be careful with `input()`** → convert to float before rounding.
 
 **Example:**
 `print(round(3.6))`        # 4
@@ -183,11 +183,11 @@ It checks if a value is **strictly bigger** than another value.
   - If the left value is bigger → True
   - If it is equal or smaller → False
 
-### :warning: **Warning:**
-- **> is different from `>=`** → `>` does NOT include equality.
-- **Compare only numbers** → avoid comparing text with numbers.
-- **Convert `input()` first** → input is text, so convert before comparing.
-- **Spacing matters** → write `a > 10`, not `a>10something`.
+> [!CAUTION]
+> - **> is different from `>=`** → `>` does NOT include equality.
+> - **Compare only numbers** → avoid comparing text with numbers.
+> - **Convert `input()` first** → input is text, so convert before comparing.
+> - **Spacing matters** → write `a > 10`, not `a>10something`.
 
 **Example:**
 `age = 20`

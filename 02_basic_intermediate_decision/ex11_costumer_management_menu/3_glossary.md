@@ -3,10 +3,10 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-### :warning: **Warning:**
-- Always use parentheses → print("Hello")
-- Text must be inside quotes `" "`
-- Missing quotes or parentheses causes an error.
+> [!CAUTION]
+> - Always use parentheses → print("Hello")
+> - Text must be inside quotes `" "`
+> - Missing quotes or parentheses causes an error.
 
 **Example:**
 `print("Python!")`
@@ -19,9 +19,9 @@ This will display:
 ## What it is:  
 An integer is a whole number, without decimals.
 
-### :warning: **Warning:**
-- An integer cannot have decimals.
-- **Do NOT use a comma** → Python will think it’s two values.
+> [!CAUTION]
+> - An integer cannot have decimals.
+> - **Do NOT use a comma** → Python will think it’s two values.
 
 **Example:**
 `age = 25`
@@ -31,9 +31,9 @@ An integer is a whole number, without decimals.
 ## What it is:  
 Text inside quotes `" "`.
 
-### :warning: **Warning:**
-- Text must always be inside quotes.
-- If you put numbers inside quotes, they become text, not numbers.
+> [!CAUTION]
+> - Text must always be inside quotes.
+> - If you put numbers inside quotes, they become text, not numbers.
 
 **Example:**
 `name = "LoneDesign"`
@@ -52,9 +52,9 @@ Text inside quotes `" "`.
 ## What it is:  
 `input` is a command that **asks the user to type something**.
 
-### :warning: **Warning:**
-- `input` always returns text, even if the user types a number.
-- If you want a number, you must convert it.
+> [!CAUTION]
+> - `input` always returns text, even if the user types a number.
+> - If you want a number, you must convert it.
 
 **Example:**
 `name = input("Enter your name: ")`
@@ -73,13 +73,13 @@ When Python finds a matching case, it runs that block of code.
   - **case** → the options you want to compare against
   - **case _** → the “default” (when nothing matches)
 
-### :warning: **Warning:**
-- **match compares exact values** → `"3"` is not the same as `3`.
-- **case _ is the default** → use it for “anything else”.
-- **match works top to bottom** → the first matching case wins.
-- **Spacing and indentation matter** → keep everything aligned.
-- **Use match only in Python 3.10+** → older versions do not support it.
-- **Avoid unnecessary cases** → keep your structure clean and simple.
+> [!CAUTION]
+> - **match compares exact values** → `"3"` is not the same as `3`.
+> - **case _ is the default** → use it for “anything else”.
+> - **match works top to bottom** → the first matching case wins.
+> - **Spacing and indentation matter** → keep everything aligned.
+> - **Use match only in Python 3.10+** → older versions do not support it.
+> - **Avoid unnecessary cases** → keep your structure clean and simple.
 
 **Example:**
   - ***Example 1: Months***

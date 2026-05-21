@@ -106,7 +106,7 @@ Python replaces {age} with the value of the variable.
 # 9 - While (loop)
 A **while loop** repeats a block of code **as long as the condition is True**.
 
-## What it means:  
+### :warning: **Warning:** 
 > “Keep doing this while the condition is true.”
 
 > [!NOTE]
@@ -118,7 +118,7 @@ A **while loop** repeats a block of code **as long as the condition is True**.
 - If True, the loop runs.
 - If False, the loop stops.
 
-## :warning: **Warning:**
+### :warning: **Warning:**
 - **Avoid infinite loops** → always update the variable inside the loop.
 - **Condition must eventually become False** → otherwise the loop never ends.
 - **Indentation is required** → everything inside the loop must be indented.

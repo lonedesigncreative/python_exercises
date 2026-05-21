@@ -4,7 +4,7 @@
 `print` is a command that shows something on the screen.
 
 
-## :warning: **Warning:**
+### :warning: **Warning:**
 - **Always use parentheses** → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
@@ -20,7 +20,7 @@ This will display:
 ## What it is:  
 `input` is a command that **asks the user to type something**.
 
-## :warning: **Warning:**
+### :warning: **Warning:**
 - `input` always returns text, even if the user types a number.
 - If you want a number, you must convert it.
 
@@ -32,7 +32,7 @@ This will display:
 ## What it is:  
 An integer is a whole number, without decimals.
 
-## :warning: **Warning:**
+### :warning: **Warning:**
 - An integer cannot have decimals.
 - **Do NOT use a comma** → Python will think it’s two values.
 
@@ -44,7 +44,7 @@ An integer is a whole number, without decimals.
 ## What it is:  
 Text inside quotes `" "`.
 
-## :warning: **Warning:**
+### :warning: **Warning:**
 - Text must always be inside quotes.
 - If you put numbers inside quotes, they become text, not numbers.
 
@@ -67,7 +67,7 @@ Text inside quotes `" "`.
 The `<` operator means **less than**.
 It checks if a value is **strictly smaller** than another value.
 
-## :warning: **Warning:**
+### :warning: **Warning:**
   - If the left value is smaller → True
   - If it is equal or bigger → False
 
@@ -90,7 +90,7 @@ It checks if a value is **strictly smaller** than another value.
 The `>` operator means **greater than**.
 It checks if a value is **strictly bigger** than another value.
 
-## :warning: **Warning:**
+### :warning: **Warning:**
   - If the left value is bigger → True
   - If it is equal or smaller → False
 
@@ -113,7 +113,7 @@ An **if** statement checks a condition.
 If the condition is **true**, the code inside **runs**.
 If the condition is **false**, Python **skips it**.
 
-## :warning: **Warning:**
+### :warning: **Warning:**
 - **Indentation is required** → the code inside the `if` must be indented.
 - **If without else does nothing when false** → the program continues normally.
 - **Condition must be valid** → avoid writing text or invalid expressions inside the `if`.
@@ -133,7 +133,7 @@ It is the “backup” or “alternative” action.
   - **if** = what happens when the condition is true
   - **else** = what happens when the condition is false
 
-## :warning: **Warning:**
+### :warning: **Warning:**
 - **Else must come after an if** → you cannot use `else` alone.
 - **Indentation is required** → the code inside `else` must be indented.
 - **Else has no condition** → it runs automatically when the `if` is false.
@@ -157,7 +157,7 @@ It only returns True when both conditions are True.
   - **If one condition is False** → the whole expression becomes False
   - **If both are True** → the expression is True
 
-## :warning: **Warning:**
+### :warning: **Warning:**
 - **Else must come after an if** → you cannot use `else` alone.
 - **Indentation is required** → the code inside `else` must be indented.
 - **Else has no condition** → it runs automatically when the `if` is false.

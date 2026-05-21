@@ -3,7 +3,7 @@
 ## What it is:  
 `print` is a command that shows something on the screen.
 
-## :warning: **Warning:**
+### :warning: **Warning:**
 - **Always use parentheses** → print("Hello")
 - Text must be inside quotes `" "`
 - Missing quotes or parentheses causes an error.
@@ -19,7 +19,7 @@ This will display:
 ## What it is:  
 `input` is a command that **asks the user to type something**.
 
-## :warning: **Warning:**
+### :warning: **Warning:**
 - `input` always returns text, even if the user types a number.
 - If you want a number, you must convert it.
 
@@ -31,7 +31,7 @@ This will display:
 ## What it is:
 A `float` is a decimal number in Python → a number with a **dot** instead of a comma.
 
-## :warning: **Warning:**
+### :warning: **Warning:**
 - **Floats use a dot, not a comma** → Python only accepts decimals with a dot.
 - **Floats can lose precision** → some decimal values are not stored exactly.
 - **`input()` returns text, not float** → you must convert the input before using it as a decimal.
@@ -47,7 +47,7 @@ A `float` is a decimal number in Python → a number with a **dot** instead of a
 ## What it is:  
 Text inside quotes `" "`.
 
-## :warning: **Warning:**
+### :warning: **Warning:**
 - Text must always be inside quotes.
 - If you put numbers inside quotes, they become text, not numbers.
 
@@ -68,7 +68,7 @@ Text inside quotes `" "`.
 ## What it does:  
 Multiplies two values.
 
-## :warning: **Warning:**
+### :warning: **Warning:**
 - Multiplying text repeats it.
 
 **Example:**
@@ -82,7 +82,7 @@ Multiplies two values.
 **The f means:** format as a float (decimal number)
 It is typically used within an f-string.
 
-## :warning: **Warning:**
+### :warning: **Warning:**
 - **Use only inside f‑strings** → the `._f` format only works inside `{ }` in an f‑string.
 - **Works only with numbers** → you can only format integers or floats.
 - **It rounds the value** → the number is rounded to the number of decimals you choose.
@@ -108,7 +108,7 @@ It is typically used within an f-string.
 ## What it is:
 An f‑string is a special type of text that allows you to insert variables inside the text.
 
-## :warning: **Warning:**
+### :warning: **Warning:**
 - Don’t forget the **f** before the quotes.
 - Without the **f**, Python will not replace the variables.
 
@@ -120,7 +120,7 @@ You write it with the letter f before the quotes:
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.
 
-## :warning: **Warning:**
+### :warning: **Warning:**
 - Inside `{ }` you must put a **variable** or an **expression**.
 - If you put text without quotes, it gives an error.
 - If you put quotes inside `{ }`, it becomes text again.

@@ -2,10 +2,10 @@
 > 
 > # CODE EXPLANATION:
 > 
-> 1. `print("=== MAIN MENU ===") `
+> 1. `print("=== MAIN MENU ===")`
 > - Display the main menu header to the user, indicating that the following options are part of the main menu for product management
 > 
-> 2. `print("1 - Add Product") `  
+> 2. `print("1 - Add Product")`  
 > - Option 1 allows the user to add a new product to the product list, which will be implemented in the code block that handles this option
 >
 >

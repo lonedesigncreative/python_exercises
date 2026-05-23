@@ -36,37 +36,53 @@ Text inside quotes `" "`.
 | text (string) | Words inside quotes | "Hello" |
 
 
-# 3 - `<=`
+# 2 - `!=`
 
 ## What it is:  
-The `<=`  operator means **less than or equal to**.
-It checks if a value is **smaller** or **the same** as another value.
+The **!=** operator means **not equal to**.
+It checks if **two values are different**.
+
+- If the values are different → True
+- If the values are the same → False
 
 > [!CAUTION]
-> - **`<=` includes equality** → different from `<`, which does not.
-> - **Compare only numbers** → avoid comparing text with numbers.
-> - **Convert `input()` first** → input is text, so convert before comparing.
-> - **Spacing matters** → write `a <= 10`, not `a<=10abc`.
+> - **!= is comparison, not assignment** → don’t confuse with `=`.
+> - **Compare compatible types** → `"10" != 10` is True because one is text and the other is a number.
+> - **Be careful with input()** → convert before comparing (`int(input())`).
+> - **Case sensitivity matters** → `"Ana" != "ana"` is True.
+> - **Spacing matters** → write a `!= 5`, `not a!=5abc`.
 
 **Example:**
-`age = 12`
-`print(age <= 12)`   # True
+`age = 18`
+`print(age != 20)`   # True
 
-`temperature = 18`
-`print(temperature <= 15)`   # False
+`name = "Ana"`
+`print(name != "Ana")`   # False
 
+# 4 - Integer
 
-# 4 - Addition (`+`)
-
-## What it does:  
-Adds two values.
+## What it is:  
+An integer is a whole number, without decimals.
 
 > [!CAUTION]
-> - Only works correctly with numbers.
-> - If you add text, Python will join the words instead of doing math.
+>- An integer cannot have decimals.
+> - **Do NOT use a comma** → Python will think it’s two values.
 
 **Example:**
-`total = 5 + 3`
+`age = 25`
+
+# 2 - Input
+
+## What it is:  
+`input` is a command that **asks the user to type something**.
+
+> [!CAUTION]
+> - `input` always returns text, even if the user types a number.
+> - If you want a number, you must convert it.
+
+**Example:**
+`name = input("Enter your name: ")`
+
 
 # 5 - f-string (f"")
 

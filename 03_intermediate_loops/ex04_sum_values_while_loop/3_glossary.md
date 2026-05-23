@@ -106,17 +106,16 @@ Python replaces {age} with the value of the variable.
 # 7 - While (loop)
 A **while loop** repeats a block of code **as long as the condition is True**.
 
-> [!CAUTION] 
-> “Keep doing this while the condition is true.”
+>> “Keep doing this while the condition is true.”
 
 > [!TIP]
 >  - When the condition becomes **False**, the loop stops.
 
 > [!IMPORTANT]
-## How it works:
-- The condition is checked first.
-- If True, the loop runs.
-- If False, the loop stops.
+> ## How it works:
+> - The condition is checked first.
+> - If True, the loop runs.
+> - If False, the loop stops.
 
 > [!CAUTION]
 > - **Avoid infinite loops** → always update the variable inside the loop.

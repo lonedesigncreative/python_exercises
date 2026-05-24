@@ -1,4 +1,4 @@
-- Create a program that uses a **manual counter (`while` loop)** to allow the user to enter multiple integer values.
-- On each iteration, the program should **read the number provided** and add it to a running total.
-- This process must **continue indefinitely** until the user enters the value 0.
-- When the value 0 is entered, the loop should stop, and the program must **display the final sum of all** previously entered numbers.
+- Create a **program that uses a manual counter (`while` loop)** to iterate through the values from **1 to 5** (inclusive).
+- During each iteration, the program should a**dd the current value** to an accumulating total.
+- The counter must be **updated manually** inside the loop.
+- After completing the repetition, the program should **display the final sum** of all numbers between 1 and 5.

@@ -20,5 +20,6 @@
 > 4. `if number != generated_number:`
 >    `print("Try again!")`
 > - if number != generated_number: checks whether the user’s guess is not equal to the secret number. If the guess is wrong, the program prints "Try again!". Then the loop repeats and asks for another guess.
-> 4. `print(f"You guessed the number! It was: {generated_number}")`
+> 
+> 5. `print(f"You guessed the number! It was: {generated_number}")`
 > - This line runs after the while loop ends. The loop only ends when number == generated_number, meaning the user guessed correctly. The program then prints a success message showing the correct number.

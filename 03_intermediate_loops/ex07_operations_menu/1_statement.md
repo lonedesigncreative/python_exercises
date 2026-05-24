@@ -1,0 +1,12 @@
+- Create a program that displays a **menu with four options**:
+    - 1. Insert
+    - 2. Update
+    - 3. Delete
+    - 4. Exit
+- The menu must be shown **repeatedly**, as many times as necessary, until the user enters a value **between 1 and 4**.
+- Use a **manual repetition structure (`while` loop)** to ensure the menu continues to appear while the condition remains true.
+- After displaying the menu, the program should **ask the user to enter an option**.
+- If the user enters a value **outside the range 1 to 4**, the program must display the message:
+**`“Invalid option! Please try again.”`**
+- Once the user provides a valid option, the program should use a **selective decision structure** (such as an `if/elif/else` or a **decision structure**) to display a message indicating which option was chosen.
+- If the user selects **option 4 – Exit**, the program must break the while loop using the break statement and terminate.

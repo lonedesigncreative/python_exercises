@@ -25,7 +25,7 @@ This structure allows for clear, progressive, and professional study.
 | Level | Content | Folder |
 |------|----------|--------|
 | 🟢 **Foundations (Beginner)** | Variables, operators, input/output | `01_foundations/` |
-| 🟡 **Basic–Intermediate (Decision)** | if, elif, else, validations | `02_basic_intermediate_decision/` |
+| 🟡 **Basic–Intermediate (Decision)** | if, elif, else, validations | `  2_solution.pybasic_intermediate_decision/` |
 | 🔵 **Intermediate (Loops)** | for, while, counters, summations | `03_intermediate_loops/` |
 | 🟣 **Intermediate–Advanced (Lists & Dicts)** | lists, dictionaries, sorting, filtering | `04_intermediate_advanced_lists_dicts/` |
 | 🔴 **Advanced (Functions, Modules, Exceptions)** | functions, modules, error handling | `05_advanced_functions_modules_exceptions/` |
@@ -170,118 +170,170 @@ Python/
 │       └── ex01_simple_menu/
 │             ├── 1_statement.md
 │             ├── 2_solution.py
-│             └── 3_glossary.md
-│       └── ex02_three_variables_print/
+│             └── 4_code_explanation.md
+│             └── 4_code_explanation.md
+│       └── ex  2_solution.pythree_variables_print/
 │             ├── 1_statement.md
 │             ├── 2_solution.py
-│             └── 3_glossary.md
+│             └── 4_code_explanation.md
+│             └── 4_code_explanation.md
 │       └── ex03_basic_arithmetic/
 │             ├── 1_statement.md
 │             ├── 2_solution.py
-│             └── 3_glossary.md
+│             └── 4_code_explanation.md
+│             └── 4_code_explanation.md
 │       └── ex04_welcome_message/
 │             ├── 1_statement.md
 │             ├── 2_solution.py
-│             └── 3_glossary.md
+│             └── 4_code_explanation.md
+│             └── 4_code_explanation.md
 │       └── ex05_sum_three_integers/
 │             ├── 1_statement.md
 │             ├── 2_solution.py
-│             └── 3_glossary.md
+│             └── 4_code_explanation.md
+│             └── 4_code_explanation.md
 │       └── ex06_average_three_floats/
 │             ├── 1_statement.md
 │             ├── 2_solution.py
-│             └── 2_3_glossary.md│       
+│             └── 2_solution.py4_code_explanation.md│       
 │       └── ex07_triangle_area/
 │             ├── 1_statement.md
 │             ├── 2_solution.py
-│             └── 3_glossary.md
+│             └── 4_code_explanation.md
+│             └── 4_code_explanation.md
 │       └── ex08_arithmetic_with_input/
 │             ├── 1_statement.md
 │             ├── 2_solution.py
-│             └── 3_glossary.md
+│             └── 4_code_explanation.md
+│             └── 4_code_explanation.md
 │       └── ex09_land_price/
 │             ├── 1_statement.md
 │             ├── 2_solution.py
-│             └── 3_glossary.md
+│             └── 4_code_explanation.md
+│             └── 4_code_explanation.md
 │       └── ex10_salary_after_taxes/
 │             ├── 1_statement.md
 │             ├── 2_solution.py
-│             └── 3_glossary.md
+│             └── 4_code_explanation.md
+│             └── 4_code_explanation.md
 │       └── ex11_costumer_management_menu/
 │             ├── 1_statement.md
 │             ├── 2_solution.py
-│             └── 3_glossary.md
+│             └── 4_code_explanation.md
+│             └── 4_code_explanation.md
 │
-├── 02_basic_intermediate_decision/
+├──   2_solution.pybasic_intermediate_decision/
 │   └── Ficha2/
 │       └── ex01_age_check/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
-│       └── ex02_greater_or_equal_5/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
+│             ├── 1_statement.md
+│             ├── 2_solution.py
+│             └── 3_glossary.md
+│             └── 4_code_explanation.md
+│       └── ex  2_solution.pygreater_or_equal_5/
+│             ├── 1_statement.md
+│             ├── 2_solution.py
+│             └── 3_glossary.md
+│             └── 4_code_explanation.md
 │       └── ex03_range_1_to_5/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
+│             ├── 1_statement.md
+│             ├── 2_solution.py
+│             └── 3_glossary.md
+│             └── 4_code_explanation.md
 │       └── ex04_safe_division/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
+│             ├── 1_statement.md
+│             ├── 2_solution.py
+│             └── 3_glossary.md
+│             └── 4_code_explanation.md
 │       └── ex05_car_fuel_consumption/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
+│             ├── 1_statement.md
+│             ├── 2_solution.py
+│             └── 3_glossary.md
+│             └── 4_code_explanation.md
 │       └── ex06_even_or_odd/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
+│             ├── 1_statement.md
+│             ├── 2_solution.py
+│             └── 3_glossary.md
+│             └── 4_code_explanation.md
 │       └── ex07_largest_of_3/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
+│             ├── 1_statement.md
+│             ├── 2_solution.py
+│             └── 3_glossary.md
 │       └── ex08_grade_to_text/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
+│             ├── 1_statement.md
+│             ├── 2_solution.py
+│             └── 3_glossary.md
+│             └── 4_code_explanation.md
 │       └── ex09_calculator/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
+│             ├── 1_statement.md
+│             ├── 2_solution.py
+│             └── 3_glossary.md
+│             └── 4_code_explanation.md
 │       └── ex10_month_days/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
+│             ├── 1_statement.md
+│             ├── 2_solution.py
+│             └── 3_glossary.md
+│             └── 4_code_explanation.md
 │
 ├── 03_intermediate_loops/
 │   └── Ficha3/
-│       └── exXX_exercise_name/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
+│       └── ex01_sum_even_numbers/
+│             ├── 1_statement.md
+│             ├── 2_solution.py
+│             └── 3_glossary.md
+│             └── 4_code_explanation.md
+│       └── ex02_multiplication_table_generator/
+│             ├── 1_statement.md
+│             ├── 2_solution.py
+│             └── 3_glossary.md
+│             └── 4_code_explanation.md
+│       └── ex03_average_three_numbers/
+│             ├── 1_statement.md
+│             ├── 2_solution.py
+│             └── 3_glossary.md
+│             └── 4_code_explanation.md
+│       └── ex04_sum_while_loop/
+│             ├── 1_statement.md
+│             ├── 2_solution.py
+│             └── 3_glossary.md
+│             └── 4_code_explanation.md
+│       └── ex05_running_total_until_zero/
+│             ├── 1_statement.md
+│             ├── 2_solution.py
+│             └── 3_glossary.md
+│             └── 4_code_explanation.md
+│       └── ex06_number_guessing_game/
+│             ├── 1_statement.md
+│             ├── 2_solution.py
+│             └── 3_glossary.md
+│             └── 4_code_explanation.md
+│       └── ex07_operations_menu/
+│             ├── 1_statement.md
+│             ├── 2_solution.py
+│             └── 3_glossary.md
+│             └── 4_code_explanation.md
 │
 ├── 04_intermediate_advanced_lists_dicts/
 │   └── Ficha4/
 │       └── exXX_exercise_name/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
+│             ├── 1_statement.md
+│             ├── 2_solution.py
+│             └── 3_glossary.md
+│             └── 4_code_explanation.md
 │
 ├── 05_advanced_functions_modules_exceptions/
 │   ├── Ficha5_Exceptions/
 │   └── Modules/
 │       └── exXX_exercise_name/
-│             ├── glossary.md
-│             ├── solution.py
-│             └── statement.md
+│             ├── 1_statement.md
+│             ├── 2_solution.py
+│             └── 3_glossary.md
+│             └── 4_code_explanation.md
 │
 └── projects/
 └── project_name/
-├── glossary.md
-├── solution.py
-└── statement.md
+├── 1_statement.md
+├── 2_solution.py
+└── 3_glossary.md
 ```
 
 ---

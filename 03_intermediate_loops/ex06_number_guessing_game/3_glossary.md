@@ -232,7 +232,8 @@ In Python, the keyword as is used to create an alias — a nickname — for some
 `import utils as u`
 `u.my_function()`
 
-> [!IMPORTANT] - **Why use as?**
+> [!IMPORTANT]
+> # **Why use `as`?**
 > - To make the code shorter
 > - To make names easier to type
 > - To avoid name conflicts

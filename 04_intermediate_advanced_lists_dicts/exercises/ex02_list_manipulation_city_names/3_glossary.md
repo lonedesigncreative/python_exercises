@@ -608,3 +608,55 @@ It is most commonly used in **for loops**.
     `print(i)`
 
 # 14 - \n
+
+## What it is:
+`\n` is a **newline character** in Python..
+
+>> "Go to the next line."
+
+When Python sees `\n` inside a string, it **breaks the line** and continues printing on the next one.
+
+> [!IMPORTANT]
+> ### Important details:
+> - `\n` counts as **one character** in a string.
+> - It works only **inside quotes**.
+> - It is not shown literally → **it creates a line break**.
+> - For Windows files, Python still uses `\n` (it converts automatically).
+
+
+> [!CAUTION]
+> - **Don’t forget the backslash** → `/n` does nothing; only `\n` works.
+> - **Use triple quotes for big text** → instead of many `\n`.
+> - **Escape sequences matter** → `\t` is tab, `\\` is a backslash.
+> - **Inside f-strings works normally** → `f"Hello\n{name}"`.
+> - **In files, \n creates new lines** → important for writing logs.
+
+
+> [!TIP]
+> ### Where \n is used:
+> - **print formatting**
+> - **multiline messages**
+> - **file writing** (to write lines)
+> - **logs and reports**
+
+> **Example:**
+*Example 1 - New line in a print*
+`print("Hello\nWorld")`
+
+> **Output:**
+> `Hello`
+> `World`
+
+*Example 2 - Multiple new lines*
+`print("Line 1\nLine 2\nLine 3")`
+
+
+*Example 3 - New line inside variables*
+`text = "Name:\nTatiana"`
+`print(text)`
+
+*Example 4 - New line inside variables*
+`name = "Ana"`
+`age = 25`
+
+`print("Name:", name, "\nAge:", age)`

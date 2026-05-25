@@ -15,7 +15,7 @@
 > - Prints the text "Original list:" followed by the current contents of the cities list.
 > 
 > 4. `cities.insert(2, "Dubai")` 
-> - nserts "Dubai" at index 2. The element that was at index 2 ("Paris") and the ones after it are shifted to the right. Now the list becomes: ["New York", "Tokyo", "Dubai", "Paris", "London"].
+> - Inserts "Dubai" at index 2. The element that was at index 2 ("Paris") and the ones after it are shifted to the right. Now the list becomes: ["New York", "Tokyo", "Dubai", "Paris", "London"].
 > 
 > 5. `print(f"List after insert: {cities}")` 
 > - Shows the list after the insertion so you can see the updated order.

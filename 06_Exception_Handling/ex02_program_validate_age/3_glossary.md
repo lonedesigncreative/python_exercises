@@ -101,49 +101,157 @@ Python replaces {age} with the value of the variable.
 | { } | Shows the variable’s value inside the f string | `{age}` |
 
 
-# 7 – as
+# 7 - While (loop)
+A **while loop** repeats a block of code **as long as the condition is True**.
 
-## What it is:
-In Python, the keyword as is used to create an alias — a nickname — for something you are importing.
+>> “Keep doing this while the condition is true.”
 
->> “Use this shorter or easier name instead of the original one.”
-
-> [!NOTE]
-> It is often used for large modules or modules with long names.
-
-> [!CAUTION]
-> - **Choose clear aliases** → don’t use random letters that confuse the reader.
-> - **Alias replaces the original name** → after using `as`, you must use the alias, not the original name.
-> - **Avoid overwriting variables** → don’t use an alias that is already a variable in your code.
-> - **Follow conventions** → e.g., `import numpy as np` is standard.
-
-**Example:**
-***Example 1 - Alias for a module***
-`import math as m`
-`print(m.sqrt(25))`   # 5.0
-
-***Example 2 - Alias for a function***
-`from math import sqrt as raiz`
-`print(raiz(16))`   # 4.0
-
-***Example 3 - Alias for a library (very common)***
-`import pandas as pd`
-`import numpy as np`
-
-***Example 4 - Alias for a library (very common)***
-`import utils as u`
-`u.my_function()`
+> [!TIP]
+>  - When the condition becomes **False**, the loop stops.
 
 > [!IMPORTANT]
-> # **Why use `as`?**
+> ## How it works:
+> - The condition is checked first.
+> - If True, the loop runs.
+> - If False, the loop stops.
 
-> - To make the code shorter
-> - To make names easier to type
-> - To avoid name conflicts
-> - To follow common conventions (ex.: `pd`, `np`, `plt`)
+> [!CAUTION]
+> - **Avoid infinite loops** → always update the variable inside the loop.
+> - **Condition must eventually become False** → otherwise the loop never ends.
+> - **Indentation is required** → everything inside the loop must be indented.
+> - **Be careful with `input()`** → convert values before comparing.
+> - **Use while when repetitions are unknown** → if you know the exact number, `for` is usually better.
+
+**Example:**
+*Example 1 - Count from 1 to 5*
+`i = 1`
+
+`while i <= 5:`
+    `print(i)`
+    `i += 1`
+
+*Example 2 - Ask for a password until correct*
+`password = ""`
+
+`while password != "1234":`
+    `password = input("Enter password: ")`
+
+`print("Access granted")`
+
+*Example 3 - Countdown*
+`n = 5`
+
+`while n > 0:`
+    `print(n)`
+    `n -= 1`
 
 
-# 8 - try
+
+# 8 - Break
+
+## What it is:  
+The `break` statement is used to **stop a loop immediately**.
+When Python finds a `break`, it** exits the loop**, even if the loop condition is still True.
+
+> [!NOTE]
+> **It works in both:**
+> **`for` loops**
+> **`while` loops**
+
+>> “Stop the loop right now.”
+
+> [!CAUTION]
+> - **Use break only when necessary** → too many breaks make code harder to read.
+> - **Break exits only the current loop** → not nested loops above it.
+> - **Avoid infinite loops** → if using `while True`, make sure a break exists.
+> - **Break stops immediately** → code after break inside the loop will not run.
+> - **Use continue for skipping** → not break.
+
+> [!WARNING]
+> **## What break does NOT do**
+> It does **not** skip to the next iteration (that is **continue**).
+> It does **not** restart the loop.
+> It does **not** exit the entire program — only the loop.
+
+**Example:**
+  - ***Example 1 - Stop a `for` loop early***
+`for i in range(1, 10):`
+    `if i == 5:`
+        `break`
+    `print(i)`
+
+> **Output:**
+> *`1, 2, 3, 4`*
+> (The loop stops when i reaches 5.)
+
+  - ***Example 2 - Stop a `while` loop when a condition happens***
+`i = 1`
+
+`while i <= 10:`
+    `if i == 7:`
+        `break`
+    `print(i)`
+    `i += 1`
+
+  - ***Example 3 - Stop asking for input when the user types “exit”***
+`while True:`
+    `text = input("Type something: ")`
+    `if text == "exit":`
+        `break`
+    `print("You typed:", text)`
+
+
+# 9 - True
+
+## What it is:  
+In Python, **True** is a **Boolean value**.
+It represents something that is **correct**, **valid**, or **logically true**.
+
+> [!NOTE]
+> **Python has only two Boolean values:**
+> **True**
+> **False**
+>
+> **These values are used in:**
+    > **if statements**
+    > **while loops**
+    > **comparisons**
+    > **logical operations**
+
+> [!CAUTION]
+> - **Capital letter required** → write `True`, not `true`.
+> - **Do not confuse with strings** → `"True"` is not the same as `True`.
+> - **Comparisons return True or False** → e.g., `5 == 5` gives True.
+> - **While True needs break** → otherwise it becomes an infinite loop.
+> - **True is not the same as 1** → they compare equal, but they are different types.
+
+> [!IMPORTANT]
+> - **True starts with a capital T** → `true` (lowercase) does not work in Python.
+> - **True is a Boolean, not a string** → `"True"` is text, not a Boolean.
+> - **True equals 1 in numeric context** → (but you normally don’t use it this way)
+>> **Example:** `print(True == 1)`   # True
+
+**Example:**
+  - ***Example 1 - True as a value***
+`is_sunny = True`
+`print(is_sunny)`
+
+  - ***Example 2 - True from a comparison***
+`print(5 > 2)`   # True
+
+  - ***Example 3 - True in an if statement***
+`age = 20`
+
+`if age >= 18:`
+    `print("Adult")`   # This runs because the condition is True
+
+  - ***Example 4 - True in a while loop***
+`while True:`      
+    `print("Looping...")`
+    `break`
+
+
+# 10 - try
 
 ## What it is:  
 `try` is part of Python’s **error‑handling system**.
@@ -223,7 +331,7 @@ In Python, the keyword as is used to create an alias — a nickname — for some
     `print("Done")`
 
 
-# 9 - ValueError
+# 11 - ValueError
 
 ## When it happens:  
 A **ValueError** happens when:
@@ -309,171 +417,3 @@ In other words:
 *Example 5 - Using statistics functions incorrectly*
 `from statistics import mean`
 `mean([])`   # ❌ ValueError (empty list)
-
-
-# 10 - ZeroDivisionError
-
-## When it happens:  
-A **ZeroDivisionError** happens when you try to divide a number by **zero**.
-
->> “Python cannot perform this division because the denominator is zero.”
-
-This error appears in:
-- normal division `/`
-- integer division `//`
-- modulo `%`
-
-
-> [!NOTE]
-> ### Basic structure:
->    - `try:`
->    - code that might cause an error
->    - `except:`
->    - code that runs if an error happens
-
-
-> [!IMPORTANT]
-> **## Why this error happens**
-> Because mathematically:
-> - dividing by zero is **undefined**
-> - Python refuses to continue and raises an error
-
-
-> [!TIP]
-> **## Handling ZeroDivisionError with try/except**
-> `try:`
->    `result = 10 / 0`
-> `except ZeroDivisionError:`
->    `print("You cannot divide by zero")`
-
-
-> [!CAUTION]
-> - **Always validate user input** → especially numbers
-> - **Use try/except** to avoid program crashes
-> - **Check if values exist before removing**
-> - **Statistics functions need valid data**
-> - **Conversions must match the format**
-
-
-> [!WARNING]
-> **## How to prevent ZeroDivisionError**
-> - Check the denominator before dividing:
->
-> `num = 10`
-> `den = 0`
-> 
-> `if den != 0:`
->    `print(num / den)`
-> `else:`
->    `print("Cannot divide by zero")`
-
-
-**Example that cause ZeroDivisionError:**
-*Example 1 - Converting text to number*
-`x = 10 / 0 `  # ❌ ZeroDivisionError
-
-
-*Example 2 - Integer division by zero*
-`x = 10 // 0`   # ❌ ZeroDivisionError
-
-
-*Example 3 - Modulo by zero*
-`x = 10 % 0`   # ❌ ZeroDivisionError
-
-
-# 11 - Exception
-
-## What it is:  
-`Exception` is the **base class** for almost all errors in Python.
-
->> “A general error type that represents any kind of problem that can happen during program execution.”
-
-
-> All common errors — **ValueError**, **ZeroDivisionError**, **TypeError**, etc. — are subclasses of Exception.
-
-So:
-- Catching **Exception** catches *almost all* errors
-- It is more general than catching a specific error
-
-> [!NOTE]
-> ### Basic structure:
->    - `try:`
->    - risky_code
->    - `except Exception:`
->    - handle_error
-
-
-> [!IMPORTANT]
-> **## Why `Exception` is useful**
-> - Catches unexpected errors
-> - Prevents the program from crashing
-> - Helps debug by printing the error message
-> - Useful when you don’t know what error might occur
->
-> **Example:**
-> `try:`
->     `run_process()`
-> `except Exception as e:`
->     `print("Unexpected error:", e)`
-
-
-### Exception hierarchy (simplified)
-BaseException
- └── Exception
-      ├── ValueError
-      ├── TypeError
-      ├── ZeroDivisionError
-      ├── IndexError
-      ├── KeyError
-      └── ...
-
-> **So Exception is the “parent” of most errors.**
-
-
-> [!IMPORTANT]
-> **## **Exception** vs **BaseException****
-> 
-> | **Class** | **Meaning** |
-> | :--- | :--- | :--- |
-> | Exception | Normal errors you should catch |
-> | BaseException | System-level errors (KeyboardInterrupt, SystemExit) — avoid catching |
->
-> You should **not** catch `BaseException` unless you know exactly what you're doing.
-
-
-> [!CAUTION]
-> - **Don’t use only `except Exception`** → hides specific errors
-> - **Catch specific errors first** → easier to debug
-> - **Exception does not catch system interrupts** → like Ctrl+C
-> - **Use `as e` to inspect the error** → helpful for debugging
-> - **Avoid catching everything blindly** → can hide bugs
-
-
-**Example that cause ZeroDivisionError:**
-*Example 1 - Catch any exception*
-`try:`
-    `x = 10 / 0`
-`except Exception:`
-    `print("Something went wrong")`
-
-> - This catches **ZeroDivisionError**, **ValueError**, **TypeError**, etc.
-
-*Example 2 - Catch the error and show the message*
-`try:`
-    `int("abc")`
-`except Exception as e:`
-    `print("Error:", e)`
-
-> **Output:**
-> `Error: invalid literal for int() with base 10: 'abc'`
-
-
-*Example 3 - Catch specific errors first, then general Exception*
-`try:`
-    `x = int("abc")`
-`except ValueError:`
-    `print("Invalid number")`
-`except Exception:`
-    `print("Other error")`
-
-> - This is the recommended pattern.

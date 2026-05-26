@@ -1,3 +1,5 @@
+# Exercise description:
+
 - In this exercise, you must create a Python program that includes a function named `Calculate_Balance`.
 - The function should receive **two input parameters**: the current balance and the **amount to withdraw**.
 

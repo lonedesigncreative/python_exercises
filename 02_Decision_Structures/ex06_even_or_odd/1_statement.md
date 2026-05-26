@@ -1,3 +1,5 @@
+# Exercise description:
+
 - **Ask the user to enter an integer number**.
 - After reading the value, **use a decision** structure to determine whether the number is **even** or **odd**.
 - To perform this check, use the remainder operator `%`, which allows you to **verify whether the number is divisible by 2**.

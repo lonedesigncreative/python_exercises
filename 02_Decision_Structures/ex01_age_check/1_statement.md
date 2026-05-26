@@ -1,3 +1,5 @@
+# Exercise description:
+
 - Create a program that **asks the user to enter their age**.
 - After reading the value, use **a simple decision structure** to check whether the user is **an adult (18 years or older)**.
 - Finally, the program **should display a message indicating whether the user is considered an adult or not**.

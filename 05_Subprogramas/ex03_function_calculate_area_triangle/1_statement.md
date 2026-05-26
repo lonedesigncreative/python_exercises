@@ -1,3 +1,5 @@
+# Exercise description:
+
 - In this exercise, you will create a Python program that includes a function named `Soma_Numeros`.
 - This function must receive **two numerical input values**, calculate their sum, and return the result to the main program instead of printing it directly.
 

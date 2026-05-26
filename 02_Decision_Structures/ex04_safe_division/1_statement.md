@@ -1,3 +1,5 @@
+# Exercise description:
+
 - **Ask the user to enter two numbers**.
 - **Read** both values from the keyboard.
 - Use a **double‑branch decision structure (if/else)** to check whether the second number is greater than 0.

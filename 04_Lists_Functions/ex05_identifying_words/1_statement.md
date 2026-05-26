@@ -1,3 +1,5 @@
+# Exercise description:
+
 - In this exercise, you are given a list of words:
   - **lista_palavras = ["Braga", "Bragança", "Lisboa", "Viseu", "Leiria", "Porto"]**
 - Your task is to create a Python program that determines which word in the list has the **most characters** and which one has the **fewest characters**.

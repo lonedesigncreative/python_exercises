@@ -1,3 +1,5 @@
+# Exercise description:
+
 - In this exercise, you are required to create a Python program that includes a function named `Calcula_Media_Notas`.
 - The function must receive **three input parameters** — `grade1`, `grade2`, and `grade3` — representing the values of the grades to be evaluated.
 

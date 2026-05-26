@@ -1,3 +1,5 @@
+# Exercise description:
+
 - **Ask** the user to enter a number.
 - **Read** the value from the keyboard.
 - Use a **double‑branch decision structure (if/else)** to check whether the **number is greater than 1 and less than 5**.

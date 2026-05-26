@@ -1,3 +1,5 @@
+# Exercise description:
+
 - In this exercise, you will create a Python program that works with a list named notas. The program must allow the user to enter numeric values and, at the end, display several statistical results.
 - The program should follow these steps:
   - Use a **loop structure** to repeatedly ask the user to enter numerical values.

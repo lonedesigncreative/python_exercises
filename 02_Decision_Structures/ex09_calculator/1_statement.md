@@ -1,3 +1,5 @@
+# Exercise description:
+
 - Ask the user to enter **two numerical values** and specify which **arithmetic operation** they want to perform.
 - After reading the inputs, use a selective decision structure to evaluate the operator provided.
 - If the user enters **"+"**, the program should calculate and display the **sum**.

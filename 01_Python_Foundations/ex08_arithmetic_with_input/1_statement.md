@@ -1,3 +1,5 @@
+# Exercise description:
+
 - Build a program that declares:
 - **Two integer** variables using the `input()` function.
 - After reading both values and converting them to integers with `int()`, the program must perform the **following arithmetic operations**:

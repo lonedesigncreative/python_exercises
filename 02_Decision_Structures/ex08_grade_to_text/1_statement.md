@@ -1,3 +1,5 @@
+# Exercise description:
+
 - Ask the user to enter an **integer grade between 1 and 3**.
 - After reading the value, **use a selective decision structure** to convert the numeric grade into its **textual equivalent**.
   - If the user **enters 1**, the program should display “**Poor**”.

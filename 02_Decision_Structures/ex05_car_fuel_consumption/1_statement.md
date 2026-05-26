@@ -1,3 +1,5 @@
+# Exercise description:
+
 - **Ask the user to enter the total distance** travelled by the vehicle and the total amount of fuel consumed.
 - **After reading the values**, first check whether the total distance **is less than or equal to 0**.
   - If this condition is true, display the error message: **“The total distance value was less than or equal to 0.”**

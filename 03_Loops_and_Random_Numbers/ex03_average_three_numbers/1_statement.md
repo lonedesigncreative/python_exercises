@@ -1,3 +1,5 @@
+# Exercise description:
+
 - Create a program that uses a **`for` loop with an automatic counter** to ask the user for **three integer values**.
 - During each iteration, the program should **read the number entered by the user** and add it to an accumulating total.
 - After collecting all three values, the program must **calculate the arithmetic average** of the numbers provided.

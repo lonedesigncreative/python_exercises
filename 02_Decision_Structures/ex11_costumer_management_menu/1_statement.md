@@ -1,3 +1,5 @@
+# Exercise description:
+
 - Display a **menu of options** related to customer management.
 - The menu should include the following actions:
 -   1. Add Customer

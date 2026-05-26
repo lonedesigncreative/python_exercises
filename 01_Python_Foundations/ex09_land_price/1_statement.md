@@ -1,3 +1,5 @@
+# Exercise description:
+
 - Create a program that **asks the user to enter three pieces of information:** 
   - The length; 
   - The width;

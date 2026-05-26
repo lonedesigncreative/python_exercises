@@ -1,3 +1,5 @@
+# Exercise description:
+
 - Create a program that declares three variables: 
   - one integer 
   - one decimal one text variable.

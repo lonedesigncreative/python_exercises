@@ -1,3 +1,5 @@
+# Exercise description:
+
 - In this exercise, you must create a Python program that includes a function named `Check_Email`.
 - The function should receive **one input parameter**, which corresponds to the **email provided by the user**.
 

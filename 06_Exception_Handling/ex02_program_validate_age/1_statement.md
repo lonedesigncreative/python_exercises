@@ -1,3 +1,5 @@
+# Exercise description:
+
 - Create a Python program that asks the user to enter their age.
 - The program must attempt to convert the input into an integer.
 

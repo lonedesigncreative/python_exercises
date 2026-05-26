@@ -1,3 +1,5 @@
+# Exercise description:
+
 - In this exercise, you are given a list of numerical temperature readings collected at different moments throughout the day:
   - **temperatures = [18.5, 20.0, 19.3, 21.7, 22.1, 17.8, 16.9, 23.4, 24.0, 19.8]**
 - Your task is to create a Python program that analyses this data using simple built‑in statistical functions. Specifically, you should:

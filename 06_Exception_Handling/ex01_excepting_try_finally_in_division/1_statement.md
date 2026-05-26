@@ -1,4 +1,5 @@
-# Exercise Objective
+# Exercise description:
+
 - Develop a Python program that uses **try** / **except** / **finally** to handle errors that may occur when performing a division based on values entered by the user.
 
 ### - 1. **`try` block**

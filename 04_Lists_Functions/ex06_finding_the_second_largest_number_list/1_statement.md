@@ -1,3 +1,5 @@
+# Exercise description:
+
 - In this exercise, you are given the following list of integers:
   - **numeros = [32, 10, 58, 30, 55, 12, 28, 51]**
 - Your task is to create a Python program that identifies the second largest value in the list.

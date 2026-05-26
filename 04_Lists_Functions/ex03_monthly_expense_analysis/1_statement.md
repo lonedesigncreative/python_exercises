@@ -1,3 +1,5 @@
+# Exercise description:
+
 - Considere as seguintes listas de valores inteiros, que representam os gastos mensais da Ana e do João ao longo de cinco meses:
   - **gastos_ana = [310, 250, 210, 800, 550]**
   - **gastos_joao = [275, 410, 525, 321, 250]**

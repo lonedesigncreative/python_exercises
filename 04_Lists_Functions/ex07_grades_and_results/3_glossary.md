@@ -15,7 +15,7 @@ This will display:
 - *Python!*
 
 
-# 3 - Decimal (in Python called float)
+# 2 - Decimal (in Python called float)
 
 ## What it is:  
 A decimal number - a number with a dot (.).
@@ -29,7 +29,7 @@ A decimal number - a number with a dot (.).
 
 
 
-# 2 - Text (in Python called string)
+# 3 - Text (in Python called string)
 
 ## What it is:  
 Text inside quotes `" "`.
@@ -51,7 +51,7 @@ Text inside quotes `" "`.
 | text (string) | Words inside quotes | "Hello" |
 
 
-# 2 - Input
+# 4 - Input
 
 ## What it is:  
 `input` is a command that **asks the user to type something**.
@@ -63,8 +63,7 @@ Text inside quotes `" "`.
 **Example:**
 `name = input("Enter your name: ")`
 
-# 12 - f-string (f"")
-# 7 - f-string (f"")
+# 5 - f-string (f"")
 
 ## What it is:
 An f string is a special type of text that allows you to insert variables inside the text.
@@ -77,7 +76,7 @@ You write it with the letter f before the quotes:
 `f"Hello {name}"`
 
 
-# 2 - f-string (f"")
+# 6 - f-string (f"")
 
 ## What it is:
 An f string is a special type of text that allows you to insert variables inside the text.
@@ -90,7 +89,7 @@ You write it with the letter f before the quotes:
 `f"Hello {name}"`
 
 
-# 3 - { }
+# 7 - { }
 ## What it means:
 The `{ }` are used to show the value of a variable inside the text.
 
@@ -114,7 +113,7 @@ Python replaces {age} with the value of the variable.
 | { } | Shows the variable’s value inside the f string | `{age}` |
 
 
-# 7 - `If`
+# 8 - `If`
 
 ## What it is:  
 An **if** statement checks a condition.
@@ -179,7 +178,7 @@ A **while loop** repeats a block of code **as long as the condition is True**.
     `n -= 1`
 
 
-# 5 - `!=`
+# 10 - `!=`
 
 ## What it is:  
 The **!=** operator means **not equal to**.
@@ -203,7 +202,7 @@ It checks if **two values are different**.
 `print(name != "Ana")`   # False
 
 
-# 4 - [ ]
+# 11 - [ ]
 
 ## What it means:
 In Python, **square brackets** `[]` are used for **three main things**:
@@ -266,7 +265,7 @@ In Python, **square brackets** `[]` are used for **three main things**:
 > - **Use [] for lists, not ()** → parentheses are for tuples.
 
 
-# 7 – Append
+# 12 – Append
 
 ## What it means:
 `append` is a **list method** in Python.
@@ -315,7 +314,7 @@ It is used to **add one new item to the end of a list**.
 `print(items)`   # [1, 2, 3, [4, 5]]
 
 
-# 10 - Len
+# 13 - Len
 
 ## What it is:
 `len` is a **built in Python function** that returns the **number of items** in a collection.
@@ -359,7 +358,7 @@ It is used to **add one new item to the end of a list**.
 `print(len(person))`   # 2
 
 
-# 5 - Sum
+# 14 - Sum
 
 ## What it is:  
 `sum` is a **built in Python function** that adds **all the numbers in an iterable** (like a list, tuple, or set) and returns the **total**.
@@ -407,7 +406,7 @@ It is used to **add one new item to the end of a list**.
 
 
 
-# 11 - Min()
+# 15 - Min()
 
 ## What it is:  
 `min` is a built in Python function that returns the smallest value in an iterable (list, tuple, set, etc.) or among multiple values.
@@ -458,7 +457,7 @@ It is used to **add one new item to the end of a list**.
 
 
 
-# 12 - Max()
+# 16 - Max()
 
 ## What it is:  
 `max` is a **built in Python function** that returns the **largest value** in an iterable (list, tuple, set, etc.) or among multiple values.

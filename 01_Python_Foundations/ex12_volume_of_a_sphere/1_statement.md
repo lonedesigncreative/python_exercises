@@ -3,7 +3,7 @@
 - The program must:
     - Ask the user to enter the **radius** of a sphere.
     - Calculate the volume using the formula:
-      - [ V = \frac{4}{3} \cdot \pi \cdot r^3 ]
+      - $$V = \frac{4}{3} \cdot \pi \cdot r^3$$
 
       - Where:
         - **V** = volume

@@ -6,7 +6,7 @@
       - 1 hour = 3600 seconds
       - 1 mimute = 60 seconds
 
-      - [ \text{total_seconds} = (h \cdot 3600) + (m \cdot 60) + s ]
+      - $$\text{total_seconds} = (h \cdot 3600) + (m \cdot 60) + s$$
         - Where:
             - **h** = hours
             - **m** = minutes

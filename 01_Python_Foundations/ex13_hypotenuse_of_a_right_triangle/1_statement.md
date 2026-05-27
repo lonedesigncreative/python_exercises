@@ -3,7 +3,7 @@
 - The program must:
     - Receive the values of the **legs** `a` and `b`.
     - Compute the hypotenuse using the Pythagorean theorem:
-      - [ h = \sqrt{a^2 + b^2} ]
+      - $$h = \sqrt{a^2 + b^2}$$
 
       - Where:
         - **a** and **b** = the legs (catheti) of the triangle

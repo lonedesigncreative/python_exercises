@@ -127,7 +127,7 @@ When Python finds a matching case, it runs that block of code.
 > - **Avoid unnecessary cases** → keep your structure clean and simple.
 
 **Example:**
-*Example 1: Months*
+  - ***Example 1: Months***
 `month = 3`
 
 `match month:`
@@ -140,7 +140,7 @@ When Python finds a matching case, it runs that block of code.
     `case _:`
         `print("Invalid month")`
 
-*Example 2: Civil status*
+  - ***Example 2: Civil status***
 `status = "S"`
 
 `match status:`
@@ -153,7 +153,7 @@ When Python finds a matching case, it runs that block of code.
     `case _:`
         `print("Invalid option")`
 
-*Example 3 : Number type*
+  - ***Example 3 : Number type***
 `number = 0`
 
 `match number:`
@@ -192,7 +192,7 @@ When Python finds a `break`, it** exits the loop**, even if the loop condition i
 
 
 **Example:**
-*Example 1 - Stop a `for` loop early*
+  - ***Example 1 - Stop a `for` loop early***
 `for i in range(1, 10):`
     `if i == 5:`
         `break`
@@ -202,7 +202,7 @@ When Python finds a `break`, it** exits the loop**, even if the loop condition i
 > *`1, 2, 3, 4`*
 > (The loop stops when i reaches 5.)
 
-*Example 2 - Stop a `while` loop when a condition happens*
+  - ***Example 2 - Stop a `while` loop when a condition happens***
 `i = 1`
 
 `while i <= 10:`
@@ -212,7 +212,8 @@ When Python finds a `break`, it** exits the loop**, even if the loop condition i
     `i += 1`
 
 
-*Example 3 - Stop asking for input when the user types “exit”*
+  - ***Example 3 - Stop asking for input when the user types “exit”***
+`while True:`
     `text = input("Type something: ")`
     `if text == "exit":`
         `break`

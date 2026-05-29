@@ -14,41 +14,8 @@
 This will display:
 - *Python!*
 
-# 2 - Text (in Python called string)
 
-## What it is:  
-Text inside quotes `" "`.
-
-> [!CAUTION]
-> - Text must always be inside quotes.
-> - If you put numbers inside quotes, they become text, not numbers.
-
-**Example:**
-`name = "LoneDesign"`
-
-# Summary
-
-| **Concept** | **Meaning** | **Example** |
-| :--- | :--- | :--- |
-| print | hows something on the screen | print("Hi") |
-| integer | Whole number | 10 |
-| decimal (float) | Number with decimal | 2.5 |
-| text (string) | Words inside quotes | "Hello" |
-
-
-# 3 - Integer
-
-## What it is:  
-An integer is a whole number, without decimals.
-
-> [!CAUTION]
->- An integer cannot have decimals.
-> - **Do NOT use a comma** → Python will think it’s two values.
-
-**Example:**
-`age = 25`
-
-# 4 - Input
+# 2 - Input
 
 ## What it is:  
 `input` is a command that **asks the user to type something**.
@@ -61,211 +28,187 @@ An integer is a whole number, without decimals.
 `name = input("Enter your name: ")`
 
 
-# 5 - While (loop)
-A **while loop** repeats a block of code **as long as the condition is True**.
-
->> “Keep doing this while the condition is true.”
-
-> [!TIP]
->  - When the condition becomes **False**, the loop stops.
-
-> [!IMPORTANT]
-> ## How it works:
-> - The condition is checked first.
-> - If True, the loop runs.
-> - If False, the loop stops.
+# 3 - Remainder (`%`)
+Also called modulo.
 
 > [!CAUTION]
-> - **Avoid infinite loops** → always update the variable inside the loop.
-> - **Condition must eventually become False** → otherwise the loop never ends.
-> - **Indentation is required** → everything inside the loop must be indented.
-> - **Be careful with `input()`** → convert values before comparing.
-> - **Use while when repetitions are unknown** → if you know the exact number, `for` is usually better.
+> - Only works with numbers.
+> - If you use text, Python gives an error.
+> - Be careful: % does not give the result of the division - only the remainder.
+
+## What it does:  
+Returns the remainder of a division.
 
 **Example:**
-*Example 1 - Count from 1 to 5*
-`i = 1`
+`rest = 10 % 3`   # remainder is 1
 
-`while i <= 5:`
-    `print(i)`
-    `i += 1`
+# Summary
 
-*Example 2 - Ask for a password until correct*
-`password = ""`
+| **Operator** | **Meaning** | **Example** | **Result** |
+| :---: | :--- | :---: | :---: |
+| + | Addition | 5 + 3 | 8 |
+| - | Subtraction | 10 - 4 | 6 |
+| * | Multiplication | 6 * 2 | 12 |
+| / | Division | 10 / 4 | 2.5 |
+| % | Remainder | 10 % 3 | 1 |
 
-`while password != "1234":`
-    `password = input("Enter password: ")`
 
-`print("Access granted")`
-
-*Example 3 - Countdown*
-`n = 5`
-
-`while n > 0:`
-    `print(n)`
-    `n -= 1`
-
-# 6 - Match
+# 4 - `==`
 
 ## What it is:  
-The **match** statement is Python’s version of a **switch**.
-It checks a value and compares it against several possible patterns.
+The `==` operator checks if two values are exactly the same.
+It returns True when the values are equal and False when they are different.
 
-Each **case** is one possible option.
-When Python finds a matching case, it runs that block of code.
-
-  - **match** → the value you want to test
-  - **case** → the options you want to compare against
-  - **case _** → the “default” (when nothing matches)
+  - `==` → compares values
+  - It does not assign values (that’s =)
 
 > [!CAUTION]
-> - **match compares exact values** → `"3"` is not the same as `3`.
-> - **case _ is the default** → use it for “anything else”.
-> - **match works top to bottom** → the first matching case wins.
-> - **Spacing and indentation matter** → keep everything aligned.
-> - **Use match only in Python 3.10+** → older versions do not support it.
-> - **Avoid unnecessary cases** → keep your structure clean and simple.
+> - **== is not =**
+>   - = assigns a value; == compares values.
+> - **Compare compatible types**
+>     - avoid comparing numbers with text ("10" == 10 is False).
+> - **Becareful with `input()`**
+>     - input returns text, so convert before comparing (`int(input())`).
+> - **Case sensitivity matters**
+>     - `"Ana" == "ana"` is False because the letters are different.
+> - **Spacing matters** —
+>   - write `a == 10`, not `a==10abc`.
 
 **Example:**
-  - ***Example 1: Months***
-`month = 3`
+`age = 18`
+`print(age == 18)`   # True
 
-`match month:`
-    `case 1:`
-        `print("January")`
-    `case 2:`
-        `print("February")`
-    `case 3:`
-        `print("March")`
-    `case _:`
-        `print("Invalid month")`
+`score = 50`
+`print(score == 60)` # False
 
-  - ***Example 2: Civil status***
-`status = "S"`
 
-`match status:`
-    `case "S":`
-        `print("Single")`
-    `case "C":`
-        `print("Married")`
-    `case "V":`
-        `print("Widowed")`
-    `case _:`
-        `print("Invalid option")`
-
-  - ***Example 3 : Number type***
-`number = 0`
-
-`match number:`
-    `case 0:`
-        `print("Zero")`
-    `case 1 | 2 | 3:`
-        `print("Small number")`
-    `case _:`
-        `print("Other number")`
-
-# 7 - Break
+# 5 - `If`
 
 ## What it is:  
-The `break` statement is used to **stop a loop immediately**.
-When Python finds a `break`, it** exits the loop**, even if the loop condition is still True.
+An **if** statement checks a condition.
+If the condition is **true**, the code inside **runs**.
+If the condition is **false**, Python **skips it**.
+
+> [!CAUTION]
+> - **Indentation is required** → the code inside the `if` must be indented.
+> - **If without else does nothing when false** → the program continues normally.
+> - **Condition must be valid** → avoid writing text or invalid expressions inside the `if`.
+> - **B****e careful with spacing** → `if age >= 18`: works, but `ifage>=18`: is invalid.
+
+**Example:**
+`score = 90`
+`if score >= 80:`
+   `print("Great job")`
+
+
+
+# 6 - Range
+
+## What it is:
+`range` is a built in Python function used to generate a **sequence of numbers**.
+It is most commonly used in **for loops**.
+
+>> “Create numbers starting from one value, ending before another value, increasing by a step.”
 
 > [!NOTE]
-> **It works in both:**
-> **`for` loops**
-> **`while` loops**
-
->> “Stop the loop right now.”
-
-> [!CAUTION]
-> - **Use break only when necessary** → too many breaks make code harder to read.
-> - **Break exits only the current loop** → not nested loops above it.
-> - **Avoid infinite loops** → if using `while True`, make sure a break exists.
-> - **Break stops immediately** → code after break inside the loop will not run.
-> - **Use continue for skipping** → not break.
-
-> [!WARNING]
-> **## What break does NOT do**
-> It does **not** skip to the next iteration (that is **continue**).
-> It does **not** restart the loop.
-> It does **not** exit the entire program — only the loop.
-
-
-**Example:**
-  - ***Example 1 - Stop a `for` loop early***
-`for i in range(1, 10):`
-    `if i == 5:`
-        `break`
-    `print(i)`
-
-> **Output:**
-> *`1, 2, 3, 4`*
-> (The loop stops when i reaches 5.)
-
-  - ***Example 2 - Stop a `while` loop when a condition happens***
-`i = 1`
-
-`while i <= 10:`
-    `if i == 7:`
-        `break`
-    `print(i)`
-    `i += 1`
-
-
-  - ***Example 3 - Stop asking for input when the user types “exit”***
-`while True:`
-    `text = input("Type something: ")`
-    `if text == "exit":`
-        `break`
-    `print("You typed:", text)`
-
-# 8 - True
-
-## What it is:  
-In Python, **True** is a **Boolean value**.
-It represents something that is **correct**, **valid**, or **logically true**.
-
-> [!NOTE]
-> **Python has only two Boolean values:**
-> **True**
-> **False**
+> ## Three main forms of `range`
+> ### 1. range(stop)
+> - Starts at **0**, ends at **stop − 1**.
+> 
+> `**numbers = [1, 2, 3, 4]**`
+> `print(i)`
+> **Output:** 0, 1, 2, 3, 4
+> 
+> ### 2. range(start, stop)
+> - Starts at **start**, ends at **stop − 1**.
+> 
+> `for i in range(2, 6):`
+> `print(i)`
+> 
+> **Output:** 2, 3, 4, 5
+> 
+> `print(fruits[-1])`  # orange
+> 
+> ### 3. range(start, stop, step)
+> - Adds a **step** (increment or decrement).
+> 
+> `for i in range(1, 10, 2):`
+> `print(i)`
 >
-> **These values are used in:**
-    > **if statements**
-    > **while loops**
-    > **comparisons**
-    > **logical operations**
-
-> [!CAUTION]
-> - **Capital letter required** → write `True`, not `true`.
-> - **Do not confuse with strings** → `"True"` is not the same as `True`.
-> - **Comparisons return True or False** → e.g., `5 == 5` gives True.
-> - **While True needs break** → otherwise it becomes an infinite loop.
-> - **True is not the same as 1** → they compare equal, but they are different types.
+> **Output:** 1, 3, 5, 7, 9
 
 > [!IMPORTANT]
-> - **True starts with a capital T** → `true` (lowercase) does not work in Python.
-> - **True is a Boolean, not a string** → `"True"` is text, not a Boolean.
-> - **True equals 1 in numeric context** → (but you normally don’t use it this way)
->> **Example:** `print(True == 1)`   # True
+> ### Important details:
+> - `range` **includes the start**
+> - `range` **excludes the stop**
+> - `range` **can go backwards**
+> - `range` **does not create a list**, but a special sequence type
+> - Convert to list with `list(range(...))` if needed
+> > `print(list(range(5)))`   # [0, 1, 2, 3, 4]
+>
 
+> [!CAUTION]
+> - **Stop is not included** → `range(1, 5)` gives 1, 2, 3, 4.
+> - **Step cannot be zero** → `range(1, 10, 0)` gives an error.
+> - **Use negative step to count down** → otherwise it loops forever.
+> - **Range works only with integers** → no floats.
+> - **Often used in for loops** → but can be converted to a list.
+
+
+> **Example:**
+*Example 1 - Counting backwards*
+`for i in range(10, 0, -1):`
+    `print(i)`
+
+*Example 2 - Loop from 1 to 10 (inclusive)*
+`for i in range(1, 11):`
+    `print(i)`
+
+*Example 3 - Loop through even numbers*
+`for i in range(0, 21, 2):`
+    `print(i)`
+
+
+# 7 - For (loop)
+A **for loop** is used when you want to **repeat a block of code a specific number of times** or **go through each item in a sequence** (like a list, string, or range).
+
+## What it means:
+> “For each value in this sequence, do this action.”
+
+> [!CAUTION]
+> - **Indentation is required** → everything inside the loop must be indented.
+> - **range upper limit is not included** → `range(1, 5)` stops at 4, not 5.
+> - **Variable name is temporary** → `i`, `n`, `item` are just loop variables.
+> - **Avoid infinite loops** → `for` loops normally don’t go infinite, but wrong ranges can cause issues.
+> - **Be careful with input()** → convert values before using them in a range.
+> - **Don’t modify the list while looping** → it can break the loop.
 
 **Example:**
-  - ***Example 1 - True as a value***
-`is_sunny = True`
-`print(is_sunny)`
+*1. Loop from 1 to 5*
+`for i in range(1, 6):`
+    `print(i)`
 
-  - ***Example 2 - True from a comparison***
-`print(5 > 2)`   # True
+*2. Loop through a list*
+`fruits = ["apple", "banana", "orange"]`
 
+`for fruit in fruits:`
+    `print(fruit)`
 
-  - ***Example 3 - True in an if statement***
-`age = 20`
+*3. Loop through each letter in a string*
+`for letter in "Python":`
+    `print(letter)`
 
-`if age >= 18:`
-    `print("Adult")`   # This runs because the condition is True
+*4. Sum numbers from 1 to 10*
+`total = 0`
 
-  - ***Example 4 - True in a while loop***
-`while True:`      
-    `print("Looping...")`
-    `break`
+`for n in range(1, 11):`
+    `total += n`
+
+`print(total)`
+
+> [!IMPORTANT]
+> - #### How the `range()` works:
+> The function **range** creates a sequence of numbers.
+>   - `range(5)` → 0,1,2,3,4
+>   - `range(1, 5)` → 1,2,3,4
+>   - `range(1, 10, 2)` → 1,3,5,7,9 (step of 2)

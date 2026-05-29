@@ -48,6 +48,7 @@ An integer is a whole number, without decimals.
 **Example:**
 `age = 25`
 
+
 # 4 - Input
 
 ## What it is:  
@@ -61,7 +62,28 @@ An integer is a whole number, without decimals.
 `name = input("Enter your name: ")`
 
 
-# 5 - While (loop)
+# 5 - `<=`
+
+## What it is:  
+The `<=`  operator means **less than or equal to**.
+It checks if a value is **smaller** or **the same** as another value.
+
+> [!CAUTION]
+> - **`<=` includes equality** → different from `<`, which does not.
+> - **Compare only numbers** → avoid comparing text with numbers.
+> - **Convert `input()` first** → input is text, so convert before comparing.
+> - **Spacing matters** → write `a <= 10`, not `a<=10abc`.
+
+**Example:**
+`age = 12`
+`print(age <= 12)`   # True
+
+`temperature = 18`
+`print(temperature <= 15)`   # False
+
+
+
+# 6 - While (loop)
 A **while loop** repeats a block of code **as long as the condition is True**.
 
 >> “Keep doing this while the condition is true.”
@@ -105,66 +127,52 @@ A **while loop** repeats a block of code **as long as the condition is True**.
     `print(n)`
     `n -= 1`
 
-# 6 - Match
+
+# 7 - `If`
 
 ## What it is:  
-The **match** statement is Python’s version of a **switch**.
-It checks a value and compares it against several possible patterns.
-
-Each **case** is one possible option.
-When Python finds a matching case, it runs that block of code.
-
-  - **match** → the value you want to test
-  - **case** → the options you want to compare against
-  - **case _** → the “default” (when nothing matches)
+An **if** statement checks a condition.
+If the condition is **true**, the code inside **runs**.
+If the condition is **false**, Python **skips it**.
 
 > [!CAUTION]
-> - **match compares exact values** → `"3"` is not the same as `3`.
-> - **case _ is the default** → use it for “anything else”.
-> - **match works top to bottom** → the first matching case wins.
-> - **Spacing and indentation matter** → keep everything aligned.
-> - **Use match only in Python 3.10+** → older versions do not support it.
-> - **Avoid unnecessary cases** → keep your structure clean and simple.
+> - **Indentation is required** → the code inside the `if` must be indented.
+> - **If without else does nothing when false** → the program continues normally.
+> - **Condition must be valid** → avoid writing text or invalid expressions inside the `if`.
+> - **B****e careful with spacing** → `if age >= 18`: works, but `ifage>=18`: is invalid.
 
 **Example:**
-  - ***Example 1: Months***
-`month = 3`
+`score = 90`
+`if score >= 80:`
+   `print("Great job")`
 
-`match month:`
-    `case 1:`
-        `print("January")`
-    `case 2:`
-        `print("February")`
-    `case 3:`
-        `print("March")`
-    `case _:`
-        `print("Invalid month")`
 
-  - ***Example 2: Civil status***
-`status = "S"`
+# 8 - `Else`
 
-`match status:`
-    `case "S":`
-        `print("Single")`
-    `case "C":`
-        `print("Married")`
-    `case "V":`
-        `print("Widowed")`
-    `case _:`
-        `print("Invalid option")`
+## What it is:  
+The **else** block runs **when the if condition is false**.
+It is the “backup” or “alternative” action.
 
-  - ***Example 3 : Number type***
-`number = 0`
+  - **if** = what happens when the condition is true
+  - **else** = what happens when the condition is false
 
-`match number:`
-    `case 0:`
-        `print("Zero")`
-    `case 1 | 2 | 3:`
-        `print("Small number")`
-    `case _:`
-        `print("Other number")`
+> [!CAUTION]
+> - **Else must come after an if** → you cannot use `else` alone.
+> - **Indentation is required** → the code inside `else` must be indented.
+> - **Else has no condition** → it runs automatically when the `if` is false.
+> - **Avoid unnecessary else** → use it only when you really need an alternative action.
+- **Be careful with `input()`** → convert values before comparing in the `if`.
 
-# 7 - Break
+**Example:**
+`age = 16`
+
+`if age >= 18:`
+    `print("You can enter")`
+`else:`
+    `print("You cannot enter")`
+
+
+# 9 - Break
 
 ## What it is:  
 The `break` statement is used to **stop a loop immediately**.
@@ -219,7 +227,7 @@ When Python finds a `break`, it** exits the loop**, even if the loop condition i
         `break`
     `print("You typed:", text)`
 
-# 8 - True
+# 10 - True
 
 ## What it is:  
 In Python, **True** is a **Boolean value**.

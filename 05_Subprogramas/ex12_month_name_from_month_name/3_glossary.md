@@ -37,7 +37,163 @@ Text inside quotes `" "`.
 | text (string) | Words inside quotes | "Hello" |
 
 
-# 3 - `If`
+# 3 - <=
+
+## What it is:
+`<=` is a `comparison operator` in Python.
+
+>> “Less than or equal to.”
+
+It compares two values and returns **True** or **False**.
+
+> [!NOTE]
+> ## Basic meaning:
+> 
+> `a <= b`
+> 
+> This expression is **True** when:
+> - `a` is less than `b`, **OR**
+> - `a` is equal to `b`
+> Otherwise, it is **False**.
+
+
+
+> [!IMPORTANT]
+> - Works with **numbers**, **strings**, and other comparable types
+> - Strings are compared **alphabetically**
+> - You cannot compare incompatible types
+>   - `"a" <= 3` → error
+
+
+## Comparison table
+
+| **Expression** | **Result** |
+| :--- | :--- |
+| 3 <= 5 | True |
+| 5 <= 5 | True |
+| 7 <= 2 | False |
+| "a" <= "b" | True (alphabetical order) |
+
+
+> [!CAUTION]
+> ## Common mistakes
+> - **Confusing `<=` with `<`**
+>   - `<` → strictly less
+>   - `<=` → less OR equal
+>
+> - **Comparing different types  **
+>   - ❌ `"10" <= 5 ` 
+>   - ✔ Convert first: `int("10") <= 5`
+> 
+> - **Using `<=` with lists** 
+> *Lists cannot be compared this way.*
+
+
+> **Example:**
+*Example 1 - Basic comparison*
+`print(5 <= 10)`   # True
+`print(10 <= 10)`  # True
+`print(12 <= 10)`  # False
+
+*Example 2 - Using inside an if*
+`age = 17`
+
+`if age <= 18:`
+    `print("Minor")`
+
+*Example 3 - With variables*
+`x = 3`
+`y = 7`
+
+`if x + 2 <= y:`
+    `print("Condition is true")`
+
+
+# Summary
+
+| **Operator** | **Meaning** | **Example** |
+| :--- | :--- | :--- |
+| <= | Less than or equal to | `x <= 10` |
+| < | Strictly less than | `x < 10` |
+| >= | Greater or equal | `x >= 10` |
+| > | Strictly greater | `x > 10` |
+
+
+# 4 - Subtraction (`−`)
+
+## What it does:  
+Subtracts one value from another.
+
+> [!CAUTION]
+> - You cannot subtract text.
+> - You cannot subtract using commas (European style). Use dots.
+
+**Example:**
+`difference = 10 - 4`
+
+
+# 5 - [ ]
+
+## What it means:
+In Python, **square brackets** `[]` are used for **three main things**:
+  1. Creating lists
+  2. Accessing elements by index
+  3. Slicing lists or strings
+
+> [!IMPORTANT]
+> ### 1. [] to create a list
+> - A **list** is a collection of items.
+> 
+> `numbers = [1, 2, 3, 4]`
+> `fruits = ["apple", "banana", "orange"]`
+> `mixed = [10, "hello", True]`
+> 
+> ### 2. [] to access an element (indexing)
+> - Indexes start at **0**.
+> 
+> `fruits = ["apple", "banana", "orange"]`
+> 
+> `print(fruits[0])`   # apple
+> `print(fruits[1])`   # banana
+> `print(fruits[2])`   # orange
+> 
+> - Negative indexes count from the end:
+> 
+> `print(fruits[-1])`  # orange
+> 
+> ### 3. [] to slice (get a part of a list or string)
+> 
+> `numbers = [10, 20, 30, 40, 50]`
+> 
+> `print(numbers[1:4])`   # [20, 30, 40]
+> `print(numbers[:3])`    # [10, 20, 30]
+> `print(numbers[2:])`    # [30, 40, 50]
+> 
+> - Works with **strings** too:
+> 
+> `text = "Python"`
+> `print(text[0:3])`   # Pyt
+
+> [!NOTE]
+> ### 4. Other uses of []
+> **4.1 - Empty list**
+> `empty = []`
+>
+> **4.2 - List inside a list (nested list)**
+> `matrix = [[1, 2], [3, 4]]`
+> 
+> > **4.3 - Adding items**
+> `fruits.append("kiwi")`
+
+> [!CAUTION]
+> - **Index starts at 0** → `fruits[0]` is the first item.
+> - **Index out of range error** → `fruits[10]` gives an error.
+> - **Lists are mutable** → you can change items inside them.
+> - **Slicing creates a copy** → modifying the slice doesn’t change the original list.
+> - **Use [] for lists, not ()** → parentheses are for tuples.
+
+
+# 6 - `If`
 
 ## What it is:  
 An **if** statement checks a condition.
@@ -54,31 +210,6 @@ If the condition is **false**, Python **skips it**.
 `score = 90`
 `if score >= 80:`
    `print("Great job")`
-
-
-# 4 - `Else`
-
-## What it is:  
-The **else** block runs **when the if condition is false**.
-It is the “backup” or “alternative” action.
-
-  - **if** = what happens when the condition is true
-  - **else** = what happens when the condition is false
-
-> [!CAUTION]
-> - **Else must come after an if** → you cannot use `else` alone.
-> - **Indentation is required** → the code inside `else` must be indented.
-> - **Else has no condition** → it runs automatically when the `if` is false.
-> - **Avoid unnecessary else** → use it only when you really need an alternative action.
-- **Be careful with `input()`** → convert values before comparing in the `if`.
-
-**Example:**
-`age = 16`
-
-`if age >= 18:`
-    `print("You can enter")`
-`else:`
-    `print("You cannot enter")`
 
 
 # 5 - def
@@ -140,66 +271,107 @@ Call it:
 > greet("Ana")
 
 
-# 6 - endswith
+# 7 - return
 
 ## What it is:  
-`endswith` is a string method in Python that checks whether a string ends with a specific sequence of characters.
+`return` is a keyword used inside a function in Python.
 
->> “Does this text finish with this ending?.”
+>> “Send a value back to the place where the function was called.”
 
-It returns:
-- **True** → if the string ends with the given substring
-- **False** → if it does not
-
+When Python reaches a `return`, the function stops immediately and gives back a result.
 
 > [!NOTE]
-> ### Basic structure:
->    - `string.endswith(substring)`
-
+> ### Basic usage:
+>    - `def function_name():`
+>     - `return value`
 
 > [!IMPORTANT]
-> **## What `endswith` is used for**
-> - **Check file extensions**
-> - **Validate input**
-> - **Filter lists of strings**
-> - **Work with URLs or emails**
+> **## **Important: `return` ends the function****
 >
-> **Example:**
-> `email = "user@example.com"`
-> `print(email.endswith(".com"))`   # True
+> Anything after `return` is **ignored**.
+>
+> `def test():`
+>     `return 10`
+>     `print("This will NOT run")`
 
+## `return` vs `print`
+
+| **Concept** | **What it does** |
+| :--- | :--- |
+| return | Sends a value back to the caller |
+| print | Shows text on the screen |
+
+### **Example:**
+`def f():`
+    `return 5`
+
+`print(f())`   # prints 5
+
+> [!NOTE]
+> `return` gives the value.
+> `print` only displays it.
 
 > [!TIP]
-> **## `endswith` vs `startswith`**
-> | **Method** | **What it checks** |
-> | :--- | :--- |
-> | endswith | Ending of the string |
-> | startswith | Beginning of the string |
+> ### Functions can return any type:
+>
+>   - **Number**
+>     - `def get_number():`
+>       - `return 42`
+>
+> 
+> 
+>   - **String**
+>     - `def greet():`
+>       - `return "Hello"`
+>
+> 
+> 
+>   - **List**
+>     - `def numbers():`
+>       - `return [1, 2, 3]`
+>
+>
+> 
+>   - **Boolean**
+>     - `def is_adult(age):`
+>       - `return age >= 18`
+>
+>**------------------------------------**
+>
+> ### Functions can return multiple values (as a tuple):
+>
+> `def stats(a, b):`
+>     `return a + b, a * b`
+>
+> `s, m = stats(3, 4)`
+> `print(s, m)`   # 7 12
+>
+> 
+>
+>  ### return without a value:
+>
+> `def empty():`
+>     `return`
+>
+> - This returns `**None**`.
+>
+> **------------------------------------**
+>
+> ### If a function has no return
+>
+> Python automatically returns **None**.
+>
+> `def hello():`
+>   `print("Hi")`
+> 
+> `x = hello()`
+> `print(x)`   # None
 
+# Summary
 
-> [!CAUTION]
-> - **Case‑sensitive** → `"Hello".endswith("LO")` is False.
-> - **Works only on strings** → not lists or numbers.
-> - **Substring must be a string or tuple** → no integers.
-> - **Optional start/end slice** → lets you check part of the string.
-
-
-**Example:**
-*Example 1 - Simple check*
-`text = "hello world"`
-`print(text.endswith("world"))`   # True
-
-*Example 2 - Case‑sensitive*
-`print("Python".endswith("on"))`   # True
-`print("Python".endswith("On"))`   # False
-
-*Example 4 - Check multiple possible endings*
-- You can pass a **tuple** of endings:
-`file = "photo.png"`
-`print(file.endswith((".png", ".jpg")))`   # True
-
-*Example 2 - Using start and end positions*
-`text = "programming"`
-`print(text.endswith("gram", 0, 7))`   # True
-
-> **Explanation:** checks only `"program"`.
+| **Feature** | **Meaning** |
+| :--- | :--- |
+| return | Sends a value back |
+| Ends the function | Code after return is ignored |
+| Can return any type | numbers, strings, lists, booleans |
+| No return → None | default behavior |

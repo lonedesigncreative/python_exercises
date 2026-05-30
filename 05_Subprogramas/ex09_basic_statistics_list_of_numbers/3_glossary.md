@@ -15,21 +15,7 @@ This will display:
 - *Python!*
 
 
-# 2 - Decimal (in Python called float)
-
-## What it is:  
-A decimal number - a number with a dot (.).
-
-> [!CAUTION]
-> - Python uses a dot, not a comma.
-> - 3.5 is correct, 3,5 is wrong.
-
-**Example:**
-`price = 3.50`
-
-
-
-# 3 - Text (in Python called string)
+# 2 - Text (in Python called string)
 
 ## What it is:  
 Text inside quotes `" "`.
@@ -51,158 +37,8 @@ Text inside quotes `" "`.
 | text (string) | Words inside quotes | "Hello" |
 
 
-# 4 - Input
 
-## What it is:  
-`input` is a command that **asks the user to type something**.
-
-> [!CAUTION]
-> - `input` always returns text, even if the user types a number.
-> - If you want a number, you must convert it.
-
-**Example:**
-`name = input("Enter your name: ")`
-
-# 5 - f-string (f"")
-
-## What it is:
-An f string is a special type of text that allows you to insert variables inside the text.
-
-> [!CAUTION]
-> - Don’t forget the **f** before the quotes.
-> - Without the **f**, Python will not replace the variables.
-
-You write it with the letter f before the quotes:
-`f"Hello {name}"`
-
-
-# 6 - f-string (f"")
-
-## What it is:
-An f string is a special type of text that allows you to insert variables inside the text.
-
-> [!CAUTION]
-> - Don’t forget the **f** before the quotes.
-> - Without the **f**, Python will not replace the variables.
-
-You write it with the letter f before the quotes:
-`f"Hello {name}"`
-
-
-# 7 - { }
-## What it means:
-The `{ }` are used to show the value of a variable inside the text.
-
-> [!CAUTION]
-> - Inside `{ }` you must put a **variable** or an **expression**.
-> - If you put text without quotes, it gives an error.
-> - If you put quotes inside `{ }`, it becomes text again.
-
-**Example:**
-`age = 25`
-`print(f"You are {age} years old")`
-
-Python replaces {age} with the value of the variable.
-
-# Summary
-
-| **Concept** | **Meaning** | **Example** |
-| :---: | :--- | :---: |
-| input | Asks the user to type something | `input("Your name: ")` |
-| f-string | Text that can show variables | `f"Hello {name}"` |
-| { } | Shows the variable’s value inside the f string | `{age}` |
-
-
-# 8 - `If`
-
-## What it is:  
-An **if** statement checks a condition.
-If the condition is **true**, the code inside **runs**.
-If the condition is **false**, Python **skips it**.
-
-> [!CAUTION]
-> - **Indentation is required** → the code inside the `if` must be indented.
-> - **If without else does nothing when false** → the program continues normally.
-> - **Condition must be valid** → avoid writing text or invalid expressions inside the `if`.
-> - **B****e careful with spacing** → `if age >= 18`: works, but `ifage>=18`: is invalid.
-
-**Example:**
-`score = 90`
-`if score >= 80:`
-   `print("Great job")`
-
-
-
-# 9 - While (loop)
-A **while loop** repeats a block of code **as long as the condition is True**.
-
->> “Keep doing this while the condition is true.”
-
-> [!TIP]
->  - When the condition becomes **False**, the loop stops.
-
-> [!IMPORTANT]
-> ## How it works:
-> - The condition is checked first.
-> - If True, the loop runs.
-> - If False, the loop stops.
-
-> [!CAUTION]
-> - **Avoid infinite loops** → always update the variable inside the loop.
-> - **Condition must eventually become False** → otherwise the loop never ends.
-> - **Indentation is required** → everything inside the loop must be indented.
-> - **Be careful with `input()`** → convert values before comparing.
-> - **Use while when repetitions are unknown** → if you know the exact number, `for` is usually better.
-
-**Example:**
-*Example 1 - Count from 1 to 5*
-`i = 1`
-
-`while i <= 5:`
-    `print(i)`
-    `i += 1`
-
-*Example 2 - Ask for a password until correct*
-`password = ""`
-
-`while password != "1234":`
-    `password = input("Enter password: ")`
-
-`print("Access granted")`
-
-*Example 3 - Countdown*
-`n = 5`
-
-`while n > 0:`
-    `print(n)`
-    `n -= 1`
-
-
-# 10 - `!=`
-
-## What it is:  
-The **!=** operator means **not equal to**.
-It checks if **two values are different**.
-
-- If the values are different → True
-- If the values are the same → False
-
-> [!CAUTION]
-> - **!= is comparison, not assignment** → don’t confuse with `=`.
-> - **Compare compatible types** → `"10" != 10` is True because one is text and the other is a number.
-> - **Be careful with input()** → convert before comparing (`int(input())`).
-> - **Case sensitivity matters** → `"Ana" != "ana"` is True.
-> - **Spacing matters** → write a `!= 5`, `not a!=5abc`.
-
-**Example:**
-`age = 18`
-`print(age != 20)`   # True
-
-`name = "Ana"`
-`print(name != "Ana")`   # False
-
-
-# 11 - [ ]
+# 3 - [ ]
 
 ## What it means:
 In Python, **square brackets** `[]` are used for **three main things**:
@@ -264,57 +100,66 @@ In Python, **square brackets** `[]` are used for **three main things**:
 > - **Slicing creates a copy** → modifying the slice doesn’t change the original list.
 > - **Use [] for lists, not ()** → parentheses are for tuples.
 
+# 4 - def
 
-# 12 – Append
+## What it is:  
+`def` is a Python keyword used to define a function.
 
-## What it means:
-`append` is a **list method** in Python.
-It is used to **add one new item to the end of a list**.
+>> “Create a reusable block of code with a name.”
 
->> “Put this new element at the end of the list.”
+A function lets you:
+- organize code
+- avoid repetition
+- receive inputs
+- return outputs
+
+> [!NOTE]
+> ### Basic structure:
+>    - `def function_name(parameters):`
+>    - `code_block`
+> **Example:**
+>    - `def greet():`
+>      - `print("Hello!")`
+
+
+> [!IMPORTANT]
+> **## What def does**
+> - Creates a function
+> - Gives it a name
+> - Defines parameters
+> - Defines the code that runs when the function is called
+
+> [!TIP]
+> **## Why functions are useful**
+> - Avoid repeating code
+> - Make programs easier to read
+> - Allow modular programming
+> - Allow reuse in different parts of the program
 
 > [!CAUTION]
-> - **append adds only one item** → even if that item is a list.
-> - **append modifies the original list** → lists are mutable.
-> - **append always adds at the end** → never at the beginning or middle.
-> - **append returns None** → don’t do `new_list = list.append(x)`.
-> - **Use extend for multiple items** → `append([1,2])` ≠ `extend([1,2])`.
+> - **Indentation is required** → code inside the function must be indented.
+> - **Functions must be called** → defining is not enough.
+> - **Return ends the function** → anything after return is ignored.
+> - **Parameters must match** → wrong number of arguments gives error.
+> - **Functions create their own scope** → variables inside are local.
 
-> [!WARNING]
-> **## What break does NOT do**
-> It does **not** add multiple items at once → use **extend** for that.
-> It does **not** insert in the middle → use **insert**.
-> It does **not** return a new list → it **modifies the existing list**.
+**Example:**
+*Example 1 - Function with no parameters*
+`def say_hello():`
+  `print("Hello, John!")`
 
-> **Example:**
-*Example 1 - Add one item to a list*
-`fruits = ["apple", "banana"]`
-`fruits.append("orange")`
+Call it:
+> say_hello()
 
-`print(fruits)`   # ["apple", "banana", "orange"]
+*Example 2 - Function with one parameter*
+`def greet(name):`
+  `print("Hello", name)`
 
-*Example 2 - Append a number*
-`numbers = [1, 2, 3]`
-`numbers.append(4)`
-
-`print(numbers)`   # [1, 2, 3, 4]
-
-*Example 3 - Append different types*
-`data = []`
-`data.append(10)`
-`data.append("hello")`
-`data.append(True)`
-
-`print(data)`   # [10, "hello", True]
-
-*Example 4 - Append a list (becomes nested)*
-`items = [1, 2, 3]`
-`items.append([4, 5])`
-
-`print(items)`   # [1, 2, 3, [4, 5]]
+Call it:
+> greet("Ana")
 
 
-# 13 - Len
+# 5 - Len
 
 ## What it is:
 `len` is a **built in Python function** that returns the **number of items** in a collection.
@@ -358,7 +203,7 @@ It is used to **add one new item to the end of a list**.
 `print(len(person))`   # 2
 
 
-# 14 - Sum
+# 6 - Sum
 
 ## What it is:  
 `sum` is a **built in Python function** that adds **all the numbers in an iterable** (like a list, tuple, or set) and returns the **total**.
@@ -403,105 +248,3 @@ It is used to **add one new item to the end of a list**.
 *Example 2 - Sum of a tuple*
 `values = (10, 20, 30)`
 `print(sum(values))`   # 60
-
-
-
-# 15 - Min()
-
-## What it is:  
-`min` is a built in Python function that returns the smallest value in an iterable (list, tuple, set, etc.) or among multiple values.
-
->> “Give me the smallest element.”
-
-> [!NOTE]
-> ### Basic structure:
-> **Using an iterable**
->    - `min(iterable)`
-> **Using multiple values**
->    - `min(value1, value2, value3)`
-
-> [!IMPORTANT]
-> **## How `min` works**
-> - With **numbers** → returns the lowest number
-> - With **strings** → returns the first alphabetically
-> - With **mixed types** → ❌ error
-> - With **empty iterables** → ❌ error
-
-> [!TIP]
-> **## Using `min` with dictionaries**
-> You can get the smallest key:
->   - `data = {"a": 10, "c": 5, "b": 7}`
->     `print(min(data))`   # "a"
-> Or the smallest **value**:
->   - `print(min(data.values()))` # 5
-
-> [!CAUTION]
-> - **Iterable cannot be empty** → `min([])` gives an error.
-> - **Types must be comparable** → numbers + strings = error.
-> - **Strings use alphabetical order** → `"Ana"` < `"Maria"`.
-> - **Use min(values) for dict values** → keys and values behave differently.
-> - **min returns the value, not the index** → use `index()` if you need the position.
-
-
-**Example:**
-*Example 1 - Smallest number in a list*
-`numbers = [5, 2, 9, 1]`
-`print(min(numbers))`   # 1
-
-*Example 2 - Smallest number in a tuple*
-`values = (10, 3, 7)`
-`print(min(values))`   # 3
-
-*Example 3 - Smallest of multiple arguments*
-`print(min(8, 4, 6))`   # 4
-
-
-
-# 16 - Max()
-
-## What it is:  
-`max` is a **built in Python function** that returns the **largest value** in an iterable (list, tuple, set, etc.) or among multiple values.
-
->> “Give me the biggest element.”
-
-> [!NOTE]
-> ### Basic structure:
-> **Using an iterable**
->    - `max(iterable)`
-> **Using multiple values**
->    - `max(value1, value2, value3)`
-
-> [!IMPORTANT]
-> **## How `max` works**
-> - With **numbers** → returns the highest number
-> - With **strings** → returns the last alphabetically
-> - With **mixed types** → ❌ error
-> - With **empty iterables** → ❌ error
-
-> [!TIP]
-> **## Using `max` with dictionaries**
-> Smallest key alphabetically:
->   - `data = {"a": 10, "c": 5, "b": 7}`
->     `print(max(data))`   # "c"
-> Largest **value**:
->   - `print(min(data.values()))` # 10
-
-> [!CAUTION]
-> - **Iterable cannot be empty** → `max([])` gives an error.
-> - **Types must be comparable** → numbers + strings = error.
-> - **Strings use alphabetical order** → `"Maria"` < `"Ana"`.
-> - **Use max(values) for dict values** → keys and values behave differently.
-> - **max returns the value, not the index** → use `index()` if you need the position.
-
-
-**Example:**
-*Example 1 - Largest number in a list*
-`numbers = [5, 2, 9, 1]`
-`print(max(numbers))`   # 9
-
-*Example 2 - Largest number in a tuple*
-`values = (10, 3, 7)`
-`print(max(values))`   # 10
-
-*Example 3 - Smallest of multiple arguments*
-`print(max(8, 4, 6))`   # 8

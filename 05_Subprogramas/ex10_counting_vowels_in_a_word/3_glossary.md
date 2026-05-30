@@ -37,7 +37,70 @@ Text inside quotes `" "`.
 | text (string) | Words inside quotes | "Hello" |
 
 
-# 3 - `If`
+# 3 - +=
+
+## What it is:
+`+=` is an **augmented assignment operator** in Python.
+
+>> “Add something to the variable and **update** the variable with the new value.”
+
+> [!NOTE]
+> ## It is the same as:
+> `x = x + value`
+> 
+> But shorter and cleaner:
+> `x += value`
+
+
+> [!IMPORTANT]
+> ### Why `+=` is useful:
+> - Makes code shorter
+> - Easier to read
+> - Common in loops
+> - Works with numbers, strings, lists
+> - 
+> **Example in a loop:**
+> `total = 0`
+> `for i in range(5):`
+>     `total += i`
+
+> [!CAUTION]
+> - **Type must match** → you cannot do `"text" += 5`
+> - **Lists use += to extend**, not to append a single item
+> - **+= modifies the variable** (important with lists)
+
+> **Example:**
+*Example 1 - With numbers*
+`x = 5`
+`x += 3`
+`print(x)`   # 8
+
+> **Meaning:**
+> - take the current value of x
+> - add 3
+> - store the result back in x
+
+*Example 2 - With strings (concatenation)*
+`text = "Hello"`
+`text += " World"`
+`print(text)`   # Hello World
+
+*Example 3 - With lists (extend)*
+`numbers = [1, 2]`
+`numbers += [3, 4]`
+`print(numbers)`   # [1, 2, 3, 4]
+
+# Summary
+
+| **Operator** | **Meaning** | **Example** |
+| :--- | :--- | :--- |
+| += | Add and update | `x += 1` |
+| -= | Subtract and update | `x -= 1` |
+| *= | Multiply and update | `x *= 2` |
+| /= | Multiply and update | `x /= 2` |
+
+
+# 4 - `If`
 
 ## What it is:  
 An **if** statement checks a condition.
@@ -56,32 +119,53 @@ If the condition is **false**, Python **skips it**.
    `print("Great job")`
 
 
-# 4 - `Else`
+# 5 - For (loop)
+A **for loop** is used when you want to **repeat a block of code a specific number of times** or **go through each item in a sequence** (like a list, string, or range).
 
-## What it is:  
-The **else** block runs **when the if condition is false**.
-It is the “backup” or “alternative” action.
-
-  - **if** = what happens when the condition is true
-  - **else** = what happens when the condition is false
+## What it means:
+> “For each value in this sequence, do this action.”
 
 > [!CAUTION]
-> - **Else must come after an if** → you cannot use `else` alone.
-> - **Indentation is required** → the code inside `else` must be indented.
-> - **Else has no condition** → it runs automatically when the `if` is false.
-> - **Avoid unnecessary else** → use it only when you really need an alternative action.
-- **Be careful with `input()`** → convert values before comparing in the `if`.
+> - **Indentation is required** → everything inside the loop must be indented.
+> - **range upper limit is not included** → `range(1, 5)` stops at 4, not 5.
+> - **Variable name is temporary** → `i`, `n`, `item` are just loop variables.
+> - **Avoid infinite loops** → `for` loops normally don’t go infinite, but wrong ranges can cause issues.
+> - **Be careful with input()** → convert values before using them in a range.
+> - **Don’t modify the list while looping** → it can break the loop.
 
 **Example:**
-`age = 16`
+*1. Loop from 1 to 5*
+`for i in range(1, 6):`
+    `print(i)`
 
-`if age >= 18:`
-    `print("You can enter")`
-`else:`
-    `print("You cannot enter")`
+*2. Loop through a list*
+`fruits = ["apple", "banana", "orange"]`
+
+`for fruit in fruits:`
+    `print(fruit)`
+
+*3. Loop through each letter in a string*
+`for letter in "Python":`
+    `print(letter)`
+
+*4. Sum numbers from 1 to 10*
+`total = 0`
+
+`for n in range(1, 11):`
+    `total += n`
+
+`print(total)`
+
+> [!IMPORTANT]
+> - #### How the `range()` works:
+> The function **range** creates a sequence of numbers.
+>   - `range(5)` → 0,1,2,3,4
+>   - `range(1, 5)` → 1,2,3,4
+>   - `range(1, 10, 2)` → 1,3,5,7,9 (step of 2)
 
 
-# 5 - def
+
+# 6 - def
 
 ## What it is:  
 `def` is a Python keyword used to define a function.
@@ -140,66 +224,230 @@ Call it:
 > greet("Ana")
 
 
-# 6 - endswith
+# 7 - return
 
 ## What it is:  
-`endswith` is a string method in Python that checks whether a string ends with a specific sequence of characters.
+`return` is a keyword used inside a function in Python.
 
->> “Does this text finish with this ending?.”
+>> “Send a value back to the place where the function was called.”
 
-It returns:
-- **True** → if the string ends with the given substring
-- **False** → if it does not
+When Python reaches a `return`, the function stops immediately and gives back a result.
+
+> [!NOTE]
+> ### Basic usage:
+>    - `def function_name():`
+>     - `return value`
+
+> [!IMPORTANT]
+> **## **Important: `return` ends the function****
+>
+> Anything after `return` is **ignored**.
+>
+> `def test():`
+>     `return 10`
+>     `print("This will NOT run")`
+
+## `return` vs `print`
+
+| **Concept** | **What it does** |
+| :--- | :--- |
+| return | Sends a value back to the caller |
+| print | Shows text on the screen |
+
+### **Example:**
+`def f():`
+    `return 5`
+
+`print(f())`   # prints 5
+
+> [!NOTE]
+> `return` gives the value.
+> `print` only displays it.
+
+> [!TIP]
+> ### Functions can return any type:
+>
+>   - **Number**
+>     - `def get_number():`
+>       - `return 42`
+>
+> 
+> 
+>   - **String**
+>     - `def greet():`
+>       - `return "Hello"`
+>
+> 
+> 
+>   - **List**
+>     - `def numbers():`
+>       - `return [1, 2, 3]`
+>
+>
+> 
+>   - **Boolean**
+>     - `def is_adult(age):`
+>       - `return age >= 18`
+>
+>**------------------------------------**
+>
+> ### Functions can return multiple values (as a tuple):
+>
+> `def stats(a, b):`
+>     `return a + b, a * b`
+>
+> `s, m = stats(3, 4)`
+> `print(s, m)`   # 7 12
+>
+> 
+>
+>  ### return without a value:
+>
+> `def empty():`
+>     `return`
+>
+> - This returns `**None**`.
+>
+> **------------------------------------**
+>
+> ### If a function has no return
+>
+> Python automatically returns **None**.
+>
+> `def hello():`
+>   `print("Hi")`
+> 
+> `x = hello()`
+> `print(x)`   # None
+
+# Summary
+
+| **Feature** | **Meaning** |
+| :--- | :--- |
+| return | Sends a value back |
+| Ends the function | Code after return is ignored |
+| Can return any type | numbers, strings, lists, booleans |
+| No return → None | default behavior |
+
+
+# 8 - in
+
+## What it is:  
+O operador `in` verifica se **um valor existe dentro de outro valor**.
+
+Em outras palavras:
+>> “Está contido?”
+>> “Pertence?”
+
+Ele funciona com:
+- **strings**
+- **listas**
+- **tuplas**
+- **dicionários (chaves)**
 
 
 > [!NOTE]
-> ### Basic structure:
->    - `string.endswith(substring)`
+> ### Basic meaning:
+>    - `if item in collection:`
+>
+> *True* se o item **estiver dentro** da coleção.
+> *False* se **não estiver**.
 
 
 > [!IMPORTANT]
-> **## What `endswith` is used for**
-> - **Check file extensions**
-> - **Validate input**
-> - **Filter lists of strings**
-> - **Work with URLs or emails**
->
-> **Example:**
-> `email = "user@example.com"`
-> `print(email.endswith(".com"))`   # True
-
-
-> [!TIP]
-> **## `endswith` vs `startswith`**
-> | **Method** | **What it checks** |
+> **## Truth table**
+> 
+> | **Expression** | **Result** |
 > | :--- | :--- |
-> | endswith | Ending of the string |
-> | startswith | Beginning of the string |
+> | "a" in "cat" | True |
+> | "z" in "cat" | False |
+> | 3 in [1,2,3] | True |
+> | "age" in {"age": 20} | True |
+> | 20 in {"age": 20} | False |
 
 
 > [!CAUTION]
-> - **Case‑sensitive** → `"Hello".endswith("LO")` is False.
-> - **Works only on strings** → not lists or numbers.
-> - **Substring must be a string or tuple** → no integers.
-> - **Optional start/end slice** → lets you check part of the string.
+>
+> ## Common mistakes:
+> 
+> - `in` **em dicionários verifica chaves, não valores**
+>   - ❌ `20 in {"age": 20}` → False
+>   - ✔ `20 in person.values()` → True
+> 
+> - **Comparações incorretas**  
+>   - ❌ `if "a" in "A"` → False (case sensitive)
+> 
+> - **Espaços contam**  
+>   - `"hi" in "hi there"` → True
+>   - `"hi " in "hi there"` → False
 
 
-**Example:**
-*Example 1 - Simple check*
-`text = "hello world"`
-`print(text.endswith("world"))`   # True
+> [!TIP]
+>
+> ## Why `in` is useful
+>
+> - Verificar se um valor existe
+> - Procurar texto dentro de texto
+> - Validar opções
+> - Verificar permissões
+> - Verificar chaves em dicionários
+>
+> ### Practical examples:
+>
+> - **Checking user input**
+> `answer = input("Continue? ")`
+> 
+> `if answer.lower() in ["yes", "y"]:`
+>     `print("Continuing...")`
+>
+> - **Checking substring**
+> `email = "example@example.com"`
+> 
+> `if "@" in email:`
+>     `print("Valid email format")`
 
-*Example 2 - Case‑sensitive*
-`print("Python".endswith("on"))`   # True
-`print("Python".endswith("On"))`   # False
 
-*Example 4 - Check multiple possible endings*
-- You can pass a **tuple** of endings:
-`file = "photo.png"`
-`print(file.endswith((".png", ".jpg")))`   # True
+> **Example:**
+*Example 1 - `in` with strings*
+`word = "python"`
 
-*Example 2 - Using start and end positions*
-`text = "programming"`
-`print(text.endswith("gram", 0, 7))`   # True
+`if "py" in word:`
+    `print("Found!")`
 
-> **Explanation:** checks only `"program"`.
+-  `"py"` está dentro de `"python"` → ***True***
+
+*Example 2 - `i`n with lists*
+`colors = ["red", "blue", "green"]`
+
+`if "blue" in colors:`
+    `print("Blue is here!")`
+
+- `"blue"` está na lista.
+
+*Example 3 - `in` with tuples*
+`nums = (1, 2, 3)`
+
+`if 2 in nums:`
+    `print("2 is inside")`
+
+
+*Example 4 - `in` with dictionaries*
+`colors = ["red", "blue", "green"]`
+
+`if "blue" in colors:`
+    `print("Blue is here!")`
+
+
+> [!WARNING]
+> - `in` verifica **chaves**, não valores.
+
+
+# Summary
+
+| **Concept** | **Meaning** |
+| :--- | :--- |
+| in | Checks if a value exists inside another |
+| Works with strings | `"a" in "cat"` |
+| Works with lists | `3 in [1,2,3]` |
+| Works with dictionaries | 	Checks keys |
+| Case sensitive | `"A" in "a"` → False |

@@ -37,7 +37,36 @@ Text inside quotes `" "`.
 | text (string) | Words inside quotes | "Hello" |
 
 
-# 3 - `If`
+# 3 - `==`
+
+## What it is:  
+The `==` operator checks if two values are exactly the same.
+It returns True when the values are equal and False when they are different.
+
+  - `==` → compares values
+  - It does not assign values (that’s =)
+
+> [!CAUTION]
+> - **== is not =**
+>   - = assigns a value; == compares values.
+> - **Compare compatible types**
+>     - avoid comparing numbers with text ("10" == 10 is False).
+> - **Becareful with `input()`**
+>     - input returns text, so convert before comparing (`int(input())`).
+> - **Case sensitivity matters**
+>     - `"Ana" == "ana"` is False because the letters are different.
+> - **Spacing matters** —
+>   - write `a == 10`, not `a==10abc`.
+
+**Example:**
+`age = 18`
+`print(age == 18)`   # True
+
+`score = 50`
+`print(score == 60)` # False
+
+
+# 4 - `If`
 
 ## What it is:  
 An **if** statement checks a condition.
@@ -141,7 +170,7 @@ Call it:
 
 
 
-# 11 - return
+# 6 - return
 
 ## What it is:  
 `return` is a keyword used inside a function in Python.
@@ -156,50 +185,192 @@ When Python reaches a `return`, the function stops immediately and gives back a 
 >    - `def function_name():`
 >     - `return value`
 
+
 > [!IMPORTANT]
-> **## **sqrt** vs **exponentiation** (`**`)**
+> **## **Important: `return` ends the function****
 >
-> You can also calculate square roots `using ** 0.5`.
-> 
-> | **Method** | **Example** | **Result** |
-> | :--- | :--- | :--- |
-> | math.sqrt | `math.sqrt(25)` | 5.0 |
-> | x ** 0.5 | `25 ** 0.5` | 5.0 |
+> Anything after `return` is **ignored**.
 >
-> Both work, but:
-> `math.sqrt` is **clearer**
-> `**0.5` is **shorter**
+> `def test():`
+>     `return 10`
+>     `print("This will NOT run")`
 
-### Errors to watch out for
 
-- ❌ Negative numbers cause ValueError
-  - `math.sqrt(-9)`   # ValueError
-> Because square roots of negative numbers are not real numbers.
+## `return` vs `print`
+
+| **Concept** | **What it does** |
+| :--- | :--- |
+| return | Sends a value back to the caller |
+| print | Shows text on the screen |
+
+### **Example:**
+`def f():`
+    `return 5`
+
+`print(f())`   # prints 5
+
+> [!NOTE]
+> `return` gives the value.
+> `print` only displays it.
+
 
 > [!TIP]
-> - **Always import math** → `pi` is not built in
-> - **Use radians in trig functions** → `sin`, `cos`, `tan` expect radians
-> - **Pi is a float** → not exact, but extremely precise
+> ### Functions can return any type:
+>
+>   - **Number**
+>     - `def get_number():`
+>       - `return 42`
+>
+> 
+> 
+>   - **String**
+>     - `def greet():`
+>       - `return "Hello"`
+>
+> 
+> 
+>   - **List**
+>     - `def numbers():`
+>       - `return [1, 2, 3]`
+>
+>
+> 
+>   - **Boolean**
+>     - `def is_adult(age):`
+>       - `return age >= 18`
+>
+>**------------------------------------**
+>
+> ### Functions can return multiple values (as a tuple):
+>
+> `def stats(a, b):`
+>     `return a + b, a * b`
+>
+> `s, m = stats(3, 4)`
+> `print(s, m)`   # 7 12
+>
+> 
+>
+>  ### return without a value:
+>
+> `def empty():`
+>     `return`
+>
+> - This returns `**None**`.
+>
+> **------------------------------------**
+>
+> ### If a function has no return
+>
+> Python automatically returns **None**.
+>
+> `def hello():`
+>   `print("Hi")`
+> 
+> `x = hello()`
+> `print(x)`   # None
+
+
+# Summary
+
+| **Feature** | **Meaning** |
+| :--- | :--- |
+| return | Sends a value back |
+| Ends the function | Code after return is ignored |
+| Can return any type | numbers, strings, lists, booleans |
+| No return → None | default behavior |
+
+
+# 7 - or
+
+## What it is:  
+`or` is a **logical operator** in Python.
+
+>> “If **at least ONE condition is true**, the result is true.””
+
+It is used inside **if statements**, **while loops**, and any expression that checks conditions.
+
+
+> [!NOTE]
+> **## Truth table for `or`**
+> 
+> | **A** | **B** | **A or B** |
+> | :--- | :--- | :--- |
+> | False | False | False |
+> | True | False | True |
+> | False | True | True |
+> | True | True | True |
+>
+> **So:**
+> 
+> Only **False or False** gives **False**
+> Everything else gives **True**
+
+
+> [!IMPORTANT]
+> **## Non‑boolean behavior**
+> 
+> Python’s `or` does **not** always return True/False.
+> It returns the **first truthy value**.
+>
+> **Examples:**
+> `print("" or "Hello")`     # Hello
+> `print(0 or 5)`            # 5
+> `print([] or [1, 2])`      # [1, 2]
+>
+> - This is extremely useful in **default values**.
+
+
+### Using `or` for default values
+
+- `name = user_input or "Guest"`
+  
+  - If `user_input` is empty, None, or False → `"Guest"` is used.
 
 
 > [!CAUTION]
-> **## Common uses of `sqrt`**
-> 
-> - Geometry (distances, circle formulas)
-> - Physics (energy, velocity, variance)
-> - Statistics (standard deviation)
-> - Machine learning (Euclidean distance)
+> ## Common mistakes:
+> - **Do NOT use `or` to compare multiple values incorrectly**
+>   - **Wrong:**
+>     - `if color == "blue" or "red":`
+>   - This always evaluates to True.
+>     - Correct:
+>     - if color == "blue" or color == "red":
 >
-> **Example:** distance between two points:
->
->    - `import math`
->    - `distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)`
+> - **Remember that `or` returns values, not booleans**, when used outside conditions
+> - **Be careful with empty strings, 0, and None** → they are considered False in Python
+
+
+**Example:**
+*Example 1 - Simple condition*
+`age = 16`
+`has_permission = True`
+
+`if age >= 18 or has_permission:`
+    `print("You can enter")`
+
+> [!IMPORTANT]
+> - Even though `age >= 18` is *False*,
+> - `has_permission` is *True* → so the whole expression is **True**.
+
+*Example 2 - Checking multiple possibilities*
+`color = "blue"`
+
+`if color == "blue" or color == "red":`
+    `print("Valid color")`
+
+*Example 3 - Using or with booleans*
+`a = True`
+`b = False`
+
+`print(a or b)`   # True
+
 
 # Summary
 
 | **Concept** | **Meaning** |
 | :--- | :--- |
-| sqrt |    Square root |
-| Requires math module | `import math` |
-| Raises ValueError for negatives | No real root |
-| Alternative: x**0.5 | Same result |
+| or | True if at least one condition is true |
+| Returns first truthy value | 	`"Hello" or ""` → `"Hello"` |
+| Used in conditions | `if a or b:` |
+| Common in default values | `x = value or default` |
